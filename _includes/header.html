@@ -1,0 +1,26 @@
+{% assign text = site.data.content %}
+<div class="grid">
+    <div class="grid-cell top-logo">
+        <a href="{% if site.active_lang == site.default_lang %} {{ site.url | absolute_url }}{% if site.baseurl %}/{{ site.baseurl }}{% endif %}/ {% else %}{{ site.url }}{% if site.baseurl %}/{{ site.baseurl }}{% endif %}/{{ site.active_lang }}/{% endif %}"><img src="{{ "/img/logo-bitnation-h.svg" | relative_url }}"></a>
+    </div>
+    <div class="grid-cell top-nav-icon">
+        <button onclick="show_menu()"><i id="openmenu" class="fal fa-bars"></i><i id="closemenu" class="hidden fal fa-times"></i></button>
+    </div>
+    <div id="topnav" class="main-menu grid-cell">
+        <nav class="grid main-nav">
+            {% for item in site.data.navigation.main %}
+            <div class="grid-cell">
+                <a class="menu-item" href="{% if site.active_lang == site.default_lang %}{{ item.url | relative_url }}{% else %}/{% if site.baseurl %}{{ site.baseurl }}/{% endif %}{{ site.active_lang }}{{ item.url }}{% endif %}" alt="{{ item.title }}">{{ text[item.title] }}</a>
+            </div>
+            {% endfor %}
+            <div class="grid-cell dropdown">
+                <button id ="active-language" class="menu-item"><i class="fal fa-language"></i></button>
+                <div id="available-languages" class="dropdown-content">
+                    {% for language in site.languages %}{% if language != site.active_lang %}
+                    <a class="submenu-item" href="{% if language == site.default_lang %} {{ page.url | relative_url }} {% else %}{% if site.baseurl %}/{{ site.baseurl }}{% endif %}/{{ language }}{{page.url}}{% endif %}">{{ site.language_names[language] }}</a>
+                    {% endif %}{% endfor %}
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>

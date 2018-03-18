@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ site.active_lang }}">
+<head>
+{% include head.html %}
+{% if jekyll.environment == 'production' and site.google_analytics_id %}
+{% include analytics.html %}
+{% endif %}
+</head>
+<body>
+<header class="main-header">
+{% include header.html %}
+</header>
+<main{% if site.rtl_languages contains site.active_lang %} class="rtl"{% endif %}>
+{{ content }}
+</main>
+<footer class="main-footer">
+{% include footer.html %}
+</footer>
+</body>
+</html>

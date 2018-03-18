@@ -1,0 +1,59 @@
+- source: CNN
+  url: https://edition.cnn.com/2015/12/11/opinions/isis-iraq-syria-global-passport/index.html
+
+- source: BBC
+  url: http://www.bbc.co.uk/programmes/b066wfp4
+
+- source: The Wall Streent Journal
+  url: https://blogs.wsj.com/moneybeat/2014/09/26/bitbeat-wedding-bells-on-the-blockchain/
+
+- source: Wired
+  url: https://www.wired.com/2015/12/the-radical-politics-of-the-blockchain/
+
+- source: International Business Times
+  url: https://www.ibtimes.co.uk/bitnation-estonian-government-start-spreading-sovereign-jurisdiction-blockchain-1530923
+
+- source: NewStatesman
+  url: http://tech.newstatesman.com/guest-opinion/virtual-nation-states
+
+- source: The Telegraph
+  url: https://www.telegraph.co.uk/news/2016/05/24/the-crypto-libertarians-using-technology-to-undermine-the-nation/
+
+- source: Bloomberg
+  url: https://www.bloomberg.com/view/articles/2015-12-01/i-attended-the-first-official-digital-wedding
+
+- source: Forbes
+  url: https://www.forbes.com/sites/francescoppola/2016/04/03/ethereum-towards-a-new-bitsociety/
+
+- source: The Economist
+  url: https://www.economist.com/news/world-if/21724906-trust-business-little-noticed-huge-startups-deploying-blockchain-technology-threaten
+
+- source: The Independent
+  url: http://www.independent.co.uk/voices/i-just-attended-the-first-stateless-digital-marriage-but-im-not-sure-if-it-can-change-the-world-a6782941.html
+
+- source: The Guardian
+  url: https://www.theguardian.com/technology/2017/jun/04/forget-far-right-populism-crypto-anarchists-are-the-new-masters-internet-politics
+
+- source: Vice
+  url: https://motherboard.vice.com/en_us/article/xyg5x7/bitnation-or-bust
+
+- source: TEDx
+  url: https://www.youtube.com/watch?v=NhIrpuHeJEg
+
+- source: The Huffington Post
+  url: https://www.huffingtonpost.com/melissa-jun-rowley/aiding-refugees-yes-the-b_b_8149762.html
+
+- source: Russia Today
+  url: https://www.youtube.com/watch?v=Ez2bmWCFk60
+
+- source: The Atlantic
+  url: https://www.theatlantic.com/technology/archive/2018/02/virtual-citizenship-for-sale/553733/
+
+- source: TechCrunch
+  url: https://techcrunch.com/2016/07/15/you-cant-have-financial-inclusion-without-digital-inclusion/
+
+- source: Le Figaro
+  url: http://www.lefigaro.fr/secteur/high-tech/2017/04/28/32001-20170428ARTFIG00175-une-identite-numerique-pour-ceux-qui-n-en-ont-plus-le-grand-prix-de-netexplo-2017.php
+
+- source: Business Insider
+  url: http://uk.businessinsider.com/exotix-impact-of-blockchain-in-developing-markets-2018-1?international=true&r=UK&IR=T

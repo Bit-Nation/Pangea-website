@@ -1,0 +1,34 @@
+---
+layout: default
+title: Documents
+---
+{% assign text = site.data.content %}
+<div id="documents">
+    <div class="grid">
+        <div class="grid-cell">
+            <h1>{{ text["Documents"] }}</h1>
+        </div>
+    </div>
+    <div class="grid documents">
+        {% for document in site.data.docs %}<div class="grid-cell document half">
+            <div class="grid-cell title">
+                <h3>{{ document.title }}</h3>
+            </div>
+            {% if document.description %}<div class="grid-cell description">
+                <p>{{ document.description }}</p>
+            </div>{% endif %}
+            <div class="grid-cell download">
+                <div class="cta">
+                    <a href="{{ document.url }}" target="_blank">{{ text["Download"] }}</a>
+                </div>
+            </div>
+            {% if document.translations %}
+            <div class="grid-cell">
+                <h4>{{ text["Translations"] }}:</h4>
+            </div>
+            <div class="grid grid-cell translations">
+                {% for lang in document.translations %}{% assign tongue = lang[0] %}<a class="grid-cell language" href="{{ lang[1] }}" target="_blank">{{ site.language_names[tongue] }}</a>{% endfor %}
+            </div>
+        </div>{% endif %}{% endfor %}
+    </div>
+</div>

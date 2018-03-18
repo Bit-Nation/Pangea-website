@@ -1,0 +1,158 @@
+operations:
+
+- name: Susanne Tarkowski Tempelhof
+  role: Founder & CEO
+  social:
+    linkedin: susannetarkowski
+    github: xsttx
+
+- name: James Fennell Tempelhof
+  role: Chief Operations Officer
+  social:
+    linkedin: james-fennell
+
+- name: Dr. John Matthews
+  role: Chief Financial Officer
+  social:
+    linkedin: johnmathews1
+
+- name: Sonja Prstec
+  role: Chief Legal Officer
+  social:
+    linkedin: sonja-prstec-89a0b324
+
+- name: Kenneth Lillieholm
+  role: Diplomatic Engagement
+
+- name: Erik Vollstädt
+  role: Community Director
+  social:
+    linkedin: erikvollstaedt
+
+- name: Joffy Mills
+  role: Media Director
+
+- name: Alma Sommer
+  role: Social Media
+  social:
+    linkedin: rayneberry
+    twitter: EarthPermit
+
+- name: Jacob Cox
+  role: Community Engagement
+
+- name: Rachelle Traboulsi
+  role: Executive Assistant
+
+- name: Abhimanyu Dayal
+  role: DApp Fund Manager
+
+technology:
+
+- name: Kent Dahlgren
+  role: Chief Technology Officer
+  social:
+    linkedin: kent-dahlgren-gsec-742a073
+    twitter: kent_dahlgren
+
+- name: Florian Lenz
+  role: Chief Software Architect
+  social:
+    github: florianlenz
+
+- name: William Huang
+  role: Solidity Developer
+  social:
+    linkedin: william-h-902213139
+    github: william2958
+
+- name: Alberto Estarrona
+  role: Snr iOS / Android Developer
+  social:
+    linkedin: alberto-r-estarrona
+    twitter: estarrona
+
+- name: Andrew Selivanov
+  role: iOS / Android Developer
+  social:
+    github: seland
+
+- name: David Gross
+  role: UX/UI Developer
+  social:
+    linkedin: davidigross
+    github: mimetic
+    twitter: mimetic
+
+- name: Mark Nuzz
+  role: Systems Architect
+
+- name: Thiago Souza
+  role: AI Developer
+
+- name: Mark Wong
+  role: Snr React Native Dev
+
+- name: Daniel França
+  role: Fullstack JS Dev
+
+- name: Adrian Pollio
+  role: Creative Director
+  social:
+    linkedin: adrianpollio
+    twitter: adrianpollio
+
+- name: Camilo Luna
+  role: Web Developer
+  social:
+    linkedin: camiloluna
+    github: camilolunacom
+    twitter: camilolunacom
+
+- name: Johan Nygren
+  role: Proof-of-Individuality, Swarm distribution
+  social:
+    linkedin: resilience_me
+
+- name: Spencer Ferri
+  role: Machine Learning, Exocortex
+
+- name: Mawo
+  role: Chief Security Officer
+
+advisors:
+
+- name: Rick Falkvinge
+  social:
+    linkedin: rickfalkvinge
+    twitter: Falkvinge
+
+- name: David Orban
+  social:
+    linkedin: davidorban
+    twitter: davidorban
+
+- name: Vinay Gupta
+  social:
+    linkedin: vinay-gupta-0072
+    twitter: leashless
+
+- name: Todd Huffman
+  social:
+    linkedin: oddmachine
+    twitter: odd
+
+- name: Kilian Kleinschmidt
+  social:
+    linkedin: kiliankleinschmidt
+    twitter: KilianK
+
+- name: Vít Jedlička
+  social:
+    linkedin: vit-jedlicka-9115aa2
+    twitter: vit_jedlicka
+
+- name: David Drake
+  social:
+    linkedin: ldjcapital
+    twitter: daviddrakevc

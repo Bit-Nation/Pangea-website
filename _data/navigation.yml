@@ -1,0 +1,15 @@
+main:
+- title: Home
+  url: /
+- title: Documents
+  url: /documents/
+- title: FAQ
+  url: /faq/
+- title: Media
+  url: /media/
+
+footer:
+- title: Terms of Use
+  url: /terms-of-use/
+- title: Privacy Policy
+  url: /privacy-policy/
