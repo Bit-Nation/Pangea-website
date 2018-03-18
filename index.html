@@ -368,7 +368,7 @@ image: /img/index.png
     <div id="operations" class="white-box drop-shadow">
         <div class="grid">
             <div class="grid-cell">
-                <h3>Operations</h3>
+                <h3>{{ text["Operations"] }}</h3>
             </div>
         </div>
         <div class="grid members">
@@ -382,10 +382,27 @@ image: /img/index.png
             {% endfor %}
         </div>
     </div>
+    <div id="communications">
+        <div class="grid">
+            <div class="grid-cell">
+                <h3>{{ text["Communications"] }}</h3>
+            </div>
+        </div>
+        <div class="grid members">
+            {% for member in site.data.team.communications %}{% assign img-url = member.name | slugify: 'ascii' | prepend: "/img/team/" | append: ".jpg" %}<div class="grid-cell grid member">
+                <div class="grid-cell photo">
+                    <img src="{{ img-url | absolute_url }}" alt="{{ member.name }}">
+                </div>
+                <div class="grid-cell name">{{ member.name }}</div>
+                <div class="grid-cell role">{{ member.role }}</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
     <div id="technology" class="box">
         <div class="grid">
             <div class="grid-cell">
-                <h3>Technology</h3>
+                <h3>{{ text["Technology"] }}</h3>
             </div>
         </div>
         <div class="grid members">
@@ -400,7 +417,7 @@ image: /img/index.png
         </div>
     </div>
 
-    <div class="yellow-box drop-shadow">
+    <div class="yellow-box drop-shadow margin-top-30">
         <div class="grid">
             <div class="grid-cell">
                 <h2>{{ text["Advisors"] }}</h2>

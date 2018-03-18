@@ -4,13 +4,10 @@
 <loc>http://localhost:4000/documents/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/faq/</loc>
+<loc>http://localhost:4000/img/faq/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/media/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/privacy-policy/</loc>
