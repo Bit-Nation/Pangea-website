@@ -1,0 +1,23 @@
+- name: 0x
+  url: https://0xproject.com/
+  
+- name: Bancor
+  url: https://www.bancor.network/
+
+- name: Binance
+  url: https://www.binance.com/
+
+# - name: Bittrex
+#   url: https://bittrex.com/
+
+- name: CryptoCompare
+  url: https://www.cryptocompare.com/
+
+# - name: Okex
+#   url: https://www.okex.com/
+
+# - name: Poloniex
+#   url: https://poloniex.com/
+
+- name: ShapeShift
+  url: https://shapeshift.io/

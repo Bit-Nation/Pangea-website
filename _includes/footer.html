@@ -1,0 +1,14 @@
+{% assign text = site.data.content %}
+<div class="grid">
+    <div class="grid-cell footer-text">
+        <nav class="footer-menu">
+            <a href="mailto:info@bitnation.co" alt="info@bitnation.co">info@bitnation.co</a>
+            {% for item in site.data.navigation.footer %}
+            <a href="{% if site.active_lang == site.default_lang %}{{ item.url | relative_url }}{% else %}/{% if site.baseurl %}{{ site.baseurl }}/{% endif %}{{ site.active_lang }}{{ item.url }}{% endif %}" alt="{{ item.title }}">{{ text[item.title] }}</a>
+            {% endfor %}
+        </nav>
+        <div class="footer-legal">
+            Copyright &copy; {{ site.time | date: '%Y' }} Bitnation. All rights reserved.
+        </div>
+    </div>
+</div>

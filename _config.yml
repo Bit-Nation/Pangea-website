@@ -1,0 +1,85 @@
+title: Bitnation Pangea
+description: Your Blockchain Jurisdiction
+author: 
+  name: Bitnation
+  twitter: MyBitnation
+
+url: http://bitnation.camiloluna.com
+
+twitter:
+  username: MyBitnation 
+
+facebook:
+  publisher: MyBitnation
+
+logo: 
+
+social:
+  name: Bitnation
+  links:
+    - https://github.com/Bit-Nation
+    - https://twitter.com/@MyBitnation
+    - https://angel.co/bitnation
+    - https://t.me/PangeaBitnation
+    - https://www.facebook.com/MyBitnation
+    - https://steemit.com/@bitnation
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-polyglot
+  
+permalink: /:title/
+
+sass:
+  style: compressed
+  sourcemap: true
+
+destination: docs
+
+exclude:
+  - _site
+  - .gitignore
+  - readme.md
+  - Gemfile
+  - Gemfile.lock
+  - docs
+
+google_analytics_id: UA-106469149-1
+
+languages: []
+default_lang: "en"
+exclude_from_localization: ["css", "img", "js", "robots.txt", "sitemap.xml", "favicon.ico", "fonts", "CNAME"]
+parallel_localization: true
+rtl_languages: ["ar"]
+
+language_names:
+  ar: <span dir="rtl">العَرَبِيَّة</span>
+  ca: Catalan
+  de: Deutsch
+  en: English
+  es: Español
+  fil: Filipino
+  fr: Français
+  it: Italiano
+  ja: 日本語
+  ko: 한국어
+  pt: Português
+  ru: Русский
+  vi: Tiếng Việt
+  zh: 國語
+
+video:
+  de: 7BN7AP7qV3k
+  en: CL4eM9JyL08
+  es: kVe55fETChg
+  fr: RSnkabu83Zg
+  it: lZHjn7VAjJs
+  ja: u3GIqrcW4DM
+  ko: FhqZmEGCWLw
+  pt: QNT94v8ZUSc
+  ru: Q7SLulIaKaY
+  vi: b1ntuS7M1is
+  zh: g_yw1rbnZi0
+
+theme: []

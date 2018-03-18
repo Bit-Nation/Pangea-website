@@ -1,0 +1,23 @@
+- name: Amazix
+  url: http://www.amazix.com/
+
+- name: ABDK Consulting
+  url: https://www.abdk.consulting/
+
+- name: Bitcoin Suisse
+  url: https://www.bitcoinsuisse.ch/
+  
+- name: Republic of Estonia e-Residency
+  url: https://e-resident.gov.ee/
+
+- name: LDJ Capital
+  url: http://www.ldjcapital.com/
+
+- name: Liberland
+  url: https://liberland.org/
+
+- name: Network Society Ventures
+  url: http://netsoc.vc/
+
+- name: Zero Knowledge Labs
+  url: http://zklabs.io/
