@@ -19,5 +19,5 @@
 # - name: Poloniex
 #   url: https://poloniex.com/
 
-- name: ShapeShift
-  url: https://shapeshift.io/
+# - name: ShapeShift
+#   url: https://shapeshift.io/
