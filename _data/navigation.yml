@@ -3,10 +3,10 @@ main:
   url: /
 - title: Documents
   url: /documents/
-- title: FAQ
-  url: /faq/
-- title: Media
-  url: /media/
+# - title: FAQ
+#   url: /faq/
+# - title: Media
+#   url: /media/
 
 footer:
 - title: Terms of Use
