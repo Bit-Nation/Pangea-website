@@ -24,6 +24,14 @@ operations:
 - name: Kenneth Lillieholm
   role: Diplomatic Engagement
 
+- name: Rachelle Traboulsi
+  role: Executive Assistant
+
+- name: Abhimanyu Dayal
+  role: DApp Fund Manager
+
+communications:
+
 - name: Erik Vollstädt
   role: Community Director
   social:
@@ -40,12 +48,6 @@ operations:
 
 - name: Jacob Cox
   role: Community Engagement
-
-- name: Rachelle Traboulsi
-  role: Executive Assistant
-
-- name: Abhimanyu Dayal
-  role: DApp Fund Manager
 
 technology:
 
