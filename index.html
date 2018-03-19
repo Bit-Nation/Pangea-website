@@ -166,7 +166,7 @@ image: /img/index.png
             </div>
         </div>
     </div>
-    <div class="grid white-box drop-shadow t-yellow">
+    <div class="grid yellow-box drop-shadow">
         <div id="clock" class="grid-cell">
             <p class="announcement sale-open hidden">{{ text["Public PAT Token sale is open!"] }}</p>
             <p class="announcement sale-closed hidden">{{ text["Public token sale starts here on"] }}<br>{{ text["March 25th, 2018."] }}</p>
@@ -195,26 +195,6 @@ image: /img/index.png
             </div>
         </div>
     </div>
-</section>
-
-<section id="history" class="no-padding-top">
-    <div class="grid">
-        <div class="grid-cell">
-            <h2>{{ text["Bitnation Timeline"] }}</h2>
-        </div>
-    </div>
-    <div class="timeline">
-        {% for event in site.data.content.timeline-events %}
-        <div class="event drop-shadow">
-            <div class="title">
-                <h3>{{ event.date }}:<br>{{ event.title }}</h3>
-            </div>
-            <div class="description">
-                <p>{{ event.description }}</p>
-            </div>
-        </div>{% endfor %}
-    </div> 
-    <div class="slider-arrows"></div>
 </section>
 
 <section id="stats" class="no-padding-bottom">
@@ -304,7 +284,7 @@ image: /img/index.png
             </div>
         </div>
     </div>
-    <div class="box yellow-box drop-shadow">
+    <div class="box yellow-box drop-shadow margin-bottom-30">
         <div class="grid">
             <div class="grid-cell">
                 <h3>Key Stats</h3>
@@ -338,82 +318,99 @@ image: /img/index.png
             </div>
         </div>
     </div>
-    <div class="grid flex-center padding-top-30">
-        <div class="grid-cell">
-            <div class="cta">
-                <a href="{{ "/faq/" | absolute_url }}">{{ text["Read our FAQ"] }}</a>
+    <div class="box grey2-box padding-bottom-30">
+        <div class="grid">
+            <div class="grid-cell">
+                <h2 class="t-white">{{ text["Exchanges"] }}</h2>
             </div>
         </div>
-    </div>
-    <div class="grid">
-        <div class="grid-cell">
-            <h2 class="t-white">{{ text["Exchanges"] }}</h2>
+        <div class="grid exchanges-logos">
+            {% assign all-exchanges = site.data.exchanges | sort: 'name' %}
+            {% for exchange in all-exchanges %}{% assign id = exchange.name | slugify %}{% assign img-url = exchange.name | slugify: 'ascii' | prepend: "/img/logo-exchange-" | append: ".png" %}<div class="grid-cell">
+                <img id="{{ id }}" class="logo-exchange" src="{{ img-url | absolute_url }}" alt="{{ exchange.name }}">
+            </div>
+            {% endfor %}
         </div>
-    </div>
-    <div class="grid exchanges-logos">
-        {% assign all-exchanges = site.data.exchanges | sort: 'name' %}
-        {% for exchange in all-exchanges %}{% assign id = exchange.name | slugify %}{% assign img-url = exchange.name | slugify: 'ascii' | prepend: "/img/logo-" | append: ".png" %}<div class="grid-cell">
-            <img id="{{ id }}" class="logo-exchange" src="{{ img-url | absolute_url }}" alt="{{ exchange.name }}">
-        </div>
-        {% endfor %}
     </div>
 </section>
 
-<section id="team">
+<section id="history" class="no-padding-top">
     <div class="grid">
         <div class="grid-cell">
-            <h2>{{ text["Core Contributors"] }}</h2>
+            <h2>{{ text["Bitnation Timeline"] }}</h2>
         </div>
     </div>
-    <div id="operations" class="white-box drop-shadow">
+    <div class="timeline">
+        {% for event in site.data.content.timeline-events %}
+        <div class="event drop-shadow">
+            <div class="title">
+                <h3>{{ event.date }}:<br>{{ event.title }}</h3>
+            </div>
+            <div class="description">
+                <p>{{ event.description }}</p>
+            </div>
+        </div>{% endfor %}
+    </div> 
+    <div class="slider-arrows"></div>
+</section>    
+
+<section id="team">
+    <div class="white-box drop-shadow">
         <div class="grid">
             <div class="grid-cell">
-                <h3>{{ text["Operations"] }}</h3>
+                <h2>{{ text["Core Team"] }}</h2>
             </div>
         </div>
-        <div class="grid members">
-            {% for member in site.data.team.operations %}{% assign img-url = member.name | slugify: 'ascii' | prepend: "/img/team/" | append: ".jpg" %}<div class="grid-cell grid member">
-                <div class="grid-cell photo">
-                    <img src="{{ img-url | absolute_url }}" alt="{{ member.name }}">
+        <div id="operations">
+            <div class="grid">
+                <div class="grid-cell">
+                    <h3>{{ text["Operations"] }}</h3>
                 </div>
-                <div class="grid-cell name">{{ member.name }}</div>
-                <div class="grid-cell role">{{ member.role }}</div>
             </div>
-            {% endfor %}
-        </div>
-    </div>
-    <div id="communications">
-        <div class="grid">
-            <div class="grid-cell">
-                <h3>{{ text["Communications"] }}</h3>
-            </div>
-        </div>
-        <div class="grid members">
-            {% for member in site.data.team.communications %}{% assign img-url = member.name | slugify: 'ascii' | prepend: "/img/team/" | append: ".jpg" %}<div class="grid-cell grid member">
-                <div class="grid-cell photo">
-                    <img src="{{ img-url | absolute_url }}" alt="{{ member.name }}">
+            <div class="grid members">
+                {% for member in site.data.team.operations %}{% assign img-url = member.name | slugify: 'ascii' | prepend: "/img/team/" | append: ".jpg" %}<div class="grid-cell grid member">
+                    <div class="grid-cell photo">
+                        <img src="{{ img-url | absolute_url }}" alt="{{ member.name }}">
+                    </div>
+                    <div class="grid-cell name">{{ member.name }}</div>
+                    <div class="grid-cell role">{{ member.role }}</div>
                 </div>
-                <div class="grid-cell name">{{ member.name }}</div>
-                <div class="grid-cell role">{{ member.role }}</div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-    <div id="technology" class="box">
-        <div class="grid">
-            <div class="grid-cell">
-                <h3>{{ text["Technology"] }}</h3>
+                {% endfor %}
             </div>
         </div>
-        <div class="grid members">
-            {% for member in site.data.team.technology %}{% assign img-url = member.name | slugify: 'ascii' | prepend: "/img/team/" | append: ".jpg" %}<div class="grid-cell grid member">
-                <div class="grid-cell photo">
-                    <img src="{{ img-url | absolute_url }}" alt="{{ member.name }}">
+        <div id="communications">
+            <div class="grid">
+                <div class="grid-cell">
+                    <h3>{{ text["Communications"] }}</h3>
                 </div>
-                <div class="grid-cell name">{{ member.name }}</div>
-                <div class="grid-cell role">{{ member.role }}</div>
             </div>
-            {% endfor %}
+            <div class="grid members">
+                {% for member in site.data.team.communications %}{% assign img-url = member.name | slugify: 'ascii' | prepend: "/img/team/" | append: ".jpg" %}<div class="grid-cell grid member">
+                    <div class="grid-cell photo">
+                        <img src="{{ img-url | absolute_url }}" alt="{{ member.name }}">
+                    </div>
+                    <div class="grid-cell name">{{ member.name }}</div>
+                    <div class="grid-cell role">{{ member.role }}</div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div id="technology" class="box">
+            <div class="grid">
+                <div class="grid-cell">
+                    <h3>{{ text["Technology"] }}</h3>
+                </div>
+            </div>
+            <div class="grid members">
+                {% for member in site.data.team.technology %}{% assign img-url = member.name | slugify: 'ascii' | prepend: "/img/team/" | append: ".jpg" %}<div class="grid-cell grid member">
+                    <div class="grid-cell photo">
+                        <img src="{{ img-url | absolute_url }}" alt="{{ member.name }}">
+                    </div>
+                    <div class="grid-cell name">{{ member.name }}</div>
+                    <div class="grid-cell role">{{ member.role }}</div>
+                </div>
+                {% endfor %}
+            </div>
         </div>
     </div>
 
@@ -436,7 +433,7 @@ image: /img/index.png
 </section>
 
 
-<section id="partners" class="no-padding-top">
+<section id="partners" class="grey2-box no-padding-top">
     <div class="grid">
         <div class="grid-cell">
             <h2>{{ text["Our Partners"] }}</h2>
@@ -444,7 +441,7 @@ image: /img/index.png
     </div>
     <div class="grid partner-logos">
         {% assign all-partners = site.data.partners | sort: 'name' %}
-        {% for partner in all-partners %}{% assign id = partner.name | slugify %}{% assign img-url = partner.name | slugify: 'ascii' | prepend: "/img/logo-" | append: ".png" %}<div class="grid-cell">
+        {% for partner in all-partners %}{% assign id = partner.name | slugify %}{% assign img-url = partner.name | slugify: 'ascii' | prepend: "/img/logo-partner-" | append: ".png" %}<div class="grid-cell">
             <a class="logo-partner" href="{{ partner.url }}" target="_blank">
                 <img id="{{ id }}" src="{{ img-url | absolute_url }}" alt="{{ partner.name }}">
             </a>
