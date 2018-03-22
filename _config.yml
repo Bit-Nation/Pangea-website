@@ -32,7 +32,7 @@ plugins:
 permalink: /:title/
 
 sass:
-  style: compressed
+  style: expanded
   sourcemap: true
 
 destination: docs
@@ -49,7 +49,7 @@ google_analytics_id: UA-106469149-1
 
 languages: []
 default_lang: "en"
-exclude_from_localization: ["css", "img", "js", "robots.txt", "sitemap.xml", "favicon.ico", "fonts", "CNAME"]
+exclude_from_localization: ["_site", "css", "img", "js", "robots.txt", "sitemap.xml", "favicon.ico", "fonts", "CNAME"]
 parallel_localization: true
 rtl_languages: ["ar"]
 

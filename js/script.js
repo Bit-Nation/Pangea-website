@@ -83,4 +83,24 @@ $( document ).ready(function() {
             }
         }]
     });
+    // Checkboxes validation
+    $(".accept").click(function (event) {
+        var counter = 0;
+        $(".accept").each(function(key, checkbox) {
+            if(checkbox.checked == false) {
+                $("#checkboxes-continue").attr("disabled", "disabled");
+                return false;
+            } else {
+                counter++;
+                if(counter == $(".accept").length) {
+                    $("#checkboxes-continue").attr("disabled", false);
+                }
+            }
+        });
+    });
+    // Show address
+    $("#checkboxes-continue").click(function(){
+        $( "#checkboxes" ).addClass( "hidden" );
+        $( "#address" ).removeClass( "hidden" );
+    });
 });
