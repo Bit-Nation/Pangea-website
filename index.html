@@ -4,11 +4,61 @@ image: /img/index.png
 ---
 {% assign text = site.data.content %}
 <section id="intro" class="map-bg map-bg-top">
+    <div class="grid social-icons social-icons-top flex-end">
+        <div class="grid-cell">
+            <a href="https://github.com/Bit-Nation">
+                <span class="icon-m fa-layers fa-fw">
+                    <i class="fab fa-github" data-fa-transform="shrink-6"></i>
+                    <i class="fal fa-circle"></i>
+                </span>
+            </a>
+        </div>
+        <div class="grid-cell">
+            <a href="https://twitter.com/@MyBitnation">
+                <span class="icon-m fa-layers fa-fw">
+                    <i class="fab fa-twitter" data-fa-transform="shrink-6"></i>
+                    <i class="fal fa-circle"></i>
+                </span>
+            </a>
+        </div>
+        <div class="grid-cell">
+            <a href="https://angel.co/bitnation">
+                <span class="icon-m fa-layers fa-fw">
+                    <i class="fab fa-angellist" data-fa-transform="shrink-6"></i>
+                    <i class="fal fa-circle"></i>
+                </span>
+            </a>
+        </div>
+        <div class="grid-cell">
+            <a href="https://t.me/PangeaBitnation">
+                <span class="icon-m fa-layers fa-fw">
+                    <i class="fab fa-telegram-plane" data-fa-transform="shrink-6"></i>
+                    <i class="fal fa-circle"></i>
+                </span>
+            </a>
+        </div>
+        <div class="grid-cell">
+            <a href="https://www.facebook.com/MyBitnation">
+                <span class="icon-m fa-layers fa-fw">
+                    <i class="fab fa-facebook-f" data-fa-transform="shrink-6"></i>
+                    <i class="fal fa-circle"></i>
+                </span>
+            </a>
+        </div>
+        <div class="grid-cell">
+            <a href="https://steemit.com/@bitnation">
+                <span class="icon-m fa-layers fa-fw">
+                    <i class="fab fa-steemit" data-fa-transform="shrink-6"></i>
+                    <i class="fal fa-circle"></i>
+                </span>
+            </a>
+        </div>
+    </div>
     <div class="grid">
         <div class="grid-cell">
             <svg class="logo-round" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112.07 112.08"><defs><style>.cls-1{fill:#414042;}</style></defs><title>logo-bitnation-round</title><g id="Layer_2" data-name="Layer 2"><g id="contenido_A" data-name="contenido A"><path class="cls-1" d="M56,112.08A56.29,56.29,0,0,1,0,55.28,55.87,55.87,0,0,1,56.69,0c30.54.32,55.38,25.32,55.38,55.74a56.32,56.32,0,0,1-56,56.34H56ZM56.07,6.36a49.58,49.58,0,0,0-35.3,84.52A49.21,49.21,0,0,0,56,105.72h.1a49.68,49.68,0,0,0,.56-99.36Z"/><path class="cls-1" d="M48.91,52.91c.47.34,1,.64,1.57,1,0-.46.05-.7.05-.94,0-4.57,0-9.14.09-13.71,0-1.76.05-3.53.24-5.28a4.75,4.75,0,0,1,4.86-4.4,4.75,4.75,0,0,1,5.22,4.17,10,10,0,0,1,.16,1.63c0,6.1,0,12.19,0,18.56,1.16-.77,2.16-1.4,3.11-2.07a7.43,7.43,0,0,0,3.3-6.29c0-3.62.11-7.25.09-10.87a11.54,11.54,0,0,0-1.7-6.44,10.85,10.85,0,0,0-8.72-4.9C50.24,22.8,44.44,27,44.45,34.6c0,3.26,0,6.52,0,9.78a15.42,15.42,0,0,0,.15,2.36A9.35,9.35,0,0,0,48.91,52.91Z"/><path class="cls-1" d="M57.13,40.83H55.39c-2,0-2.46.51-2.46,2.51V70.66c0,.24,0,.49,0,.73a1.78,1.78,0,0,0,1.82,1.78c.7,0,1.4,0,2.1,0,1.6,0,2.21-.62,2.22-2.19V57q0-7.09,0-14.17A1.75,1.75,0,0,0,57.13,40.83Z"/><path class="cls-1" d="M67.62,72.14a30.22,30.22,0,0,0-.73-6.31A6.78,6.78,0,0,0,61.1,61v1.64c0,5.18,0,10.35,0,15.53a11.61,11.61,0,0,1-.69,3.73,4.39,4.39,0,0,1-4.58,2.79c-2.05-.07-3.74-.86-4.41-2.91a13.42,13.42,0,0,1-.66-3.92c-.05-4.57,0-9.13.06-13.7V60.51c-3.57,1.14-6.21,4.29-6.3,7.64-.11,4.38-.1,8.76,0,13.14a8.87,8.87,0,0,0,3.46,6.87,13.59,13.59,0,0,0,15.55.43,9,9,0,0,0,4-7C67.62,78.46,67.7,75.3,67.62,72.14Z"/></g></g></svg>
             <h1>{{ text["Enter Pangea"] }}</h1>
-            <h2>{{ text["The Internet of Sovereignty"] }}</h2>
+            <h2 class="t-white-bg">{{ text["The Internet of Sovereignty"] }}</h2>
         </div>
     </div>
     <div class="grid btn-3">
@@ -31,29 +81,35 @@ image: /img/index.png
 </section>
 
 <section id="video" class="no-padding-bottom">
-    <div class="grid yellow-box drop-shadow">
+    <div class="grid yellow-box no-padding-top drop-shadow">
         <div class="grid-cell">
-            <h2 class="no-margin-bottom">{{ text["Bitnation is Governance 2.0"] }}:<br>{{ text["Borderless, Decentralised, Voluntary"] }}</h2>
+            <h2 class="no-margin-bottom">{{ text["Bitnation is Governance 2.0"] }}:<br>{{ text["Decentralised | Borderless | Voluntary"] }}</h2>
         </div>
         <div class="grid-cell whole">
             <div class="vid-container">{% if site.video contains site.active_lang %}{% assign lang = site.active_lang %}{% else %}{% assign lang = site.default_lang %}{% endif %}
                 <iframe src="https://www.youtube.com/embed/{{ site.video[lang] }}" allowfullscreen="" kwframeid="1" frameborder="0"></iframe>
             </div>
         </div>
+        <div class="grid-cell whole">
+            <p class="no-margin">{{ text["Bitnation is the world's first Decentralized Borderless Voluntary Nation (DBVN). Bitnation started in July 2014 and hosted the world’s first blockchain marriage, birth certificate, refugee emergency ID, World Citizenship, DBVN Constitution and more. The website proof-of-concept, including the blockchain ID and Public Notary, is used by tens of thousands of Bitnation Citizens and Embassies around the world. Bitnation is the winner of UNESCO’s Netexplo Award 2017, and has been featured by the Wall Street Journal, Bloomberg, BBC, CNN, WIRED, VICE, TechCrunch, The Economist, Russia Today among many others."] }}</p>
+        </div>
     </div>
 </section>
 
-<section id="pangea" class="no-padding-top">
+<section id="pangea">
     <div class="grid">
         <div class="grid-cell one-third">
+            <div class="icon-l"><i class="fal fa-file-check"></i></div>
             <h3>{{ text["P2P Agreements"] }}</h3>
             <p>{{ text["Pangea is a decentralised market for legal services. Create and execute peer-to-peer agreements seamlessly across the world, resolve disputes fairly and efficiently. Choose an arbitrator, or become an arbitrator in your field of expertise."] }}</p>
         </div>
         <div class="grid-cell one-third">
+            <div class="icon-l"><i class="fal fa-mobile-android"></i></div>
             <h3>{{ text["Frontier Technology"] }}</h3>
             <p>{{ text["Pangea is a secure mesh network forming a distributed web, accessed through a smartphone-chat user-friendly interface. Blockchain agnostic smart contract functionality powers the Pangea Jurisdiction, currently implemented with Ethereum."] }}</p>
         </div>
         <div class="grid-cell one-third">
+            <div class="icon-l"><i class="fal fa-flag"></i></div>
             <h3>{{ text["Your Own Nations"] }}</h3>
             <p>{{ text["On Pangea you can create your own Decentralised Borderless Voluntary Nation (DBVN). Choose your Code of Law and Decision Making Mechanism, write a Constitution and provide Governance Services to Citizens."] }}</p>
         </div>
@@ -80,7 +136,7 @@ image: /img/index.png
 <section id="install" class="t-white">
     <div class="grid">
         <div class="grid-cell">
-            <h2>{{ text["Bitnation is here"] }}<br>{{ text["Download the Pangea App"] }}</h2>
+            <h2>{{ text["Bitnation is here"] }}<br>{{ text["Install the Pangea Jurisdiction"] }}</h2>
         </div>
     </div>
     <div class="pangea-screens">
@@ -148,13 +204,13 @@ image: /img/index.png
               </a>
         </div>
         <div class="grid-cell">
-            <a href="https://play.google.com/store/apps/details?id=co.bitnation"><img class="google-play-badge" src="{{ "/img/google-play-badge.png" | absolute_url }}"></a>
+            <a href="https://play.google.com/store/apps/details?id=co.bitnation"><img class="google-play-badge" src="{{ "/img/google-play-badge.png" | absolute_url }}" alt="Google Play"></a>
         </div>
     </div>
 </section>
 
 <section id="pat" class="no-padding-top">
-    <div class="grey2-box w-next t-white section-padding-top">
+    <div class="bg-grey2 w-next t-white section-padding-top">
         <div class="grid">
             <div class="grid-cell">
                 <h2>{{ text["Pangea Arbitration Token (PAT)"] }}</h2>
@@ -162,7 +218,7 @@ image: /img/index.png
         </div>
         <div class="grid">
             <div class="grid-cell">
-                <p>{{ text["The Pangea Arbitration Token (PAT) is an ERC20 compatible in-app token for the Pangea Jurisdiction. The PAT token is proof-of-reputation for Citizens, issued when Citizens create a contract, successfully complete a contract or resolve a dispute attached to a contract. PAT is an algorithmic reputation token; an arbitration currency based on performance, rather than purchasing power, popularity, or attention."] }}</p>
+                <p>{{ text["The Pangea Arbitration Token (PAT) is an ERC20 compatible in-app token for the Pangea Jurisdiction. The PAT token rewards good reputation and is issued on Pangea when Citizens accumulate non-tradable reputation tokens through creating a contract, successfully completing a contract or resolving a dispute attached to a contract. PAT is an algorithmic reputation token, an arbitration currency based on performance rather than purchasing power, popularity or attention. The distribution mechanism for PAT tokens on Pangea is an autonomous agent, Lucy, which will initially launch on Ethereum as a smart contract. This mechanism is blockchain agnostic and can be ported to any viable smart contract platform."] }}</p>
             </div>
         </div>
     </div>
@@ -175,7 +231,7 @@ image: /img/index.png
     </div>
     <div class="grid">
         <div class="grid-cell">
-            <p class="light">{{ text["PAT tokens are issued by BITNATION GmbH, Baarerstrasse 10, CH-6302 Zug, Switzerland, CHE-166.292.408."] }}<br><a href="{{ "/purchase-agreement/" | absolute_url }}">{{ text["Click here to read the Bitnation PAT Token Sale Agreement."] }}</a></p>
+            <p class="light">{{ text["PAT tokens are issued by BITNATION AMERICAS LTD. Belize city, Newtown Barracks, Marina Towers, Suite 508. Reg.number 170.093."] }}<br><a href="{{ "/purchase-agreement/" | absolute_url }}">{{ text["Click here to read the Bitnation PAT Token Sale Agreement."] }}</a></p>
         </div>
     </div>
     <div class="grid btn-3">
@@ -213,7 +269,7 @@ image: /img/index.png
         </div>
         <div class="grid-cell half-mobile one-third">
             <div class="number">{{ text["10%"] }}</div>
-            <div class="descriptor">{{ text["Allocation of PAT for Token Sale"] }}</div>
+            <div class="descriptor">{{ text["Allocation of PAT for public Token Sale"] }}</div>
         </div>
         <div class="grid-cell half-mobile one-third">
             <div class="number">{{ text["2.6Bn"] }}</div>
@@ -228,7 +284,7 @@ image: /img/index.png
         <div class="grid flex-between">
             <div class="grid column grid-cell no-padding">
                 <div class="grid-cell">
-                    <h2 class="t-light caps">{{ text["Token Distribution"] }}</h2>
+                    <h2 class="t-light caps">{{ text["Token distribution graph"] }}</h2>
                 </div>
                 <div class="grid grid-cell no-wrap no-padding no-margin">
                     <div class="grid grid-cell no-padding column">
@@ -250,7 +306,7 @@ image: /img/index.png
                         </div>
                     </div>
                     <div class="grid-cell">
-                        <img class="graph" src="{{ "img/graph-token-dist.svg" | absolute_url }}">
+                        <img class="graph" src="{{ "img/graph-token-dist.svg" | absolute_url }}" alt="Token distribution">
                     </div>
                 </div>
             </div>
@@ -278,7 +334,7 @@ image: /img/index.png
                         </div>
                     </div>
                     <div class="grid-cell">
-                        <img class="graph" src="{{ "img/graph-use-of-funds.svg" | absolute_url }}">
+                        <img class="graph" src="{{ "img/graph-use-of-funds.svg" | absolute_url }}" alt="Use of funds graph">
                     </div>
                 </div>
             </div>
@@ -293,17 +349,17 @@ image: /img/index.png
         <div class="grid">
             <div class="grid-cell half-mobile one-third">
                 <div class="icon-m"><i class="fal fa-user"></i></div>
-                <div class="number">{{ text["+10K"] }}</div>
+                <div class="number">{{ text["+15K"] }}</div>
                 <div class="descriptor">{{ text["Bitnation Citizens"] }}</div>
             </div>
             <div class="grid-cell half-mobile one-third">
                 <div class="icon-m"><i class="fal fa-users"></i></div>
-                <div class="number">{{ text["+2K"] }}</div>
-                <div class="descriptor">{{ text["Open Source Contributors"] }}</div>
+                <div class="number">{{ text["+50K"] }}</div>
+                <div class="descriptor">{{ text["Open Source Community"] }}</div>
             </div>
             <div class="grid-cell half-mobile one-third">
                 <div class="icon-m"><i class="fal fa-code"></i></div>
-                <div class="number">{{ text["+100K"] }}</div>
+                <div class="number">{{ text["+200K"] }}</div>
                 <div class="descriptor">{{ text["Lines of Code"] }}</div>
             </div>
             <div class="grid-cell half-mobile one-third">
@@ -313,12 +369,12 @@ image: /img/index.png
             </div>
             <div class="grid-cell half-mobile one-third">
                 <div class="icon-m"><i class="fal fa-globe"></i></div>
-                <div class="number">{{ text["+ 200"] }}</div>
+                <div class="number">{{ text["+ 500"] }}</div>
                 <div class="descriptor">{{ text["Registered Nations"] }}</div>
             </div>
         </div>
     </div>
-    <div class="box grey2-box padding-bottom-30">
+    <div class="bg-grey2 padding-bottom-30">
         <div class="grid">
             <div class="grid-cell">
                 <h2 class="t-white">{{ text["Exchanges"] }}</h2>
@@ -330,6 +386,11 @@ image: /img/index.png
                 <img id="{{ id }}" class="logo-exchange" src="{{ img-url | absolute_url }}" alt="{{ exchange.name }}">
             </div>
             {% endfor %}
+        </div>
+        <div class="grid more-coming-soon t-white">
+            <div class="grid-cell">
+                <p class="no-margin">(More exchanges coming soon.)</p>
+            </div>
         </div>
     </div>
 </section>
@@ -343,6 +404,7 @@ image: /img/index.png
     <div class="timeline">
         {% for event in site.data.content.timeline-events %}
         <div class="event drop-shadow">
+            <div class="icon-l t-yellow"><i class="{{ event.icon }}"></i></div>
             <div class="title">
                 <h3>{{ event.date }}:<br>{{ event.title }}</h3>
             </div>
@@ -358,7 +420,7 @@ image: /img/index.png
     <div class="white-box drop-shadow">
         <div class="grid">
             <div class="grid-cell">
-                <h2>{{ text["Core Team"] }}</h2>
+                <h2>{{ text["Core Contributors"] }}</h2>
             </div>
         </div>
         <div id="operations">
@@ -374,6 +436,23 @@ image: /img/index.png
                     </div>
                     <div class="grid-cell name">{{ member.name }}</div>
                     <div class="grid-cell role">{{ member.role }}</div>
+                    {% if member.social %}<div class="grid-cell grid links">
+                        {% if member.social.linkedin %}<div class="grid-cell i-social">
+                            <a href="https://www.linkedin.com/in/{{ member.social.linkedin }}/">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>{% endif %}
+                        {% if member.social.twitter %}<div class="grid-cell i-social">
+                            <a href="https://twitter.com/{{ member.social.twitter }}">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>{% endif %}{% if member.social.github %}
+                        <div class="grid-cell i-social">
+                            <a href="https://github.com/{{ member.social.github }}">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>{% endif %}
+                    </div>{% endif %}
                 </div>
                 {% endfor %}
             </div>
@@ -391,6 +470,23 @@ image: /img/index.png
                     </div>
                     <div class="grid-cell name">{{ member.name }}</div>
                     <div class="grid-cell role">{{ member.role }}</div>
+                    {% if member.social %}<div class="grid-cell grid links">
+                        {% if member.social.linkedin %}<div class="grid-cell i-social">
+                            <a href="https://www.linkedin.com/in/{{ member.social.linkedin }}/">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>{% endif %}
+                        {% if member.social.twitter %}<div class="grid-cell i-social">
+                            <a href="https://twitter.com/{{ member.social.twitter }}">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>{% endif %}{% if member.social.github %}
+                        <div class="grid-cell i-social">
+                            <a href="https://github.com/{{ member.social.github }}">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>{% endif %}
+                    </div>{% endif %}
                 </div>
                 {% endfor %}
             </div>
@@ -408,11 +504,37 @@ image: /img/index.png
                     </div>
                     <div class="grid-cell name">{{ member.name }}</div>
                     <div class="grid-cell role">{{ member.role }}</div>
+                    {% if member.social %}<div class="grid-cell grid links">
+                        {% if member.social.linkedin %}<div class="grid-cell i-social">
+                            <a href="https://www.linkedin.com/in/{{ member.social.linkedin }}/">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>{% endif %}
+                        {% if member.social.twitter %}<div class="grid-cell i-social">
+                            <a href="https://twitter.com/{{ member.social.twitter }}">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>{% endif %}{% if member.social.github %}
+                        <div class="grid-cell i-social">
+                            <a href="https://github.com/{{ member.social.github }}">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>{% endif %}
+                    </div>{% endif %}
                 </div>
                 {% endfor %}
             </div>
         </div>
     </div>
+
+    <!-- <div class="grid">
+        <div class="grid-cell">
+            <h2>{{ text["Ambassador Network"] }}</h2>
+        </div>
+        <div class="grid-cell">
+            <img id="ambassador-map" src="{{ "/img/ambassador-network.png" | absolute_url }}" alt="Ambassador network map">
+        </div>
+    </div> -->
 
     <div class="yellow-box drop-shadow margin-top-30">
         <div class="grid">
@@ -426,6 +548,23 @@ image: /img/index.png
                     <img src="{{ img-url | absolute_url }}" alt="{{ member.name }}">
                 </div>
                 <div class="grid-cell name">{{ member.name }}</div>
+                {% if member.social %}<div class="grid-cell grid links">
+                    {% if member.social.linkedin %}<div class="grid-cell i-social">
+                        <a href="https://www.linkedin.com/in/{{ member.social.linkedin }}/">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>{% endif %}
+                    {% if member.social.twitter %}<div class="grid-cell i-social">
+                        <a href="https://twitter.com/{{ member.social.twitter }}">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>{% endif %}{% if member.social.github %}
+                    <div class="grid-cell i-social">
+                        <a href="https://github.com/{{ member.social.github }}">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>{% endif %}
+                </div>{% endif %}
             </div>
             {% endfor %}
         </div>
@@ -433,7 +572,7 @@ image: /img/index.png
 </section>
 
 
-<section id="partners" class="grey2-box no-padding-top">
+<section id="partners" class="bg-grey1">
     <div class="grid">
         <div class="grid-cell">
             <h2>{{ text["Our Partners"] }}</h2>
@@ -450,7 +589,7 @@ image: /img/index.png
     </div>
 </section>
 
-<section id="media">
+<section id="media" class="bg-grey2">
     <div class="grid">
         <div class="grid-cell">
             <h2>{{ text["Media Coverage"] }}</h2>
@@ -464,13 +603,31 @@ image: /img/index.png
     </div>
 </section>
 
+<section id="awards">
+    <div class="grid">
+        <div class="grid-cell">
+            <h2>{{ text["Awards"] }}</h2>
+        </div>
+    </div>
+    <div class="grid flex-center">
+        <div class="grid-cell half">
+            <p>{{ text["Bitnation won the prestigious UNESCO NetExplo 2017 Grand Prix. Previous winners include Twitter and Spotify."] }}</p>
+            <br>
+            <img class="drop-shadow" src="{{ "/img/award-netexplo.png" | absolute_url }}" alt="Netexplo Forum 2017, Netexplo Observatory">
+        </div>
+        <div class="grid-cell half">
+            <iframe frameborder="0" width="480" height="270" src="//www.dailymotion.com/embed/video/x5pmk69" allowfullscreen allow="autoplay"></iframe>
+        </div>
+    </div>
+</section>
+
 <section id="social" class="map-bg">
     <div class="grid">
         <div class="grid-cell">
             <h2>{{ text["Join Bitnation"] }}</h2>
         </div>
     </div>
-    <div class="grid social-icons">
+    <div class="grid social-icons-bottom">
         <div class="grid-cell">
             <a href="https://github.com/Bit-Nation">
                 <span class="icon-l fa-layers fa-fw">

@@ -47,7 +47,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     background: $light-grey url("../img/map-lines.png") repeat-y top center;
-    background-size: 1920px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -80,16 +79,18 @@ h3 {
 
 h4 {
     font-size: 1.2em;
+    font-weight: bold;
 }
 
 h5 {
     font-size: 1em;
     margin: 15px auto;
+    font-weight: bold;
 }
 
 p, li {
     line-height: 2;
-    margin: 15px auto;
+    margin: 0 auto 15px;
 }
 
 a, button {
@@ -143,6 +144,10 @@ b, strong {
     font-weight: bold;
 }
 
+img {
+    max-width: 100%;
+}
+
 .rtl {
     direction: rtl;
 }
@@ -176,10 +181,33 @@ b, strong {
     a, h1, h2, h3, p {
         color: inherit;
     }
+    a {
+        text-decoration: underline;
+    }
+}
+
+.t-white-bg {
+    background-color: $yellow;
+    padding: 3px;
+    margin-left: -3px;
 }
 
 .caps {
     text-transform: uppercase;
+}
+
+.funds {
+    font-size: 1.7em;
+    line-height: 1.5;
+}
+
+.center {
+    text-align: center;
+}
+
+#amount {
+    font-size: 3.5em;
+    font-family: "Source Code Pro", courier, monospace;
 }
 
 // Containers
@@ -329,18 +357,41 @@ section {
     width: 95%;
     margin: auto;
     padding-bottom: 15px;
+    padding-top: 15px;
     max-width: 930px;
+    a {
+        color: $dark-text;
+        text-decoration: underline;
+    }
 }
 
 .white-box {
     background-color: $white;
     width: 95%;
-    margin: 15px auto;
+    margin: auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
     max-width: 930px;
 }
 
-.grey2-box {
+.bg-grey1 {
+    background-color: $grey1;
+}
+
+.bg-grey2 {
     background-color: $grey2;
+}
+
+.funds-box {
+    margin-bottom: -50px;
+    padding: 30px 20px;
+    z-index: 99;
+    position: relative;
+    max-width: 400px;
+}
+
+.address-box {
+    padding-top: 80px;
 }
 
 // General
@@ -423,8 +474,11 @@ section {
         min-width: 260px;
         min-height: 48px;
         padding: 12px 30px;
-        margin: auto;
         display: block;
+    }
+    button:disabled, button[disabled] {
+        background: $grey2;
+        color: $grey1;
     }
 }
 
@@ -500,8 +554,15 @@ section {
 }
 
 .announcement {
+    margin-top: 15px;
     font-size: 1.5em;
     line-height: 1.5;
+}
+
+.warning {
+    color: $yellow !important;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 .countdown {
@@ -557,6 +618,26 @@ section {
     li.slick-active button::before {
         color: $orange;
     }
+}
+
+.social-icons {
+    color: $orange;
+}
+
+.social-icons-top .grid-cell {
+    @media screen and (max-width: 929px) {
+        padding: 7px;
+    }
+}
+
+.hex-address-box {
+    max-width: 100%;
+}
+
+.hex-address {
+    font-size: 2.1em;
+    font-family: $titles-font;
+    word-wrap: break-word;
 }
 
 // Sections
@@ -652,18 +733,14 @@ section {
 }
 
 #intro {
+    position: relative;
+    z-index: 10;
     .logo-round {
         width: 100px;
-    }
-    h2 {
-        color:$white;
+        padding-top: 25px;
     }
     @media screen and (min-width: 930px) {
         min-height: 650px;
-        .grid {
-            padding-top: 25px;
-            padding-bottom: 25px;
-        }
         .logo-pangea {
             margin-top: 75px;
         }
@@ -715,8 +792,9 @@ section {
         background: $white;
         padding: 30px;
         margin: 15px;
-        min-height: 400px;
+        min-height: 430px;
         .title h3 {
+            margin: 5px 0 10px;
             color: $yellow;
             font-size: 1.5em;
             line-height: 1.5;
@@ -755,7 +833,7 @@ section {
     .graph {
         width: 100px;
     }
-    .exchanges-logos {
+    .exchanges-logos, .more-coming-soon {
         align-items: center;
         @media screen and (min-width: 930px) {
             justify-content: space-around;
@@ -782,10 +860,6 @@ section {
             justify-content: flex-start;
             margin: 0;
             align-items: center;
-            .grid-cell {
-                padding: 5px 0;
-                width: 120px;
-            }
             .photo img {
                 width: 120px;
                 border-radius: 50%;
@@ -801,6 +875,7 @@ section {
                 align-self: flex-start;
             }
             .links {
+                padding: 0;
                 .grid-cell {
                     padding: 0 5px;
                     a {
@@ -809,12 +884,23 @@ section {
                     }
                 }
             }
+        }
+        .member > .grid-cell {
+            padding: 5px 0;
+            width: 120px;
             @media screen and (min-width: 930px) {
-                .grid-cell {
-                    width: 148px;
-                }
+                width: 148px;
             }
         }
+        .i-social {
+            width: auto;
+            svg {
+                color: $yellow;
+            }
+        }
+    }
+    #advisors .i-social svg {
+        color: $white;
     }
 }
 
@@ -870,18 +956,6 @@ section {
         img {
             width: 80%;
             margin: auto;
-        }
-    }
-}
-
-#social {
-    .social-icons {
-        color: $orange;
-        @media screen and (min-width: 520px) and (max-width: 752px) {
-            justify-content: center;
-        }
-        @media screen and (min-width: 600px) {
-            // flex-wrap: nowrap;
         }
     }
 }
@@ -995,4 +1069,9 @@ section {
             padding: 5px 15px;
         }
     }
+}
+
+#instructions {
+    margin-top: -100px;
+    padding-top: 130px;
 }

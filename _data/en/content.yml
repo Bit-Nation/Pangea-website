@@ -24,7 +24,7 @@ Total PAT supply: "Total PAT supply"
 $10Tn: "$10Tn"
 System D economy: '"System D" economy'
 10%: "10%"
-Allocation of PAT for Token Sale: "Allocation of PAT for Token Sale"
+Allocation of PAT for public Token Sale: "Allocation of PAT for public Token Sale"
 $600Bn: "$600Bn"
 Legal services market: "Legal services market"
 $30M: "$30M"
@@ -48,31 +48,32 @@ user adoption: "user adoption"
 12%: "12%"
 ecosystem: "ecosystem"
 Key Stats: "Key Stats"
-+10K: "+10K"
++15K: "+15K"
 Bitnation Citizens: "Bitnation Citizens"
-+2K: "+2K"
-Open Source Contributors: "Open Source Contributors"
-+100K: "+100K"
++50K: "+50K"
+Open Source Community: "Open Source Community"
++200K: "+200K"
 Lines of Code: "Lines of Code"
-+ 200: "+200"
++ 500: "+500"
 Registered Nations: "Registered Nations"
 +5K: "+5K"
 Contracts Notarised: "Contracts Notarised"
 Bitnation is here: "Bitnation is here:"
-Download the Pangea App: "Download the Pangea App"
+Install the Pangea Jurisdiction: "Install the Pangea Jurisdiction"
 Install Pangea: "Install Pangea"
 Bitnation: "Bitnation"
 Bitnation is Governance 2.0: "Bitnation is Governance 2.0"
-Borderless, Decentralised, Voluntary: "Borderless, Decentralised, Voluntary"
+Bitnation is the world's first Decentralized Borderless Voluntary Nation (DBVN). Bitnation started in July 2014 and hosted the world’s first blockchain marriage, birth certificate, refugee emergency ID, World Citizenship, DBVN Constitution and more. The website proof-of-concept, including the blockchain ID and Public Notary, is used by tens of thousands of Bitnation Citizens and Embassies around the world. Bitnation is the winner of UNESCO’s Netexplo Award 2017, and has been featured by the Wall Street Journal, Bloomberg, BBC, CNN, WIRED, VICE, TechCrunch, The Economist, Russia Today among many others.: "Bitnation is the world's first Decentralized Borderless Voluntary Nation (DBVN). Bitnation started in July 2014 and hosted the world’s first blockchain marriage, birth certificate, refugee emergency ID, World Citizenship, DBVN Constitution and more. The website proof-of-concept, including the blockchain ID and Public Notary, is used by tens of thousands of Bitnation Citizens and Embassies around the world. Bitnation is the winner of UNESCO’s Netexplo Award 2017, and has been featured by the Wall Street Journal, Bloomberg, BBC, CNN, WIRED, VICE, TechCrunch, The Economist, Russia Today among many others."
+Decentralised | Borderless | Voluntary: "Decentralised | Borderless | Voluntary"
 Pangea Arbitration Token (PAT): "Pangea Arbitration Token (PAT)"
-The Pangea Arbitration Token (PAT) is an ERC20 compatible in-app token for the Pangea Jurisdiction. The PAT token is proof-of-reputation for Citizens, issued when Citizens create a contract, successfully complete a contract or resolve a dispute attached to a contract. PAT is an algorithmic reputation token; an arbitration currency based on performance, rather than purchasing power, popularity, or attention.: "The Pangea Arbitration Token (PAT) is an ERC20 compatible in-app token for the Pangea Jurisdiction. The PAT token is proof-of-reputation for Citizens, issued when Citizens create a contract, successfully complete a contract or resolve a dispute attached to a contract. PAT is an algorithmic reputation token; an arbitration currency based on performance, rather than purchasing power, popularity, or attention."
+The Pangea Arbitration Token (PAT) is an ERC20 compatible in-app token for the Pangea Jurisdiction. The PAT token rewards good reputation and is issued on Pangea when Citizens accumulate non-tradable reputation tokens through creating a contract, successfully completing a contract or resolving a dispute attached to a contract. PAT is an algorithmic reputation token, an arbitration currency based on performance rather than purchasing power, popularity or attention. The distribution mechanism for PAT tokens on Pangea is an autonomous agent, Lucy, which will initially launch on Ethereum as a smart contract. This mechanism is blockchain agnostic and can be ported to any viable smart contract platform.: "The Pangea Arbitration Token (PAT) is an ERC20 compatible in-app token for the Pangea Jurisdiction. The PAT token rewards good reputation and is issued on Pangea when Citizens accumulate non-tradable reputation tokens through creating a contract, successfully completing a contract or resolving a dispute attached to a contract. PAT is an algorithmic reputation token, an arbitration currency based on performance rather than purchasing power, popularity or attention. The distribution mechanism for PAT tokens on Pangea is an autonomous agent, Lucy, which will initially launch on Ethereum as a smart contract. This mechanism is blockchain agnostic and can be ported to any viable smart contract platform."
 Public PAT Token sale is open!: "Public PAT Token sale is open!"
 Public token sale starts here on: "Public token sale starts here on"
 March 25th, 2018.: "March 25th, 2018."
 Get PAT Tokens: "Get PAT Tokens"
 Whitepaper: "Whitepaper"
 Overview: "Overview"
-PAT tokens are issued by BITNATION GmbH, Baarerstrasse 10, CH-6302 Zug, Switzerland, CHE-166.292.408.: "PAT tokens are issued by BITNATION GmbH, Baarerstrasse 10, CH-6302 Zug, Switzerland, CHE-166.292.408."
+PAT tokens are issued by BITNATION AMERICAS LTD. Belize city, Newtown Barracks, Marina Towers, Suite 508. Reg.number 170.093.: "PAT tokens are issued by BITNATION AMERICAS LTD. Belize city, Newtown Barracks, Marina Towers, Suite 508. Reg.number 170.093."
 Click here to read the Bitnation PAT Token Sale Agreement.: "Click here to read the Bitnation PAT Token Sale Agreement."
 Secure & Transparent: "Secure & Transparent"
 PAT is an ERC20 (Ethereum based) industry-standard token, easily integrated with wallets and exchanges. PAT code, the DBVN Multisignature code, and the Bitnation TSE Contract code has all been designed and audited by leading Solidity experts. All contracts are open source and can be found on our GitHub. Funds are secured by Bitcoin Suisse AG in a multisignature wallet.: "PAT is an ERC20 (Ethereum based) industry-standard token, easily integrated with wallets and exchanges. PAT code, the DBVN Multisignature code, and the Bitnation TSE Contract code has all been designed and audited by leading Solidity experts. All contracts are open source and can be found on our GitHub. Funds are secured by Bitcoin Suisse AG in a multisignature wallet."
@@ -87,10 +88,13 @@ Exchanges: "Exchanges"
 Operations: "Operations"
 Communications: "Communications"
 Technology: "Technology"
-Core Team: "Core Team"
+Core Contributors: "Core Contributors"
+Ambassador Network: "Ambassador Network"
 Advisors: "Advisors"
 Our Partners: "Our Partners"
 Media Coverage: "Media Coverage"
+Awards: "Awards"
+Bitnation won the prestigious UNESCO NetExplo 2017 Grand Prix. Previous winners include Twitter and Spotify.: "Bitnation won the prestigious UNESCO NetExplo 2017 Grand Prix. Previous winners include Twitter and Spotify."
 See all: "See all"
 Get Pangea Arbitration Tokens (PAT): "Get Pangea Arbitration Tokens (PAT)"
 The public Token Sale contract for ETH payments will be live in this location from the 28th of February. Sign up to our mailing list to get news and updates.: "The public Token Sale contract for ETH payments will be live in this location from the 28th of February. Sign up to our mailing list to get news and updates."
@@ -135,3 +139,18 @@ timeline-events:
   title: New Pangea Frontend, Lucy Bot, Oracle and TSE
   description: We are here now!
   icon: fal fa-file-code
+
+- date: Q1/2 2018
+  title: Pangea 0.3
+  description: Release Pangea 0.3 with Nations and chat, 1.0 Lucy AI and arbitration system.
+  icon: fal fa-comments
+
+- date: Q3/4 2018
+  title: Got-to-market phase
+  description: Rewards integration, public API and DApp store, public launch.
+  icon: fal fa-rocket 
+
+- date: Q1/2 2019
+  title: DApps, Exocortex 1.0
+  description: 
+  icon: fal fa-cloud-download
