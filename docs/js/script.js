@@ -1,5 +1,5 @@
 var SALE_ADDRESS = "0xAF702F4be0cAeCcc2a3B42ee5d7Dd725bFA20B65";
-var MULTISIG_ADDRESS = "0xAF702F4be0cAeCcc2a3B42ee5d7Dd725bFA20B65";
+var MULTISIG_ADDRESS = "0x44E7346C988EdB3b23e7098f500Ff40138fFA03a";
 var JSON_RPC_URL = "https://rinkeby.infura.io/bitnation";
 
 const ethersProvider = new ethers.providers.JsonRpcProvider(JSON_RPC_URL);
@@ -19,7 +19,10 @@ $( document ).ready(function() {
             })
             .then(function (amount) {
                 investedEth = investedEth.add(amount);
-                $('#amount').text(ethers.utils.formatUnits(investedEth, 'ether'));
+                investedEth = investedEth.toString(10);
+                investedEth = new BigNumber(ethers.utils.formatUnits(investedEth, 'ether'));
+
+                $('#amount').text(investedEth.toFixed(3).toString());
             })
             .catch(console.error)
 
