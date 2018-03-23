@@ -23,14 +23,9 @@ $( document ).ready(function() {
         $( ".show-more-container" ).toggleClass( "hidden" );
     });
     // Countodwn for public sale
-    $('#clock').countdown('2018/03/25', {elapse: true})
-    .on('update.countdown', function(event) {
-        if (event.elapsed) {
-            $('#clock .announcement.sale-open').removeClass('hidden');
-        } else {
-            $('#clock .announcement.sale-closed').removeClass('hidden');
-            $('#clock .countdown').html(event.strftime('%-n&nbsp;days %-H&nbsp;hr %M&nbsp;min %S&nbsp;sec'));
-        }
+    var saleOpens = moment.tz("2018-03-25 16:00:00", "CET");
+    $('#clock .countdown').countdown(saleOpens.toDate(), function(event) {
+        $(this).html(event.strftime('%-n&nbsp;days %-H&nbsp;hr %M&nbsp;min %S&nbsp;sec'));
     });
     // Pangea screens slides on mobile
     $('.pangea-screens').slick({
