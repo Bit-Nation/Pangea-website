@@ -1,4 +1,30 @@
+var SALE_ADDRESS = "0xAF702F4be0cAeCcc2a3B42ee5d7Dd725bFA20B65";
+var MULTISIG_ADDRESS = "0xAF702F4be0cAeCcc2a3B42ee5d7Dd725bFA20B65";
+var JSON_RPC_URL = "https://rinkeby.infura.io/bitnation";
+
+const ethersProvider = new ethers.providers.JsonRpcProvider(JSON_RPC_URL);
+
 $( document ).ready(function() {
+
+    //Calculate invested ETH
+    (function () {
+
+        var investedEth;
+
+        ethersProvider
+            .getBalance(SALE_ADDRESS)
+            .then(function (amount) {
+                investedEth = amount;
+                return ethersProvider.getBalance(MULTISIG_ADDRESS);
+            })
+            .then(function (amount) {
+                investedEth = investedEth.add(amount);
+                $('#amount').text(ethers.utils.formatUnits(investedEth, 'ether'));
+            })
+            .catch(console.error)
+
+    })();
+
     // Open mobile menu
     $(".top-nav-icon").click(function(){
         $( "#topnav" ).toggleClass( "visible" );
@@ -59,7 +85,7 @@ $( document ).ready(function() {
             }
         }]
     });
-    // Timeline slider 
+    // Timeline slider
     $('.timeline').slick({
         dots: false,
         infinite: false,
