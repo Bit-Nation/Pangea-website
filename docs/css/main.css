@@ -1467,6 +1467,9 @@ section {
 #stats #cryptocompare {
   max-height: 45px;
 }
+#stats #citowise {
+  max-height: 45px;
+}
 
 #team .members {
   justify-content: flex-start;

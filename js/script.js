@@ -1,4 +1,33 @@
+var SALE_ADDRESS = "0xAF702F4be0cAeCcc2a3B42ee5d7Dd725bFA20B65";
+var MULTISIG_ADDRESS = "0x44E7346C988EdB3b23e7098f500Ff40138fFA03a";
+var JSON_RPC_URL = "https://rinkeby.infura.io/bitnation";
+
+const ethersProvider = new ethers.providers.JsonRpcProvider(JSON_RPC_URL);
+
 $( document ).ready(function() {
+
+    //Calculate invested ETH
+    (function () {
+
+        var investedEth;
+
+        ethersProvider
+            .getBalance(SALE_ADDRESS)
+            .then(function (amount) {
+                investedEth = amount;
+                return ethersProvider.getBalance(MULTISIG_ADDRESS);
+            })
+            .then(function (amount) {
+                investedEth = investedEth.add(amount);
+                investedEth = investedEth.toString(10);
+                investedEth = new BigNumber(ethers.utils.formatUnits(investedEth, 'ether'));
+
+                $('#amount').text(investedEth.toFixed(3).toString());
+            })
+            .catch(console.error)
+
+    })();
+
     // Open mobile menu
     $(".top-nav-icon").click(function(){
         $( "#topnav" ).toggleClass( "visible" );
@@ -23,14 +52,9 @@ $( document ).ready(function() {
         $( ".show-more-container" ).toggleClass( "hidden" );
     });
     // Countodwn for public sale
-    $('#clock').countdown('2018/03/25', {elapse: true})
-    .on('update.countdown', function(event) {
-        if (event.elapsed) {
-            $('#clock .announcement.sale-open').removeClass('hidden');
-        } else {
-            $('#clock .announcement.sale-closed').removeClass('hidden');
-            $('#clock .countdown').html(event.strftime('%-n&nbsp;days %-H&nbsp;hr %M&nbsp;min %S&nbsp;sec'));
-        }
+    var saleOpens = moment.tz("2018-03-25 16:00:00", "CET");
+    $('#clock .countdown').countdown(saleOpens.toDate(), function(event) {
+        $(this).html(event.strftime('%-n&nbsp;days %-H&nbsp;hr %M&nbsp;min %S&nbsp;sec'));
     });
     // Pangea screens slides on mobile
     $('.pangea-screens').slick({
@@ -59,7 +83,7 @@ $( document ).ready(function() {
             }
         }]
     });
-    // Timeline slider 
+    // Timeline slider
     $('.timeline').slick({
         dots: false,
         infinite: false,
