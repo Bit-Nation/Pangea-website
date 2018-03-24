@@ -54,7 +54,7 @@ $( document ).ready(function() {
     // Countodwn for public sale
     var saleOpens = moment.tz("2018-03-25 16:00:00", "CET");
     $('#clock .countdown').countdown(saleOpens.toDate(), function(event) {
-        $(this).html(event.strftime('%-n&nbsp;days %-H&nbsp;hr %M&nbsp;min %S&nbsp;sec'));
+        $(this).html(event.strftime('%-n&nbsp;day %-H&nbsp;hr %M&nbsp;min %S&nbsp;sec'));
     });
     // Pangea screens slides on mobile
     $('.pangea-screens').slick({
