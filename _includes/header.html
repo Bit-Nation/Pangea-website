@@ -4,7 +4,7 @@
         <a href="{% if site.active_lang == site.default_lang %} {{ site.url | absolute_url }}{% if site.baseurl %}/{{ site.baseurl }}{% endif %}/ {% else %}{{ site.url }}{% if site.baseurl %}/{{ site.baseurl }}{% endif %}/{{ site.active_lang }}/{% endif %}"><img src="{{ "/img/logo-bitnation-h.svg" | relative_url }}"></a>
     </div>
     <div class="grid-cell top-nav-icon">
-        <button onclick="show_menu()"><i id="openmenu" class="fal fa-bars"></i><i id="closemenu" class="hidden fal fa-times"></i></button>
+        <button><i id="openmenu" class="fal fa-bars"></i><i id="closemenu" class="hidden fal fa-times"></i></button>
     </div>
     <div id="topnav" class="main-menu grid-cell">
         <nav class="grid main-nav">
