@@ -1,5 +1,13 @@
 $( document ).ready(function() {
 
+    (function () {
+
+        const weiPerPat = 0.00046044671 + -0.00002979155 * Math.log(-1521655200 + 1521990000);
+
+        $("#pat_eth_rate").text(Math.round(1 / weiPerPat) + " PAT / ETH");
+
+    })();
+
     //Calculate invested ETH
     //Display invested ETH
     $.ajax({
