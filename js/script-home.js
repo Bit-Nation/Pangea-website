@@ -1,6 +1,6 @@
 $( document ).ready(function() {
     // Countodwn for public sale
-    var saleOpens = moment.tz("2018-03-25 16:00:00", "CET");
+    var saleOpens = moment.unix(1521990000);
     $('#clock .countdown').countdown(saleOpens.toDate(), function(event) {
         $(this).html(event.strftime('%-H&nbsp;hr %M&nbsp;min %S&nbsp;sec'));
     });
