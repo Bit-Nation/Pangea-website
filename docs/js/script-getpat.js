@@ -1,5 +1,6 @@
 $( document ).ready(function() {
 
+    //Calculate invested ETH
     //Display invested ETH
     $.ajax({
         url: "https://ico-fund-calculation.herokuapp.com/",
