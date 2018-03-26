@@ -1,138 +1,137 @@
-Home: "Home"
-Documents: "Documents"
+Home: "Inicio"
+Documents: "Documentos"
 FAQ: "FAQ"
-Terms of Use: "Terms of Use"
-Privacy Policy: "Privacy Policy"
-Enter Pangea: "Enter Pangea"
-The Internet of Sovereignty: "The Internet of Sovereignty"
-Install Pangea: "Install Pangea"
-Get PAT Tokens: "Get PAT Tokens"
-Join Bitnation: "Join Bitnation"
-Bitnation is Governance 2.0: "Bitnation is Governance 2.0"
-Decentralised | Borderless | Voluntary: "Decentralised | Borderless | Voluntary"
-Bitnation is the world's first Decentralized Borderless Voluntary Nation (DBVN). Bitnation started in July 2014 and hosted the world’s first blockchain marriage, birth certificate, refugee emergency ID, World Citizenship, DBVN Constitution and more. The website proof-of-concept, including the blockchain ID and Public Notary, is used by tens of thousands of Bitnation Citizens and Embassies around the world. Bitnation is the winner of UNESCO’s Netexplo Award 2017, and has been featured by the Wall Street Journal, Bloomberg, BBC, CNN, WIRED, VICE, TechCrunch, The Economist, Russia Today among many others.: "Bitnation is the world's first Decentralized Borderless Voluntary Nation (DBVN). Bitnation started in July 2014 and hosted the world’s first blockchain marriage, birth certificate, refugee emergency ID, World Citizenship, DBVN Constitution and more. The website proof-of-concept, including the blockchain ID and Public Notary, is used by tens of thousands of Bitnation Citizens and Embassies around the world. Bitnation is the winner of UNESCO’s Netexplo Award 2017, and has been featured by the Wall Street Journal, Bloomberg, BBC, CNN, WIRED, VICE, TechCrunch, The Economist, Russia Today among many others."
-P2P Agreements: "P2P Agreements"
-Pangea is a decentralised market for legal services. Create and execute peer-to-peer agreements seamlessly across the world, resolve disputes fairly and efficiently. Choose an arbitrator, or become an arbitrator in your field of expertise.: "Pangea is a decentralised market for legal services. Create and execute peer-to-peer agreements seamlessly across the world, resolve disputes fairly and efficiently. Choose an arbitrator, or become an arbitrator in your field of expertise."
-Frontier Technology: "Frontier Technology"
-Pangea is a secure mesh network forming a distributed web, accessed through a smartphone-chat user-friendly interface. Blockchain agnostic smart contract functionality powers the Pangea Jurisdiction, currently implemented with Ethereum.: "Pangea is a secure mesh network forming a distributed web, accessed through a smartphone-chat user-friendly interface. Blockchain agnostic smart contract functionality powers the Pangea Jurisdiction, currently implemented with Ethereum."
-Your Own Nations: "Your Own Nations"
-On Pangea you can create your own Decentralised Borderless Voluntary Nation (DBVN). Choose your Code of Law and Decision Making Mechanism, write a Constitution and provide Governance Services to Citizens.: "On Pangea you can create your own Decentralised Borderless Voluntary Nation (DBVN). Choose your Code of Law and Decision Making Mechanism, write a Constitution and provide Governance Services to Citizens."
+Terms of Use: "Términos de uso"
+Privacy Policy: "Política de privacidad"
+Enter Pangea: "Entrar en Pangea"
+The Internet of Sovereignty: "El Internet de la Soberanía"
+Install Pangea: "Instalar Pangea"
+Get PAT Tokens: "Obtener tokens PAT"
+Join Bitnation: "Únete a Bitnation"
+Bitnation is Governance 2.0: "Bitnation es Governanza 2.0"
+Decentralised | Borderless | Voluntary: "Descentralizado | Sin fronteras | Voluntario"
+Bitnation is the world's first Decentralized Borderless Voluntary Nation (DBVN). Bitnation started in July 2014 and hosted the world’s first blockchain marriage, birth certificate, refugee emergency ID, World Citizenship, DBVN Constitution and more. The website proof-of-concept, including the blockchain ID and Public Notary, is used by tens of thousands of Bitnation Citizens and Embassies around the world. Bitnation is the winner of UNESCO’s Netexplo Award 2017, and has been featured by the Wall Street Journal, Bloomberg, BBC, CNN, WIRED, VICE, TechCrunch, The Economist, Russia Today among many others.: "Bitnation es la primera nación voluntaria descentralizada sin fronteras del mundo (DBVN). Bitnation comenzó en julio de 2014 y acogió el primer matrimonio Blockchain del mundo, certificado de nacimiento, identificación de emergencia de refugiados, ciudadanía mundial, constitución DBVN y más. El proof-of-concept del sitio web, incluyendo el Blockchain ID y el notario público, es utilizado por decenas de miles de ciudadanos y embajadas Bitnation en todo el mundo. Bitnation es el ganador del Premio Netexplo 2017 de la UNESCO, y ha sido presentado por el Wall Street Journal, Bloomberg, BBC, CNN, Wired, Vice, TechCrunch, The Economist, Russia Today entre muchos otros."
+P2P Agreements: "Acuerdos P2P"
+Pangea is a decentralised market for legal services. Create and execute peer-to-peer agreements seamlessly across the world, resolve disputes fairly and efficiently. Choose an arbitrator, or become an arbitrator in your field of expertise.: "Pangea es un mercado descentralizado para servicios jurídicos. Crea y ejecuta acuerdos entre pares de forma transparente en todo el mundo, resuelve conflictos de manera justa y eficiente. Elija un árbitro o hágase árbitro en su campo de especialización."
+Frontier Technology: "Tecnología Frontier"
+Pangea is a secure mesh network forming a distributed web, accessed through a smartphone-chat user-friendly interface. Blockchain agnostic smart contract functionality powers the Pangea Jurisdiction, currently implemented with Ethereum.: "Pangea es una red en malla segura que forma una web distribuida, a la que se accede a través de una interfaz fácil de usar para smartphones. La funcionalidad de contrato inteligente agnóstico de Blockchain potencia la jurisdicción Pangea, actualmente implementada con Ethereum."
+Your Own Nations: "Sus propias naciones"
+On Pangea you can create your own Decentralised Borderless Voluntary Nation (DBVN). Choose your Code of Law and Decision Making Mechanism, write a Constitution and provide Governance Services to Citizens.: "En Pangea usted puede crear su propia nación voluntaria descentralizada sin fronteras (DBVN). Elija su código de ley y mecanismo de decisión, escriba una constitución y proporcione servicios de gobernanza a los ciudadanos."
 Whitepaper (42 pgs.): "Whitepaper (42 pgs.)"
 Litepaper (5 pgs.): "Litepaper (5 pgs.)"
-Translations: "Translations"
-Bitnation is here: "Bitnation is here:"
-Install the Pangea Jurisdiction: "Install the Pangea Jurisdiction"
-Pangea Arbitration Token (PAT): "Pangea Arbitration Token (PAT)"
-The Pangea Arbitration Token (PAT) is an ERC20 compatible in-app token for the Pangea Jurisdiction. The PAT token rewards good reputation and is issued on Pangea when Citizens accumulate non-tradable reputation tokens through creating a contract, successfully completing a contract or resolving a dispute attached to a contract. PAT is an algorithmic reputation token, an arbitration currency based on performance rather than purchasing power, popularity or attention. The distribution mechanism for PAT tokens on Pangea is an autonomous agent, Lucy, which will initially launch on Ethereum as a smart contract. This mechanism is blockchain agnostic and can be ported to any viable smart contract platform.: "The Pangea Arbitration Token (PAT) is an ERC20 compatible in-app token for the Pangea Jurisdiction. The PAT token rewards good reputation and is issued on Pangea when Citizens accumulate non-tradable reputation tokens through creating a contract, successfully completing a contract or resolving a dispute attached to a contract. PAT is an algorithmic reputation token, an arbitration currency based on performance rather than purchasing power, popularity or attention. The distribution mechanism for PAT tokens on Pangea is an autonomous agent, Lucy, which will initially launch on Ethereum as a smart contract. This mechanism is blockchain agnostic and can be ported to any viable smart contract platform."
-Time remaining until bonus tier drops: "Time remaining until bonus tier drops:"
-PAT tokens are issued by BITNATION AMERICAS LTD. Belize city, Newtown Barracks, Marina Towers, Suite 508. Reg.number 170.093.: "PAT tokens are issued by BITNATION AMERICAS LTD. Belize city, Newtown Barracks, Marina Towers, Suite 508. Reg.number 170.093."
-Click here to read the Bitnation PAT Token Sale Agreement.: "Click here to read the Bitnation PAT Token Sale Agreement."
-Get PAT Tokens: "Get PAT Tokens"
+Translations: "Traducciones"
+Bitnation is here: "Bitnation está aquí:"
+Install the Pangea Jurisdiction: "Instalar la Jurisdicción Pangea"
+Pangea Arbitration Token (PAT): "Token de arbitraje de Pangea (PAT)"
+The Pangea Arbitration Token (PAT) is an ERC20 compatible in-app token for the Pangea Jurisdiction. The PAT token rewards good reputation and is issued on Pangea when Citizens accumulate non-tradable reputation tokens through creating a contract, successfully completing a contract or resolving a dispute attached to a contract. PAT is an algorithmic reputation token, an arbitration currency based on performance rather than purchasing power, popularity or attention. The distribution mechanism for PAT tokens on Pangea is an autonomous agent, Lucy, which will initially launch on Ethereum as a smart contract. This mechanism is blockchain agnostic and can be ported to any viable smart contract platform.: "El Token de Arbitraje de Pangea (PAT) es un token in-app compatible con ERC20 para la jurisdicción Pangea. El token PAT es una prueba de reputación para los ciudadanos, emitido cuando los ciudadanos crean un contrato, completan con éxito un contrato o resuelven una disputa vinculada a un contrato. PAT es un token de reputación algorítmica; una divisa de arbitraje basada en el rendimiento, en lugar de poder adquisitivo, popularidad o atención."
+Time remaining until bonus tier drops: "Tiempo restante hasta que el nivel de bonificación caiga:"
+PAT tokens are issued by BITNATION AMERICAS LTD. Belize City, Newtown Barracks, Marina Towers, Suite 508. Reg. number 170.093.: "Los Tokens PAT son emitidos por BITNATION AMERICAS LTD. Ciudad de Belice, Marina Towers, Suite 508. Número de registro 170.093."
+Click here to read the Bitnation PAT Token Sale Agreement.: "Haz clic aquí para leer el acuerdo de venta de los PAT Token de Bitnation."
 Whitepaper: "Whitepaper"
 Overview: "Overview"
 42Bn: "42Bn"
 Total PAT supply: "Total PAT supply"
 $30M: "$30M"
-Token sale hard-cap: "Token sale hard-cap"
+Token sale hard-cap: "Tope de venta de tokens"
 $10Tn: "$10Tn"
-System D economy: '"System D" economy'
+System D economy: 'Economía "Sistema D"'
 10%: "10%"
-Allocation of PAT for public Token Sale: "Allocation of PAT for public Token Sale"
+Allocation of PAT for public Token Sale: "Asignación de PAT para venta pública de Token"
 2.6Bn: "2.6Bn"
-Smartphone users: "Smartphone users"
+Smartphone users: "Usuarios de smartphones"
 $600Bn: "$600Bn"
-Legal services market: "Legal services market"
-Token Distribution: "Token Distribution"
+Legal services market: "Mercado de servicios legales"
+Token Distribution: "Distribución de Tokens"
 34%: "34%"
-token sale: "token sale"
+token sale: "venta de tokens"
 14%: "14%"
-future contributors: "future contributors"
-Pangea citizens: "Pangea citizens"
+future contributors: "contribuidores futuros"
+Pangea citizens: "Ciudadanos de Pangea"
 18%: "18%"
-core contributors: "core contributors"
-Projected Use of Funds: "Projected Use of Funds"
+core contributors: "colaboradores principales"
+Projected Use of Funds: "Uso proyectado de fondos"
 52%: "52%"
-technology: "technology"
+technology: "tecnología"
 18%: "18%"
-operations: "operations"
-user adoption: "user adoption"
+operations: "operaciones"
+user adoption: "adopción de usuarios"
 12%: "12%"
-ecosystem: "ecosystem"
-Key Stats: "Key Stats"
+ecosystem: "ecosistema"
+Key Stats: "Estadísitcas principales"
 +15K: "+15K"
-Bitnation Citizens: "Bitnation Citizens"
+Bitnation Citizens: "Ciudadanos Bitnation"
 +50K: "+50K"
-Open Source Community: "Open Source Community"
+Open Source Community: "Comunidad Open Source"
 +200K: "+200K"
-Lines of Code: "Lines of Code"
+Lines of Code: "Líneas de código"
 +5K: "+5K"
-Contracts Notarised: "Contracts Notarised"
+Contracts Notarised: "Contratos notariados"
 + 500: "+500"
-Registered Nations: "Registered Nations"
-Exchanges and Wallets: "Exchanges and Wallets"
-(More exchanges coming soon.): "(More exchanges coming soon.)"
-Bitnation Timeline: "Bitnation Timeline"
-Core Contributors: "Core Contributors"
-Operations: "Operations"
-Communications: "Communications"
-Technology: "Technology"
-Advisors: "Advisors"
+Registered Nations: "Naciones registradas"
+Exchanges and Wallets: "Exchanges y billeteras"
+(More exchanges coming soon.): "(Más Exchanges próximamente.)"
+Bitnation Timeline: "Línea del tiempo de Bitnation"
+Core Contributors: "Colaboradores Principales"
+Operations: "Operaciones"
+Communications: "Comunicaciones"
+Technology: "Tecnología"
 Ambassador Network: "Red de embajadores"
-Our Partners: "Our Partners"
-Media Coverage: "Media Coverage"
-Awards: "Awards"
-Bitnation won the prestigious UNESCO NetExplo 2017 Grand Prix. Previous winners include Twitter and Spotify.: "Bitnation won the prestigious UNESCO NetExplo 2017 Grand Prix. Previous winners include Twitter and Spotify."
-Please enter your email address here: "Please enter your email address here"
-Keep me updated: "Keep me updated"
-Download: "Download"
+Advisors: "Advisors"
+Our Partners: "Nuestros aliados"
+Media Coverage: "Cobertura en medios"
+Awards: "Premios"
+Bitnation won the prestigious UNESCO NetExplo 2017 Grand Prix. Previous winners include Twitter and Spotify.: "Bitnation ganó el prestigioso Gran Premio UNESCO NetExplo 2017. Entre los ganadores anteriores se encuentran Twitter y Spotify."
+Please enter your email address here: "Por favor ingresa tu correo aquí"
+Keep me updated: "Mantenerme actualizado"
+Download: "Descargar"
 
 timeline-events:
-- date: July 14, 2014
-  title: Bitnation is founded
-  description: World's first blockchain marriage, world citizenship ID and other pilots!
+- date: Julio 14 de 2014
+  title: Bitnation es fundada
+  description: ¡Primer matrimonio Blockchain del mundo, identificación de ciudadanía mundial y otros pilotos!
   icon: fal fa-flag
 
 - date: Q2 2015
-  title: First iteration of Pangea
-  description: Using the Horizon chain. Blockchain land title and birth certificate pilots conducted.
+  title: Primera iteración de Pangea
+  description: Usando la cadena Horizon. Títulos de tierra y certificado de nacimiento de pilotos realizados en Blockchain.
   icon: fal fa-file-alt
 
 - date: Q3 2015
-  title: Refugee Emergency Response
-  description: Blockchain ID, Citizen and Embassy functionalities.
+  title: Respuesta de emergencia de refugiados
+  description: Blockchain ID, funciones ciudadanas y de embajada.
   icon: fal fa-id-card
 
 - date: Q4 2015
-  title: Public Notary
-  description: Created in cooperation with Estonia's e-Residency Program.
+  title: Notaría pública
+  description: Creada en cooperación con el programa de residencia electrónica de Estonia.
   icon: fal fa-book
 
 - date: Q1/Q4 2016
-  title: DBVN and Pangea v. 02
-  description: Launch of DBVN on Ethereum, DBVN Resource Center, and Pangea v. 02 on SSB.
+  title: DBVN y Pangea v. 02
+  description: Lanzamiento de DBVN en Ethereum, centro de recursos de DBVN, y Pangea v. 02 en SSB.
   icon: fab fa-ethereum
 
 - date: Q1/Q2 2017
-  title: IPFS, PAT and NETEXPLO
-  description: New IPFS Centric Pangea Backend, PAT Token Design and UNESCO NETEXPLO Award.
+  title: IPFS, PAT y NETEXPLO
+  description: Nuevo Backend de Pangea Centrado en IPFS, diseño de Token PAT y Premio UNESCO NETEXPLO.
   icon: fal fa-trophy
 
 - date: Q3/Q4 2017
-  title: Organisational Growth
-  description: Scaling team, new Pange frontend, ICO pre-sale.
-  icon: fal fa-file-code
+  title: Crecimiento organizacional
+  description: Escalar el equipo, nuevo fronted de Pangea, pre-venta ICO.
+  icon:  fal fa-file-code
 
 - date: Q1/2 2018
   title: Pangea 0.3
-  description: Release Pangea 0.3 with Nations and chat, 1.0 Lucy AI and arbitration system.
+  description: Lanzar Pangea 0.3 con Naciones y chat, Lucy AI 1.0 y sistema de arbitraje.
   icon: fal fa-comments
 
 - date: Q3/4 2018
-  title: Got-to-market phase
-  description: Rewards integration, public API and DApp store, public launch.
-  icon: fal fa-rocket
+  title: Fase de lanzamiento al mercado
+  description: Integración de recompensas, API pública y tienda DApp, lanzamiento público.
+  icon: fal fa-rocket 
 
 - date: Q1/2 2019
-  title: DApps, Exocortex 1.0
+  title: DApps, Exocorteza 1.0
   description:
   icon: fal fa-cloud-download
