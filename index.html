@@ -224,14 +224,13 @@ image: /img/index.png
     </div>
     <div class="grid yellow-box drop-shadow">
         <div id="clock" class="grid-cell">
-            <!-- <p class="announcement sale-open hidden">{{ text["Public PAT Token sale is open!"] }}</p> -->
-            <p class="announcement sale-closed">{{ text["Public token sale starts here on"] }}<br>{{ text["March 25th, 2018."] }}</p>
+            <p class="announcement">{{ text["Time remaining until bonus tier drops"] }}</p>
             <div class="countdown"></div>
         </div>
     </div>
     <div class="grid">
         <div class="grid-cell">
-            <p class="light">{{ text["PAT tokens are issued by BITNATION AMERICAS LTD. Belize city, Newtown Barracks, Marina Towers, Suite 508. Reg.number 170.093."] }}<br><a href="{{ "/purchase-agreement/" | absolute_url }}">{{ text["Click here to read the Bitnation PAT Token Sale Agreement."] }}</a></p>
+            <p class="light">{{ text["PAT tokens are issued by BITNATION AMERICAS LTD. Belize City, Newtown Barracks, Marina Towers, Suite 508. Reg. number 170.093."] }}<br><a href="{{ "/purchase-agreement/" | absolute_url }}">{{ text["Click here to read the Bitnation PAT Token Sale Agreement."] }}</a></p>
         </div>
     </div>
     <div class="grid btn-3">
@@ -343,7 +342,7 @@ image: /img/index.png
     <div class="box yellow-box drop-shadow margin-bottom-30">
         <div class="grid">
             <div class="grid-cell">
-                <h3>Key Stats</h3>
+                <h3>{{ text["Key Stats"] }}</h3>
             </div>
         </div>
         <div class="grid">
@@ -389,7 +388,7 @@ image: /img/index.png
         </div>
         <div class="grid more-coming-soon t-white">
             <div class="grid-cell">
-                <p class="no-margin">(More exchanges coming soon.)</p>
+                <p class="no-margin">{{ text["(More exchanges coming soon.)"] }}</p>
             </div>
         </div>
     </div>
@@ -680,15 +679,8 @@ image: /img/index.png
     {% include newsletter-form.html %}
 </section>
 
-{% include pat-popup.html %}
 <script src="{{ "/js/jquery-3.2.1.min.js" | relative_url }}"></script>
 <script src="{{ "/js/jquery.countdown.min.js" | relative_url }}"></script>
-<script src="{{ "/js/jquery.modal.min.js" | relative_url }}"></script>
 <script src="{{ "/js/moment.min.js" | relative_url }}"></script>
-<script src="{{ "/js/moment-timezone-with-data.min.js" | relative_url }}"></script>
 <script src="{{ "/js/slick.min.js" | relative_url }}"></script>
-<script src="{{ "/js/fontawesome.min.js" | relative_url }}"></script>
-<script src="{{ "/js/fa-light.min.js" | relative_url }}"></script>
-<script src="{{ "/js/fa-solid.min.js" | relative_url }}"></script>
-<script src="{{ "/js/fa-brands.min.js" | relative_url }}"></script>
 <script src="{{ "/js/script-home.js" | relative_url }}"></script>
