@@ -318,6 +318,10 @@ section {
     padding: 15px;
 }
 
+.grid-cell.grow {
+    flex-grow: 1;
+}
+
 .btn-3 {
     justify-content: center;
     @media screen and (min-width: 930px) {
@@ -1077,4 +1081,23 @@ section {
 #instructions {
     margin-top: -100px;
     padding-top: 130px;
+}
+
+#pat-price-graph {
+    margin: 15px 0;
+    max-width: 700px;
+}
+
+#calculator {
+    .calc-box {
+
+    }
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    input {
+        text-align: center;
+        padding: 10px 5px;
+    }
 }
