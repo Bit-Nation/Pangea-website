@@ -118,7 +118,7 @@ timeline-events:
 
 - date: Q3/Q4 2017
   title: Organisational Growth
-  description: Scaling team, new Pange frontend, ICO pre-sale.
+  description: Scaling team, new Pangea frontend, ICO pre-sale.
   icon: fal fa-file-code
 
 - date: Q1/2 2018
@@ -127,7 +127,7 @@ timeline-events:
   icon: fal fa-comments
 
 - date: Q3/4 2018
-  title: Got-to-market phase
+  title: Go-to-market phase
   description: Rewards integration, public API and DApp store, public launch.
   icon: fal fa-rocket 
 
