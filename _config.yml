@@ -47,7 +47,7 @@ exclude:
 
 google_analytics_id: UA-106469149-1
 
-languages: ["en", "es", "id", "vi"]
+languages: ["en", "es", "id", "ru", "vi"]
 default_lang: "en"
 exclude_from_localization: ["_site", "css", "img", "js", "robots.txt", "sitemap.xml", "favicon.ico", "fonts", "CNAME", "CODE_OF_CONDUCT.md", "LICENSE", "README.md"]
 parallel_localization: true

@@ -129,9 +129,9 @@ timeline-events:
 - date: Q3/4 2018
   title: Giai đoạn tiếp thị
   description: Tích hợp phần thưởng, công bố hàm API và cửa hàng Dapp, công khai công cộng.
-  icon: fal fa-rocket 
+  icon: fal fa-rocket
 
 - date: Q1/2 2019
   title: DApps, Exocortex 1.0
-  description: 
+  description:
   icon: fal fa-cloud-download
