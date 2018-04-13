@@ -682,6 +682,9 @@ section {
             color: $orange;
             text-decoration: none;
         }
+        a.submenu-item:hover {
+            text-decoration: underline;
+        }
     }
     .main-nav {
         flex-direction: column;
@@ -700,7 +703,7 @@ section {
     .menu-item, .submenu-item {
         display: block;
         text-align: center;
-        height: 40px;
+        min-height: 40px;
         margin: auto;
         color: $orange;
         line-height: 40px;
@@ -708,6 +711,9 @@ section {
     .menu-item {
         font-weight: 700;
         width: 100%;
+    }
+    .submenu-item {
+        min-width: 200px;
     }
     .dropdown-content {
         display: none;
@@ -728,7 +734,7 @@ section {
         .dropdown:hover .dropdown-content {
             display: block;
             position: absolute;
-            transform: translateX(-25%);
+            transform: translateX(-70%);
         }
         .submenu-item {
             padding: 0 30px;

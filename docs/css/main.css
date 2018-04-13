@@ -1181,6 +1181,9 @@ section {
   color: #FF8B00;
   text-decoration: none;
 }
+.main-header .main-menu a.submenu-item:hover {
+  text-decoration: underline;
+}
 .main-header .main-nav {
   flex-direction: column;
 }
@@ -1198,7 +1201,7 @@ section {
 .main-header .menu-item, .main-header .submenu-item {
   display: block;
   text-align: center;
-  height: 40px;
+  min-height: 40px;
   margin: auto;
   color: #FF8B00;
   line-height: 40px;
@@ -1206,6 +1209,9 @@ section {
 .main-header .menu-item {
   font-weight: 700;
   width: 100%;
+}
+.main-header .submenu-item {
+  min-width: 200px;
 }
 .main-header .dropdown-content {
   display: none;
@@ -1226,7 +1232,7 @@ section {
   .main-header .dropdown:hover .dropdown-content {
     display: block;
     position: absolute;
-    transform: translateX(-25%);
+    transform: translateX(-70%);
   }
   .main-header .submenu-item {
     padding: 0 30px;

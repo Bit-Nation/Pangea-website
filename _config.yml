@@ -47,7 +47,7 @@ exclude:
 
 google_analytics_id: UA-106469149-1
 
-languages: ["en", "es"]
+languages: ["en", "de", "es", "fr", "id", "pt", "ru", "vi"]
 default_lang: "en"
 exclude_from_localization: ["_site", "css", "img", "js", "robots.txt", "sitemap.xml", "favicon.ico", "fonts", "CNAME", "CODE_OF_CONDUCT.md", "LICENSE", "README.md"]
 parallel_localization: true
@@ -61,6 +61,7 @@ language_names:
   es: Español
   fil: Filipino
   fr: Français
+  id: bahasa Indonesia
   it: Italiano
   ja: 日本語
   ko: 한국어
