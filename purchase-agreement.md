@@ -15,7 +15,7 @@ If an individual, Participant is at least 18 years old and of sufficient legal a
 
 If a legal person, Participant is duly organized, validly existing and in good standing under the laws of its domiciliary jurisdiction and each jurisdiction where it conducts business.
 
-BITNATION is developing PANGEA software, a decentralized jurisdiction for the peer-to-peer creation, arbitration and enforcement of agreements, built as an intuitive mobile chat application, as further described in BITNATION White Paper. 
+BITNATION is developing PANGEA software, a decentralised jurisdiction for the peer-to-peer creation, arbitration and enforcement of agreements, built as an intuitive mobile chat application, as further described in BITNATION White Paper. 
 
 By purchasing BITNATION PAT Tokens from the Company during the Sale Period, you will be bound by these Terms and all terms incorporated by reference. If you have any questions regarding these terms, please contact Company at 
 [info@bitnation.co](mailto:info@bitnation.co).
@@ -90,7 +90,7 @@ Because Tokens are based on the Ethereum protocol, any malfunction, breakdown or
 
 3) Risk of Mining Attacks
 
-As with other decentralized cryptographic tokens based on the Ethereum protocol, the Tokens are susceptible to attacks by miners in the course of validating Token transactions on the Ethereum blockchain, including, but not limited, to double-spend attacks, majority mining power attacks, and selfish-mining attacks. Any successful attacks present a risk to the Tokens, including, but not limited to, accurate execution and recording of transactions involving Tokens.
+As with other decentralised cryptographic tokens based on the Ethereum protocol, the Tokens are susceptible to attacks by miners in the course of validating Token transactions on the Ethereum blockchain, including, but not limited, to double-spend attacks, majority mining power attacks, and selfish-mining attacks. Any successful attacks present a risk to the Tokens, including, but not limited to, accurate execution and recording of transactions involving Tokens.
 
 4) Risk of Hacking and Security Weaknesses
 
@@ -148,7 +148,7 @@ Because Tokens confer no governance rights of any kind with respect to the Netwo
 
 15) Risks Involving Cloud Storage
 
-As the Company provides a decentralized cloud storage service to individual and institutional clients, including users and applications, the Services are susceptible to a number of risks related to the storage of data in the cloud. While the Company does not have access to the contents of the data stored through the Services, the Services may involve the storage of large amounts of sensitive and/or proprietary information, which may be compromised in the event of a cyberattack or other malicious activity. Similarly, the Services may be interrupted and files may become temporarily unavailable in the event of such an attack or malicious activity. Because users can use a variety of hardware and software that may interface with the Network, there is the risk that the Services may become unavailable or interrupted based on a failure of interoperability or an inability to integrate these third-party systems and devices that the Company does not control with the Company's Services. The risk that the Services may face increasing interruptions and the Network may face additional security vulnerabilities could adversely affect the Network and therefore the future utility of any Tokens that you hold.
+As the Company provides a decentralised cloud storage service to individual and institutional clients, including users and applications, the Services are susceptible to a number of risks related to the storage of data in the cloud. While the Company does not have access to the contents of the data stored through the Services, the Services may involve the storage of large amounts of sensitive and/or proprietary information, which may be compromised in the event of a cyberattack or other malicious activity. Similarly, the Services may be interrupted and files may become temporarily unavailable in the event of such an attack or malicious activity. Because users can use a variety of hardware and software that may interface with the Network, there is the risk that the Services may become unavailable or interrupted based on a failure of interoperability or an inability to integrate these third-party systems and devices that the Company does not control with the Company's Services. The risk that the Services may face increasing interruptions and the Network may face additional security vulnerabilities could adversely affect the Network and therefore the future utility of any Tokens that you hold.
 
 16) Unanticipated Risks
 
