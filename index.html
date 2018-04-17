@@ -226,7 +226,7 @@ image: /img/index.png
     <div class="grid yellow-box drop-shadow">
         <div id="clock" class="grid-cell">
             <p class="announcement">{{ text["Time remaining until bonus tier drops"] }}</p>
-            <div class="countdown"></div>
+            <div class="countdown"{% if site.rtl_languages contains site.active_lang %} dir="ltr"{% endif %}></div>
         </div>
     </div>
     <div class="grid">

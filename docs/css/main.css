@@ -1261,6 +1261,7 @@ section {
   background-size: cover;
 }
 #install .pangea-screens {
+  direction: ltr;
   max-width: 930px;
   margin: 0 auto;
   padding: 0 20px;
@@ -1290,6 +1291,9 @@ section {
   max-width: 280px;
 }
 
+#history {
+  direction: ltr;
+}
 #history .timeline {
   max-width: 930px;
   margin: auto;
@@ -1311,6 +1315,7 @@ section {
   margin-left: none;
 }
 #history .slider-arrows {
+  direction: ltr;
   text-align: right;
   padding: 10px 35px;
   max-width: 930px;

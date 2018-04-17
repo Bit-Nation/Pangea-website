@@ -761,6 +761,7 @@ section {
     background-color: $grey1;
     background-size: cover;
     .pangea-screens {
+        direction: ltr;
         max-width: 930px;
         margin: 0 auto;
         padding: 0 20px;
@@ -794,6 +795,7 @@ section {
 }
 
 #history {
+    direction: ltr;
     .timeline {
         max-width: 930px;
         margin: auto;
@@ -815,6 +817,7 @@ section {
         margin-left: none;
     }
     .slider-arrows {
+        direction: ltr;
         text-align: right;
         padding: 10px 35px;
         max-width: 930px;
