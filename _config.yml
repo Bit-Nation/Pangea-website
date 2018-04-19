@@ -47,7 +47,7 @@ exclude:
 
 google_analytics_id: UA-106469149-1
 
-languages: ["en", "ar", "de", "es", "fr", "id", "ja", "pl", "pt", "ru", "vi"]
+languages: ["en", "ar", "de", "es", "fr", "id", "ja", "pl", "pt", "ru", "tr", "vi"]
 default_lang: "en"
 exclude_from_localization: ["_site", "css", "img", "js", "robots.txt", "sitemap.xml", "favicon.ico", "fonts", "CNAME", "CODE_OF_CONDUCT.md", "LICENSE", "README.md"]
 parallel_localization: true
@@ -68,6 +68,7 @@ language_names:
   pl: Język polski
   pt: Português
   ru: Русский
+  tr: Türkçe
   vi: Tiếng Việt
   zh: 國語
 
