@@ -563,10 +563,14 @@ section {
     line-height: 1.5;
 }
 
-.warning {
-    color: $yellow !important;
+span.warning {
+    color: $orange;
     font-size: 1.2em;
     font-weight: bold;
+}
+
+span.warning.light {
+    color: $yellow;
 }
 
 .countdown {
