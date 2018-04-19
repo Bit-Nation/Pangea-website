@@ -91,7 +91,7 @@ image: /img/index.png
             </div>
         </div>
         <div class="grid-cell whole">
-            <p class="no-margin">{{ text["Bitnation is the world's first Decentralized Borderless Voluntary Nation (DBVN). Bitnation started in July 2014 and hosted the world’s first blockchain marriage, birth certificate, refugee emergency ID, World Citizenship, DBVN Constitution and more. The website proof-of-concept, including the blockchain ID and Public Notary, is used by tens of thousands of Bitnation Citizens and Embassies around the world. Bitnation is the winner of UNESCO’s Netexplo Award 2017, and has been featured by the Wall Street Journal, Bloomberg, BBC, CNN, WIRED, VICE, TechCrunch, The Economist, Russia Today among many others."] }}</p>
+            <p class="no-margin">{{ text["Bitnation is the world's first Decentralised Borderless Voluntary Nation (DBVN). Bitnation started in July 2014 and hosted the world’s first blockchain marriage, birth certificate, refugee emergency ID, World Citizenship, DBVN Constitution and more. The website proof-of-concept, including the blockchain ID and Public Notary, is used by tens of thousands of Bitnation Citizens and Embassies around the world. Bitnation is the winner of UNESCO’s Netexplo Award 2017, and has been featured by the Wall Street Journal, Bloomberg, BBC, CNN, WIRED, VICE, TechCrunch, The Economist, Russia Today among many others."] }}</p>
         </div>
     </div>
 </section>
@@ -226,7 +226,7 @@ image: /img/index.png
     <div class="grid yellow-box drop-shadow">
         <div id="clock" class="grid-cell">
             <p class="announcement">{{ text["Time remaining until bonus tier drops"] }}</p>
-            <div class="countdown"></div>
+            <div class="countdown"{% if site.rtl_languages contains site.active_lang %} dir="ltr"{% endif %}></div>
         </div>
     </div>
     <div class="grid">
@@ -438,17 +438,17 @@ image: /img/index.png
                     <div class="grid-cell role">{{ member.role }}</div>
                     {% if member.social %}<div class="grid-cell grid links">
                         {% if member.social.linkedin %}<div class="grid-cell i-social">
-                            <a href="https://www.linkedin.com/in/{{ member.social.linkedin }}/">
+                            <a href="https://www.linkedin.com/in/{{ member.social.linkedin }}/" target="_blank">
                                 <i class="fab fa-linkedin"></i>
                             </a>
                         </div>{% endif %}
                         {% if member.social.twitter %}<div class="grid-cell i-social">
-                            <a href="https://twitter.com/{{ member.social.twitter }}">
+                            <a href="https://twitter.com/{{ member.social.twitter }}" target="_blank">
                                 <i class="fab fa-twitter"></i>
                             </a>
                         </div>{% endif %}{% if member.social.github %}
                         <div class="grid-cell i-social">
-                            <a href="https://github.com/{{ member.social.github }}">
+                            <a href="https://github.com/{{ member.social.github }}" target="_blank">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>{% endif %}
@@ -472,17 +472,17 @@ image: /img/index.png
                     <div class="grid-cell role">{{ member.role }}</div>
                     {% if member.social %}<div class="grid-cell grid links">
                         {% if member.social.linkedin %}<div class="grid-cell i-social">
-                            <a href="https://www.linkedin.com/in/{{ member.social.linkedin }}/">
+                            <a href="https://www.linkedin.com/in/{{ member.social.linkedin }}/" target="_blank">
                                 <i class="fab fa-linkedin"></i>
                             </a>
                         </div>{% endif %}
                         {% if member.social.twitter %}<div class="grid-cell i-social">
-                            <a href="https://twitter.com/{{ member.social.twitter }}">
+                            <a href="https://twitter.com/{{ member.social.twitter }}" target="_blank">
                                 <i class="fab fa-twitter"></i>
                             </a>
                         </div>{% endif %}{% if member.social.github %}
                         <div class="grid-cell i-social">
-                            <a href="https://github.com/{{ member.social.github }}">
+                            <a href="https://github.com/{{ member.social.github }}" target="_blank">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>{% endif %}
@@ -506,17 +506,17 @@ image: /img/index.png
                     <div class="grid-cell role">{{ member.role }}</div>
                     {% if member.social %}<div class="grid-cell grid links">
                         {% if member.social.linkedin %}<div class="grid-cell i-social">
-                            <a href="https://www.linkedin.com/in/{{ member.social.linkedin }}/">
+                            <a href="https://www.linkedin.com/in/{{ member.social.linkedin }}/" target="_blank">
                                 <i class="fab fa-linkedin"></i>
                             </a>
                         </div>{% endif %}
                         {% if member.social.twitter %}<div class="grid-cell i-social">
-                            <a href="https://twitter.com/{{ member.social.twitter }}">
+                            <a href="https://twitter.com/{{ member.social.twitter }}" target="_blank">
                                 <i class="fab fa-twitter"></i>
                             </a>
                         </div>{% endif %}{% if member.social.github %}
                         <div class="grid-cell i-social">
-                            <a href="https://github.com/{{ member.social.github }}">
+                            <a href="https://github.com/{{ member.social.github }}" target="_blank">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>{% endif %}
@@ -550,17 +550,17 @@ image: /img/index.png
                 <div class="grid-cell name">{{ member.name }}</div>
                 {% if member.social %}<div class="grid-cell grid links">
                     {% if member.social.linkedin %}<div class="grid-cell i-social">
-                        <a href="https://www.linkedin.com/in/{{ member.social.linkedin }}/">
+                        <a href="https://www.linkedin.com/in/{{ member.social.linkedin }}/" target="_blank">
                             <i class="fab fa-linkedin"></i>
                         </a>
                     </div>{% endif %}
                     {% if member.social.twitter %}<div class="grid-cell i-social">
-                        <a href="https://twitter.com/{{ member.social.twitter }}">
+                        <a href="https://twitter.com/{{ member.social.twitter }}" target="_blank">
                             <i class="fab fa-twitter"></i>
                         </a>
                     </div>{% endif %}{% if member.social.github %}
                     <div class="grid-cell i-social">
-                        <a href="https://github.com/{{ member.social.github }}">
+                        <a href="https://github.com/{{ member.social.github }}" target="_blank">
                             <i class="fab fa-github"></i>
                         </a>
                     </div>{% endif %}
@@ -629,7 +629,7 @@ image: /img/index.png
     </div>
     <div class="grid social-icons-bottom">
         <div class="grid-cell">
-            <a href="https://github.com/Bit-Nation">
+            <a href="https://github.com/Bit-Nation" target="_blank">
                 <span class="icon-l fa-layers fa-fw">
                     <i class="fab fa-github" data-fa-transform="shrink-6"></i>
                     <i class="fal fa-circle"></i>
@@ -637,7 +637,7 @@ image: /img/index.png
             </a>
         </div>
         <div class="grid-cell">
-            <a href="https://twitter.com/@MyBitnation">
+            <a href="https://twitter.com/@MyBitnation" target="_blank">
                 <span class="icon-l fa-layers fa-fw">
                     <i class="fab fa-twitter" data-fa-transform="shrink-6"></i>
                     <i class="fal fa-circle"></i>
@@ -645,7 +645,7 @@ image: /img/index.png
             </a>
         </div>
         <div class="grid-cell">
-            <a href="https://angel.co/bitnation">
+            <a href="https://angel.co/bitnation" target="_blank">
                 <span class="icon-l fa-layers fa-fw">
                     <i class="fab fa-angellist" data-fa-transform="shrink-6"></i>
                     <i class="fal fa-circle"></i>
@@ -653,7 +653,7 @@ image: /img/index.png
             </a>
         </div>
         <div class="grid-cell">
-            <a href="https://t.me/PangeaBitnation">
+            <a href="https://t.me/PangeaBitnation" target="_blank">
                 <span class="icon-l fa-layers fa-fw">
                     <i class="fab fa-telegram-plane" data-fa-transform="shrink-6"></i>
                     <i class="fal fa-circle"></i>
@@ -661,7 +661,7 @@ image: /img/index.png
             </a>
         </div>
         <div class="grid-cell">
-            <a href="https://www.facebook.com/MyBitnation">
+            <a href="https://www.facebook.com/MyBitnation" target="_blank">
                 <span class="icon-l fa-layers fa-fw">
                     <i class="fab fa-facebook-f" data-fa-transform="shrink-6"></i>
                     <i class="fal fa-circle"></i>
@@ -669,7 +669,7 @@ image: /img/index.png
             </a>
         </div>
         <div class="grid-cell">
-            <a href="https://steemit.com/@bitnation">
+            <a href="https://steemit.com/@bitnation" target="_blank">
                 <span class="icon-l fa-layers fa-fw">
                     <i class="fab fa-steemit" data-fa-transform="shrink-6"></i>
                     <i class="fal fa-circle"></i>
