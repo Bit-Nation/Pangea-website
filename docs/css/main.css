@@ -1367,6 +1367,9 @@ span.warning.light {
 #stats #citowise {
   max-height: 45px;
 }
+#stats #chainrift {
+  max-height: 45px;
+}
 
 #team .members {
   justify-content: flex-start;
