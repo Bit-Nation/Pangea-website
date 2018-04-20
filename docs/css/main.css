@@ -1062,10 +1062,14 @@ section {
   line-height: 1.5;
 }
 
-.warning {
-  color: #FFCE00 !important;
+span.warning {
+  color: #FF8B00;
   font-size: 1.2em;
   font-weight: bold;
+}
+
+span.warning.light {
+  color: #FFCE00;
 }
 
 .countdown {
