@@ -376,6 +376,9 @@ section {
     padding-bottom: 15px;
     padding-top: 15px;
     max-width: 930px;
+    .grid-cell, p {
+        max-width: 100%;
+    }
 }
 
 .bg-grey1 {
@@ -391,7 +394,13 @@ section {
     padding: 30px 20px;
     z-index: 99;
     position: relative;
-    max-width: 400px;
+    max-width: 650px;
+    .address {
+        overflow-wrap: break-word;
+        font-size: 1.2em;
+        padding-top: 30px;
+        letter-spacing: 1px;
+    }
 }
 
 .address-box {
