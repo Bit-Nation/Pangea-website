@@ -881,6 +881,9 @@ section {
   padding-top: 15px;
   max-width: 930px;
 }
+.white-box .grid-cell, .white-box p {
+  max-width: 100%;
+}
 
 .bg-grey1 {
   background-color: rgba(88, 89, 91, 0.5);
@@ -895,7 +898,13 @@ section {
   padding: 30px 20px;
   z-index: 99;
   position: relative;
-  max-width: 400px;
+  max-width: 650px;
+}
+.funds-box .address {
+  overflow-wrap: break-word;
+  font-size: 1.2em;
+  padding-top: 30px;
+  letter-spacing: 1px;
 }
 
 .address-box {
