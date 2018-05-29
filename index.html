@@ -182,7 +182,11 @@ image: /img/index.png
     </div>
     <div class="grid yellow-box drop-shadow">
         <div id="clock" class="grid-cell">
-            <p class="announcement padding-top-30 padding-bottom-30">{{ text["Token Sale Phase III Starting Soon"] }}</p>
+            <h2>{{ text["Token Sale Phase III Starting Soon"] }}</h2>
+            <p><strong>Token symbol:</strong> XPAT</p>
+            <p><strong>Token address:</strong> 0xBB1fA4FdEB3459733bF67EbC6f893003fA976a82</p>
+            <p><strong>Token decimals:</strong> 18</p>
+            <p><strong>Token auction end price:</strong> $0.0091</p>
         </div>
     </div>
     <div class="grid">
@@ -483,16 +487,7 @@ image: /img/index.png
         </div>
     </div>
 
-    <!-- <div class="grid">
-        <div class="grid-cell">
-            <h2>{{ text["Ambassador Network"] }}</h2>
-        </div>
-        <div class="grid-cell">
-            <img id="ambassador-map" src="{{ "/img/ambassador-network.png" | absolute_url }}" alt="Ambassador network map">
-        </div>
-    </div> -->
-
-    <div class="yellow-box drop-shadow margin-top-30">
+    <div class="yellow-box drop-shadow margin-top-30 margin-bottom-30">
         <div class="grid">
             <div class="grid-cell">
                 <h2>{{ text["Advisors"] }}</h2>
@@ -525,6 +520,37 @@ image: /img/index.png
             {% endfor %}
         </div>
     </div>
+
+    <div class="white-box drop-shadow margin-top-30 margin-bottom-30">
+        <div class="grid">
+            <div class="grid-cell">
+                <h2>{{ text["Ambassadors"] }}</h2>
+            </div>
+        </div>
+        <div id="ambassadors" class="grid members">
+            {% for member in site.data.team.ambassadors %}{% assign img-url = member.name | slugify: 'ascii' | prepend: "/img/ambassadors/" | append: ".jpg" %}<div class="grid-cell grid member">
+                <div class="grid-cell photo">
+                    <img src="{{ img-url | absolute_url }}" alt="{{ member.name }}">
+                </div>
+                <div class="grid-cell name">{{ member.name }}</div>
+                <div class="grid-cell role">{{ member.location }}</div>
+                {% if member.social %}<div class="grid-cell grid links">
+                    {% if member.social.linkedin %}<div class="grid-cell i-social">
+                        <a href="https://www.linkedin.com/in/{{ member.social.linkedin }}/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>{% endif %}
+                    {% if member.social.twitter %}<div class="grid-cell i-social">
+                        <a href="https://twitter.com/{{ member.social.twitter }}" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>{% endif %}
+                </div>{% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
 </section>
 
 
