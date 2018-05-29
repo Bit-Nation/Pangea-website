@@ -1283,12 +1283,8 @@ span.warning.light {
   max-width: 222px;
   margin: auto;
 }
-#install .app-store-badge {
-  height: 50px;
-  width: 180px;
-}
-#install .google-play-badge {
-  height: 50px;
+#install .store-badge {
+  height: 60px;
 }
 
 #pat .logo {

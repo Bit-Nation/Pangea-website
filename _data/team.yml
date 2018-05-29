@@ -11,11 +11,6 @@ operations:
   social:
     linkedin: james-fennell
 
-- name: Dr. John Matthews
-  role: Chief Financial Officer
-  social:
-    linkedin: johnmathews1
-
 - name: Sonja Prstec
   role: Chief Legal Officer
   social:
@@ -29,6 +24,9 @@ operations:
 
 - name: Abhimanyu Dayal
   role: DApp Fund Manager
+
+- name: Ty Cabaya
+  role: Admin/ Accounting
 
 communications:
 
@@ -55,6 +53,15 @@ communications:
 - name: Jacob Cox
   role: Community Engagement
 
+- name: Stephan Sunday
+  role: Africa Lead Ambassador
+
+- name: Martin Restrepo
+  role: Latin America Lead Ambassador
+  social:
+    linkedin: mrestrepo
+    twitter: mrestrepo
+
 technology:
 
 - name: Kent Dahlgren
@@ -67,6 +74,14 @@ technology:
   role: Chief Software Architect
   social:
     github: florianlenz
+
+- name: Mawo
+  role: Chief Security Officer
+
+- name: Kevin Kirkham
+  role: Project Manager
+  social:
+    twitter: KevoWevo
 
 - name: William Huang
   role: Solidity Developer
@@ -98,6 +113,13 @@ technology:
 - name: Mark Wong
   role: Snr React Native Dev
 
+- name: Hoang Hung
+  role: React Native Dev
+  social:
+    linkedin: hung-hoang-b4218528
+    twitter: hunght
+    github: hunght
+
 - name: Daniel França
   role: Fullstack JS Dev
 
@@ -121,9 +143,6 @@ technology:
 
 - name: Spencer Ferri
   role: Machine Learning, Exocortex
-
-- name: Mawo
-  role: Chief Security Officer
 
 advisors:
 
