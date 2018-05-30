@@ -11,11 +11,6 @@ operations:
   social:
     linkedin: james-fennell
 
-- name: Dr. John Matthews
-  role: Chief Financial Officer
-  social:
-    linkedin: johnmathews1
-
 - name: Sonja Prstec
   role: Chief Legal Officer
   social:
@@ -29,6 +24,9 @@ operations:
 
 - name: Abhimanyu Dayal
   role: DApp Fund Manager
+
+- name: Ty Cabaya
+  role: Admin/ Accounting
 
 communications:
 
@@ -55,6 +53,15 @@ communications:
 - name: Jacob Cox
   role: Community Engagement
 
+- name: Stephan Sunday
+  role: Africa Lead Ambassador
+
+- name: Martin Restrepo
+  role: Latin America Lead Ambassador
+  social:
+    linkedin: mrestrepo
+    twitter: mrestrepo
+
 technology:
 
 - name: Kent Dahlgren
@@ -67,6 +74,14 @@ technology:
   role: Chief Software Architect
   social:
     github: florianlenz
+
+- name: Mawo
+  role: Chief Security Officer
+
+- name: Kevin Kirkham
+  role: Project Manager
+  social:
+    twitter: KevoWevo
 
 - name: William Huang
   role: Solidity Developer
@@ -98,6 +113,13 @@ technology:
 - name: Mark Wong
   role: Snr React Native Dev
 
+- name: Hoang Hung
+  role: React Native Dev
+  social:
+    linkedin: hung-hoang-b4218528
+    twitter: hunght
+    github: hunght
+
 - name: Daniel França
   role: Fullstack JS Dev
 
@@ -121,9 +143,6 @@ technology:
 
 - name: Spencer Ferri
   role: Machine Learning, Exocortex
-
-- name: Mawo
-  role: Chief Security Officer
 
 advisors:
 
@@ -171,3 +190,149 @@ advisors:
   social:
     linkedin: julioalexo
     twitter: julioalexo
+
+ambassadors:
+
+- name: Evangelos Barakos
+  location: Athens, Greece
+  social:
+    twitter: e_barakos
+
+- name: Valentin Kahn
+  location: Zürich, Switzerland
+  social:
+    linkedin: valentin-kahn-11114aa8
+
+- name: Tigrilla Gardenia
+  location: Turin, Italy
+  social:
+    twitter: tigrillagarden
+    linkedin: yvettesoler
+
+- name: Vinicius De Paula Machado
+  location: Goma, Rio de Janeiro, Brazil
+  social:
+    twitter: Vinidpmachado
+    linkedin: viniciusdpmachado
+
+- name: zakaria bouguira
+  location: Tunis, Tunisia
+  social:
+    linkedin: zakaria-bouguira-69a049128
+
+- name: Jonathan Wilson
+  location: North Carolina, USA
+  social:
+    twitter: jonathanwilson
+
+- name: Guilherme Prokisch
+  location: São Paulo, Brazil
+  social:
+    linkedin: guilhermeprokisch
+
+- name: Miguel Prados
+  location: Sevilla, Andalucía
+  social:
+    twitter: miguelpradosr
+    linkedin: miguelpradosrodriguez
+
+- name: João Neto
+  location: Lisbon, Portugal
+  social:
+    linkedin: joaomlneto
+
+- name: Tetsu Oishi
+  location: Nomadic
+  social:
+    twitter: bigstonebtc
+
+- name: Manel Ruiz
+  location: Ibiza, Spain
+  social:
+    twitter: manelomanu
+    linkedin: manel-ruiz-9a5b28156
+
+- name: Diego Ortega
+  location: São Paulo, Brazil
+  social:
+    twitter: dgrtg
+    linkedin: dgrtg
+
+- name: Anna Costalonga
+  location: Berlin, Germany
+  social:
+    twitter: adsidera
+
+- name: Savage Leigh
+  location: Louisiana, USA
+
+- name: Felipe Alarcon
+  location: Rio de Janeiro, Brazil
+
+- name: Yury Cancino
+  location: Santiago de Chile, Chile
+  social:
+    twitter: ycancino
+    linkedin: ycancino
+
+- name: Shin Fuji
+  location: Tokyo, Japan
+
+- name: Abdul Salam Mahamadu
+  location: Tamale, Ghana
+  social:
+    twitter: Cryptolib1
+
+- name: Admet Akhter
+  location: Kazakhstan
+  social:
+    linkedin: admet-akhter-53a58584
+
+- name: Christopher Jackon Beloso Malasmas
+  location: Manila, Philippines
+  social:
+    twitter: christo91522516
+
+- name: Luis Fernando Mises
+  location: New York City, USA
+  social:
+    twitter: EmancipatedH
+
+- name: Prodromos Meletiadis
+  location: Athens, Greece
+  social:
+    linkedin: prodromosmeletiadis
+
+- name: Aneel Chaudhry
+  location: London, UK
+
+- name: Juan Pablo Calderon
+  location: Bogotá, Colombia
+  social:
+    twitter: dumpita
+    linkedin: dumpa
+
+- name: Matthias Lauer
+  location: Berlin, Germany
+  social:
+    linkedin: matthias-carl-lauer-4bb35a4b
+
+- name: Arun Paria
+  location: Pune, India
+  social:
+    twitter: arun_paria
+
+- name: Jack NoBadDays
+  location: Guadalajara, Mexico
+  social:
+    twitter: SonoraJack
+
+- name: Cassio Rodrigo Peluso
+  location: Dublin & Brazil
+  social:
+    linkedin: cassio-rodrigo-d-antonio-peluso-32173358
+
+- name: Luke Inouchi
+  location: New South Wales, Australia
+  social:
+    linkedin: luke-inouchi
