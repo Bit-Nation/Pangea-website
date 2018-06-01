@@ -1,23 +1,23 @@
 ---
 layout: legal
 title: Purchase Agreement
-updated: March 19, 2018
+updated: June 1, 2018
 disclaimer: Please read these terms of token sale carefully. If you do not agree to these terms of sale, do not purchase tokens.
 ---
 
-# Bitnation PAT Token Sale Agreement
+# Bitnation XPAT Token Sale Agreement
 
 This agreement is made by and between **This agreement is made by and between BITNATION AMERICAS LTD. Belize city, Newtown Barracks, Marina Towers, Suite 508. Reg. number: 170.093** (the Company) and the Participant.
 
 The Participant and the Company are herein referred collectively as the "Parties".
 
-If an individual, Participant is at least 18 years old and of sufficient legal age and capacity to purchase BITNATION PAT tokens. 
+If an individual, Participant is at least 18 years old and of sufficient legal age and capacity to purchase BITNATION XPAT tokens. 
 
 If a legal person, Participant is duly organized, validly existing and in good standing under the laws of its domiciliary jurisdiction and each jurisdiction where it conducts business.
 
 BITNATION is developing PANGEA software, a decentralised jurisdiction for the peer-to-peer creation, arbitration and enforcement of agreements, built as an intuitive mobile chat application, as further described in BITNATION White Paper. 
 
-By purchasing BITNATION PAT Tokens from the Company during the Sale Period, you will be bound by these Terms and all terms incorporated by reference. If you have any questions regarding these terms, please contact Company at 
+By purchasing BITNATION XPAT Tokens from the Company during the Sale Period, you will be bound by these Terms and all terms incorporated by reference. If you have any questions regarding these terms, please contact Company at 
 [info@bitnation.co](mailto:info@bitnation.co).
 
 The Company and the Participant agree as follows:
@@ -30,55 +30,55 @@ The Company and the Participant agree as follows:
 
 ### White Paper
 
-1.2. The Company has prepared the white paper and other materials concerning the sale of BITNATION PAT Tokens which are available at [https://tse.bitnation.co](https://tse.bitnation.co). The White Paper, as it may be amended from time to time, is hereby incorporated by reference. Participant has to read and understands the White Paper and its contents.
+1.2. The Company has prepared the white paper and other materials concerning the sale of BITNATION XPAT Tokens which are available at [https://tse.bitnation.co](https://tse.bitnation.co). The White Paper, as it may be amended from time to time, is hereby incorporated by reference. Participant has to read and understands the White Paper and its contents.
 
-### Bitnation PAT Tokens
+### Bitnation XPAT Tokens
 
-1.3. The BITNATION PAT tokens are non-refundable and purchases cannot be cancelled, the Participant may lose all amounts paid.
+1.3. The BITNATION XPAT tokens are non-refundable and purchases cannot be cancelled, the Participant may lose all amounts paid.
 
-1.4. The BITNATION PAT tokens do not have any rights, uses, purposes, attributes, functionalities or features, expressed or implied, outside the BITNATION jurisdiction. Although BITNATION PAT tokens may be tradable, they are not an investment, currency, security, commodity, a swap on a currency or any other kind of financial instrument.
+1.4. The BITNATION XPAT tokens do not have any rights, uses, purposes, attributes, functionalities or features, expressed or implied, outside the BITNATION jurisdiction. Although BITNATION XPAT tokens may be tradable, they are not an investment, currency, security, commodity, a swap on a currency or any other kind of financial instrument.
 
-1.5. The purchase of BITNATION PAT tokens does not provide Participant with rights of any form with respect to the Company or its revenues or assets, including, but not limited to any voting, distribution, redemption, liquidation, proprietary including all forms of intellectual property, or other financial or legal rights, is not a loan to the Company and does not provide Participant with any ownership or other interest in Company.
+1.5. The purchase of BITNATION XPAT tokens does not provide Participant with rights of any form with respect to the Company or its revenues or assets, including, but not limited to any voting, distribution, redemption, liquidation, proprietary including all forms of intellectual property, or other financial or legal rights, is not a loan to the Company and does not provide Participant with any ownership or other interest in Company.
 
-1.6. Purchases and sales of BITNATION PAT Tokens are not subject to the protections of any governing laws. This Agreement and all other documents referred to in this Agreement including the White Paper do not constitute a prospectus or offering document, and are not an offer to sell, nor the solicitation of an offer to buy an investment.
+1.6. Purchases and sales of BITNATION XPAT Tokens are not subject to the protections of any governing laws. This Agreement and all other documents referred to in this Agreement including the White Paper do not constitute a prospectus or offering document, and are not an offer to sell, nor the solicitation of an offer to buy an investment.
 
-1.7. Participant acknowledges and understands that the proceeds from the sale of the BITNATION PAT tokens will be utilized by the Company in its sole discretion, as described in the White Paper.
+1.7. Participant acknowledges and understands that the proceeds from the sale of the BITNATION XPAT tokens will be utilized by the Company in its sole discretion, as described in the White Paper.
 
 ## Article 2.
 
-### Bitnation PAT Token Sale Specifications
+### Bitnation XPAT Token Sale Specifications
 
-2.1. Important information about the procedures and materials specifications of the Company's Token sale is provided in the White Paper document, including, but not limited to, details regarding the timing and pricing of the Token sale, the amount of token for sale, and the Company's anticipated use of the Token sale proceeds. By purchasing Tokens, you acknowledge that you understand and have no objection to these procedure and material specifications. Failure to use the official Website and follow such procedures may result in Participant not receiving any BITNATION PAT Tokens. Any Participant of the BITNATION PAT Tokens sale may lose some or all of the amounts paid in exchange for BITNATION PAT Tokens, regardless of the purchase date. The access or use of the BITNATION PAT Token and/or the receipt or purchase of BITNATION PAT token through any other means other than the official Website are not sanctioned or agreed to in any way by the Parties. Participant should take great care that the website used to purchase BITNATION PAT Tokens has the following uniform resource locator (URL): [https://tse.bitnation.co/](https://tse.bitnation.co/).
+2.1. Important information about the procedures and materials specifications of the Company's Token sale is provided in the White Paper document, including, but not limited to, details regarding the timing and pricing of the Token sale, the amount of token for sale, and the Company's anticipated use of the Token sale proceeds. By purchasing Tokens, you acknowledge that you understand and have no objection to these procedure and material specifications. Failure to use the official Website and follow such procedures may result in Participant not receiving any BITNATION XPAT Tokens. Any Participant of the BITNATION XPAT Tokens sale may lose some or all of the amounts paid in exchange for BITNATION XPAT Tokens, regardless of the purchase date. The access or use of the BITNATION XPAT Token and/or the receipt or purchase of BITNATION XPAT token through any other means other than the official Website are not sanctioned or agreed to in any way by the Parties. Participant should take great care that the website used to purchase BITNATION XPAT Tokens has the following uniform resource locator (URL): [https://tse.bitnation.co/](https://tse.bitnation.co/).
 
 ### No U.S. Purchases
 
-2.2. The BITNATION PAT Tokens are not being offered to U.S. person. U.S. person are strictly prohibited and restricted from using the BITNATION PAT Tokens and/or purchasing BITNATION PAT Tokens and the Company is not soliciting purchases by U.S. person or in any way. If a U.S. person purchases BITNATION PAT Tokens, such person has done so and entered into this Agreement on an unlawful, unauthorized and fraudulent basis and this Agreement is null and void.
+2.2. The BITNATION XPAT Tokens are not being offered to U.S. person. U.S. person are strictly prohibited and restricted from using the BITNATION XPAT Tokens and/or purchasing BITNATION XPAT Tokens and the Company is not soliciting purchases by U.S. person or in any way. If a U.S. person purchases BITNATION XPAT Tokens, such person has done so and entered into this Agreement on an unlawful, unauthorized and fraudulent basis and this Agreement is null and void.
 
-2.3. The Company is not bound by this Agreement if this Agreement has been entered into by a U.S. person as Participant or Participant has entered into this Agreement or has purchased BITNATION PAT Tokens on behalf of a U.S. person, and Company may take all necessary and appropriate actions, in its sole discretion, to invalidate this Agreement, including referral of information to the appropriate authorities.
+2.3. The Company is not bound by this Agreement if this Agreement has been entered into by a U.S. person as Participant or Participant has entered into this Agreement or has purchased BITNATION XPAT Tokens on behalf of a U.S. person, and Company may take all necessary and appropriate actions, in its sole discretion, to invalidate this Agreement, including referral of information to the appropriate authorities.
 
-2.4. Any U.S. person who uses and/or purchases BITNATION PAT Tokens or enters into this Agreement on an unlawful, unauthorized or fraudulent basis shall be solely liable for, and shall indemnify, defend and hold harmless Bitnation [https://tse.bitnation.co/](https://tse.bitnation.co/) and [https://bitnation.co/](https://bitnation.co/) respectively, and past, present and future employees, officers, directors, contractors, consultants, equity holders, suppliers, vendors, service providers, parent companies, subsidiaries, affiliates, agents, representatives, predecessors, successors and assigns from any damages, losses, liabilities, costs or expenses of any kind, whether direct or indirect, consequential, compensatory, incidental, actual, exemplary, punitive or special and including, without limitation, any loss of business, revenues, profits, data, use, goodwill or other intangible losses (collectively, the "Damages") incurred by a Party that arises from or is a result of such U.S. person unlawful, unauthorized or fraudulent use of the BITNATION PAT Token Sale Agreement and/or the receipt or purchase of BITNATION PAT Tokens.
+2.4. Any U.S. person who uses and/or purchases BITNATION XPAT Tokens or enters into this Agreement on an unlawful, unauthorized or fraudulent basis shall be solely liable for, and shall indemnify, defend and hold harmless Bitnation [https://tse.bitnation.co/](https://tse.bitnation.co/) and [https://bitnation.co/](https://bitnation.co/) respectively, and past, present and future employees, officers, directors, contractors, consultants, equity holders, suppliers, vendors, service providers, parent companies, subsidiaries, affiliates, agents, representatives, predecessors, successors and assigns from any damages, losses, liabilities, costs or expenses of any kind, whether direct or indirect, consequential, compensatory, incidental, actual, exemplary, punitive or special and including, without limitation, any loss of business, revenues, profits, data, use, goodwill or other intangible losses (collectively, the "Damages") incurred by a Party that arises from or is a result of such U.S. person unlawful, unauthorized or fraudulent use of the BITNATION XPAT Token Sale Agreement and/or the receipt or purchase of BITNATION XPAT Tokens.
 
 ### Cancellation and Refusal of Purchase Request
 
-2.5. Participant's purchase of BITNATION PAT Tokens during the Sale period is final, and there are no refunds or cancellations, except as may be required by applicable law or regulation. The Company reserves the right to refuse or cancel Token purchase requests at any time in its sole discretion.
+2.5. Participant's purchase of BITNATION XPAT Tokens during the Sale period is final, and there are no refunds or cancellations, except as may be required by applicable law or regulation. The Company reserves the right to refuse or cancel Token purchase requests at any time in its sole discretion.
 
 ## Article 3.
 
 ### Security and Data Privacy
 
-3.1. The Company will implement reasonable and appropriate measures designed to secure access to any device associated with the Participant and utilized in connection with the Participant's purchase of BITNATION PAT Tokens, private keys to the Participant's wallet or account and any other username, password or other login or identifying credentials.
+3.1. The Company will implement reasonable and appropriate measures designed to secure access to any device associated with the Participant and utilized in connection with the Participant's purchase of BITNATION XPAT Tokens, private keys to the Participant's wallet or account and any other username, password or other login or identifying credentials.
 
-3.2. Upon the Company's request, the Participant will immediately provide the Company with information and documents that the Company, in its sole discretion, deems necessary or appropriate to comply with any laws, regulations, rules or agreements, including without limitation judicial process. The Participant acknowledges that the Company may refuse to distribute BITNATION PAT Tokens to the Participant until such requested information is provided.
+3.2. Upon the Company's request, the Participant will immediately provide the Company with information and documents that the Company, in its sole discretion, deems necessary or appropriate to comply with any laws, regulations, rules or agreements, including without limitation judicial process. The Participant acknowledges that the Company may refuse to distribute BITNATION XPAT Tokens to the Participant until such requested information is provided.
 
 ## Article 4.
 
 ### The Participant Knowledge of Risks
 
-4.1. The Participant has sufficient knowledge and experience in business and financial matters, including a sufficient understanding of blockchain or cryptographic tokens and other digital assets, smart contracts, storage mechanisms ( such as digital or token wallets), blockchain-based software systems and blockchain technology, to be able to evaluate the risks and merits of purchase of BITNATION PAT tokens and is able to bear the risks thereof, including loss of all amounts paid or loss of BITNATION PAT tokens.
+4.1. The Participant has sufficient knowledge and experience in business and financial matters, including a sufficient understanding of blockchain or cryptographic tokens and other digital assets, smart contracts, storage mechanisms ( such as digital or token wallets), blockchain-based software systems and blockchain technology, to be able to evaluate the risks and merits of purchase of BITNATION XPAT tokens and is able to bear the risks thereof, including loss of all amounts paid or loss of BITNATION XPAT tokens.
 
-4.2. The Participant has obtained sufficient information in order to make an informed decision to purchase BITNATION PAT tokens.
+4.2. The Participant has obtained sufficient information in order to make an informed decision to purchase BITNATION XPAT tokens.
 
-4.3. By purchasing, holding and using BITNATION PAT tokens, the Participant expressly acknowledge and assume following risks:
+4.3. By purchasing, holding and using BITNATION XPAT tokens, the Participant expressly acknowledge and assume following risks:
 
 1) Risk of losing access to tokens due to loss of Private Keys
 
@@ -106,17 +106,17 @@ Unlike bank accounts or accounts at some other financial institutions, Tokens ar
 
 7) Risks Associated with Uncertain Regulations and Enforcement Actions
 
-There is a risk that in some jurisdictions the BITNATION PAT tokens and other digital assets might be considered to be a "security", or other regulated investment now or in the future. Company believes, but does not give representations, warranties or guarantees that tokens are not a security or regulated investment in all jurisdictions.
+There is a risk that in some jurisdictions the BITNATION XPAT tokens and other digital assets might be considered to be a "security", or other regulated investment now or in the future. Company believes, but does not give representations, warranties or guarantees that tokens are not a security or regulated investment in all jurisdictions.
 
-Each user of tokens shall bear their own legal or financial consequences of BITNATION PAT tokens being considered a security or other regulated investment in their respective jurisdiction.
+Each user of tokens shall bear their own legal or financial consequences of BITNATION XPAT tokens being considered a security or other regulated investment in their respective jurisdiction.
 
-Every user is required and bound to determine for themselves if the purchase, receipt, trading, use, transfer or disposal of tokens is legal in its jurisdiction, and hereby covenants and agrees not to use BITNATION PAT tokens should their use not be legal in the relevant jurisdiction.
+Every user is required and bound to determine for themselves if the purchase, receipt, trading, use, transfer or disposal of tokens is legal in its jurisdiction, and hereby covenants and agrees not to use BITNATION XPAT tokens should their use not be legal in the relevant jurisdiction.
 
-If a user determines that the use of BITNATION PAT tokens under these Terms is not legal in its jurisdiction, it should not use the BITNATION PAT tokens, not acquire them and should immediately stop using or possessing them if such case arises.
+If a user determines that the use of BITNATION XPAT tokens under these Terms is not legal in its jurisdiction, it should not use the BITNATION XPAT tokens, not acquire them and should immediately stop using or possessing them if such case arises.
 
-Acquiring cryptographic tokens for personal possession and exchanging them for other cryptographic tokens will most likely continue to be scrutinized by various regulatory bodies around the world, which has so far given mixed reactions and regulatory impact. The legal ability of Company to provide BITNATION PAT tokens in some jurisdictions may be eliminated by future regulation or legal actions.
+Acquiring cryptographic tokens for personal possession and exchanging them for other cryptographic tokens will most likely continue to be scrutinized by various regulatory bodies around the world, which has so far given mixed reactions and regulatory impact. The legal ability of Company to provide BITNATION XPAT tokens in some jurisdictions may be eliminated by future regulation or legal actions.
 
-In the event, it turns out with a high degree certainty that BITNATION PAT tokens are not legal in certain jurisdiction, Company will either a) cease operations and possible use of BITNATION PAT tokens in that jurisdiction, or b) adjust BITNATION PAT tokens in a way to comply with the regulation should that be a possible and viable alternative.
+In the event, it turns out with a high degree certainty that BITNATION XPAT tokens are not legal in certain jurisdiction, Company will either a) cease operations and possible use of BITNATION XPAT tokens in that jurisdiction, or b) adjust BITNATION XPAT tokens in a way to comply with the regulation should that be a possible and viable alternative.
 
 8) Risks Arising from Taxation
 
@@ -160,7 +160,7 @@ Cryptographic tokens such as the Tokens are a new and untested technology. In ad
 
 5.1. To the extent required by applicable law, the Participant complies with all anti-money laundering and counter-terrorism financing requirements.
 
-5.2. The funds, including any fiat, virtual currency or cryptocurrency, the Participant uses to purchase BITNATION PAT Tokens, are not derived from or related to any unlawful activities, including but not limited to money laundering or terrorist financing, and the Participant will not use the BITNATION PAT Tokens to finance, engage in, or otherwise support any unlawful activities.
+5.2. The funds, including any fiat, virtual currency or cryptocurrency, the Participant uses to purchase BITNATION XPAT Tokens, are not derived from or related to any unlawful activities, including but not limited to money laundering or terrorist financing, and the Participant will not use the BITNATION XPAT Tokens to finance, engage in, or otherwise support any unlawful activities.
 
 ## Article 6.
 
@@ -222,4 +222,4 @@ Cryptographic tokens such as the Tokens are a new and untested technology. In ad
 
 ### Electronic Communications
 
-9.8. Participant agrees and acknowledges that all agreements, notices, disclosures and other communications that the Company provides the Participant pursuant to this Agreement or in connection with or related to Participant's purchase of BITNATION PAT Tokens, including this Agreement may be provided by the Company, in its sole discretion, in electronic form.
+9.8. Participant agrees and acknowledges that all agreements, notices, disclosures and other communications that the Company provides the Participant pursuant to this Agreement or in connection with or related to Participant's purchase of BITNATION XPAT Tokens, including this Agreement may be provided by the Company, in its sole discretion, in electronic form.

@@ -6,7 +6,7 @@ Privacy Policy: "Gizlilik Politikası"
 Enter Pangea: "Pangea'a girin"
 The Internet of Sovereignty: "Egemenliğin İnterneti"
 Install Pangea: "Pangea'ı kurun"
-Get PAT Tokens: "PAT Tokenlarını alın"
+Get XPAT Tokens: "XPAT Tokenlarını alın"
 Join Bitnation: "Bitnation'e katılın"
 Bitnation is Governance 2.0: "Bitnation Yönetimi 2.0"
 Decentralised | Borderless | Voluntary: "Bağımsız | Sınır Ötesi | Gönüllü" 
@@ -22,21 +22,21 @@ Litepaper (5 pgs.): "Litepaper (5 pgs.)"
 Translations: "çeviriler"
 Bitnation is here: "Bitnation Burada:"
 Install the Pangea Jurisdiction: "Pangea Yetki alanını kurun"
-Pangea Arbitration Token (PAT): "Pangea Tahkim (arabuluculuk) Token'ı (PAT)"
-The Pangea Arbitration Token (PAT) is an ERC20 compatible in-app token for the Pangea Jurisdiction. The PAT token rewards good reputation and is issued on Pangea when Citizens accumulate non-tradable reputation tokens through creating a contract, successfully completing a contract or resolving a dispute attached to a contract. PAT is an algorithmic reputation token, an arbitration currency based on performance rather than purchasing power, popularity or attention. The distribution mechanism for PAT tokens on Pangea is an autonomous agent, Lucy, which will initially launch on Ethereum as a smart contract. This mechanism is blockchain agnostic and can be ported to any viable smart contract platform.: "Pangea Tahkim Token'ı(PAT), Pangea Yargı Yetkisi için bir ERC20 uyumlu uygulama içi tokendır. PAT tokenı iyi itibarı ödüllendirir, Vatandaşlar sözleşmeye dayanarak ticarete konu olmayan (ekstradan) itibar tokenları biriktirdiklerinde, sözleşme başarılı şekilde tamamlandıgında veya sözleşmeye bağlı anlaşmazlığı çözüldüğünde Pangea'da yayınlanır.  PAT, algoritmik bir itibar tokenıdır; yani satın alma gücü, popülerlik veya dikkatten çok performansa dayalı bir tahkim para birimidir. Pangea'daki PAT tokenleri için dağıtım mekanizması otonom bir ajan olan Lucy'dir. Lucy başlangıçta Ethereum'da akıllı bir sözleşme olarak başlayacak. Bu sözleşme mekanizması blockchain agnostiktir ve herhangi bir akıllı sözleşme platformuna taşınabilir."
+Pangea Arbitration Token (XPAT): "Pangea Tahkim (arabuluculuk) Token'ı (XPAT)"
+The Pangea Arbitration Token (XPAT) is an ERC20 compatible in-app token for the Pangea Jurisdiction. The XPAT token rewards good reputation and is issued on Pangea when Citizens accumulate non-tradable reputation tokens through creating a contract, successfully completing a contract or resolving a dispute attached to a contract. XPAT is an algorithmic reputation token, an arbitration currency based on performance rather than purchasing power, popularity or attention. The distribution mechanism for XPAT tokens on Pangea is an autonomous agent, Lucy, which will initially launch on Ethereum as a smart contract. This mechanism is blockchain agnostic and can be ported to any viable smart contract platform.: "Pangea Tahkim Token'ı(XPAT), Pangea Yargı Yetkisi için bir ERC20 uyumlu uygulama içi tokendır. XPAT tokenı iyi itibarı ödüllendirir, Vatandaşlar sözleşmeye dayanarak ticarete konu olmayan (ekstradan) itibar tokenları biriktirdiklerinde, sözleşme başarılı şekilde tamamlandıgında veya sözleşmeye bağlı anlaşmazlığı çözüldüğünde Pangea'da yayınlanır.  XPAT, algoritmik bir itibar tokenıdır; yani satın alma gücü, popülerlik veya dikkatten çok performansa dayalı bir tahkim para birimidir. Pangea'daki XPAT tokenleri için dağıtım mekanizması otonom bir ajan olan Lucy'dir. Lucy başlangıçta Ethereum'da akıllı bir sözleşme olarak başlayacak. Bu sözleşme mekanizması blockchain agnostiktir ve herhangi bir akıllı sözleşme platformuna taşınabilir."
 Time remaining until bonus tier drops: "Bonus seviye düşüşüne kadar kalan süre:"
-PAT tokens are issued by BITNATION AMERICAS LTD. Belize City, Newtown Barracks, Marina Towers, Suite 508. Reg. number 170.093.: "PAT tokenleri BITNATION AMERICAS LTD. Belize City, Newtown Kışlası, Marina Towers, Suite 508. Reg. Number 170.093 tarafından yayınlanıyor." 
-Click here to read the Bitnation PAT Token Sale Agreement.: "Bitnation PAT Token Satış Sözleşmesi'ni okumak için buraya tıklayın." 
+XPAT tokens are issued by BITNATION AMERICAS LTD. Belize City, Newtown Barracks, Marina Towers, Suite 508. Reg. number 170.093.: "XPAT tokenleri BITNATION AMERICAS LTD. Belize City, Newtown Kışlası, Marina Towers, Suite 508. Reg. Number 170.093 tarafından yayınlanıyor." 
+Click here to read the Bitnation XPAT Token Sale Agreement.: "Bitnation XPAT Token Satış Sözleşmesi'ni okumak için buraya tıklayın." 
 Whitepaper: "Teknik İnceleme"
 Overview: "Genel Bakış"
 42Bn: "42Bn"
-Total PAT supply: "Toplam PAT Tedariği"
+Total XPAT supply: "Toplam XPAT Tedariği"
 $30M: "30 milyon dolar"
 Token sale hard-cap: "Token satışı üst sınır"
 $10Tn: "$10Tn"
 System D economy: "D Sistem ekonomisi"
 10%: "10%"
-Allocation of PAT for public Token Sale: "Kamuya Token Satış için PAT Tahsisi" 
+Allocation of XPAT for public Token Sale: "Kamuya Token Satış için XPAT Tahsisi" 
 2.6Bn: "2.6Bn"
 Smartphone users: "Akıllı telefon kullanıcıları" 
 $600Bn: "$600Bn"
@@ -112,8 +112,8 @@ timeline-events:
   icon: fab fa-ethereum
 
 - date: 1. çeyrek / 2. çeyrek 2017
-  title: IPFS, PAT ve NETEXPLO
-  description: Yeni IPFS Centric Pangea Backend, PAT Token Tasarımı ve UNESCO NETEXPLO Ödülü.
+  title: IPFS, XPAT ve NETEXPLO
+  description: Yeni IPFS Centric Pangea Backend, XPAT Token Tasarımı ve UNESCO NETEXPLO Ödülü.
   icon: fal fa-trophy
 
 - date: 3. çeyrek / 4. çeyrek 2017

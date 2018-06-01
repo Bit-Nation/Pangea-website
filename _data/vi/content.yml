@@ -6,7 +6,7 @@ Privacy Policy: "Chính sách"
 Enter Pangea: "Vào Pangea"
 The Internet of Sovereignty: "Làm chủ internet"
 Install Pangea: "Cài đặt Pangea"
-Get PAT Tokens: "Nhận Token PAT"
+Get XPAT Tokens: "Nhận Token XPAT"
 Join Bitnation: "Tham gia Bitnation"
 Bitnation is Governance 2.0: "Bitnation là chính phủ 2.0"
 Decentralised | Borderless | Voluntary: "Phân cấp | Không biên giới | Tình nguyện"
@@ -22,21 +22,21 @@ Litepaper (5 pgs.): "Tóm lược (5 trang.)"
 Translations: "Bản dịch"
 Bitnation is here: "Bitnation đây"
 Install the Pangea Jurisdiction: "Tải về thẩm quyền Pangea."
-Pangea Arbitration Token (PAT): "Pangea Arbitration Token (PAT)"
-The Pangea Arbitration Token (PAT) is an ERC20 compatible in-app token for the Pangea Jurisdiction. The PAT token rewards good reputation and is issued on Pangea when Citizens accumulate non-tradable reputation tokens through creating a contract, successfully completing a contract or resolving a dispute attached to a contract. PAT is an algorithmic reputation token, an arbitration currency based on performance rather than purchasing power, popularity or attention. The distribution mechanism for PAT tokens on Pangea is an autonomous agent, Lucy, which will initially launch on Ethereum as a smart contract. This mechanism is blockchain agnostic and can be ported to any viable smart contract platform.: "The Pangea Arbitration Token (PAT) là mã thông báo ứng dụng tương thích ERC20 cho thẩm quyền Pangea. Token PAT là bằng chứng về danh tiếng của Công dân, được phát hành khi Công dân tạo một hợp đồng, hoàn thành hợp đồng hoặc giải quyết tranh chấp gắn liền với hợp đồng. PAT là một token thuật toán danh tiếng; một loại tiền tệ trọng tài dựa trên hiệu suất, chứ không phải là sức mua, sự nổi tiếng hay sự chú ý. Cơ chế phân phối token PAT trong Pangea là một tác nhân tự trị, Lucy, ban đầu sẽ khởi chạy trên nền tảng Ethereum với Hợp đồng thông minh. Cơ chế này không rõ ràng và cơ thể thay đổi trên nền tảng khác tối ưu hơn."
+Pangea Arbitration Token (XPAT): "Pangea Arbitration Token (XPAT)"
+The Pangea Arbitration Token (XPAT) is an ERC20 compatible in-app token for the Pangea Jurisdiction. The XPAT token rewards good reputation and is issued on Pangea when Citizens accumulate non-tradable reputation tokens through creating a contract, successfully completing a contract or resolving a dispute attached to a contract. XPAT is an algorithmic reputation token, an arbitration currency based on performance rather than purchasing power, popularity or attention. The distribution mechanism for XPAT tokens on Pangea is an autonomous agent, Lucy, which will initially launch on Ethereum as a smart contract. This mechanism is blockchain agnostic and can be ported to any viable smart contract platform.: "The Pangea Arbitration Token (XPAT) là mã thông báo ứng dụng tương thích ERC20 cho thẩm quyền Pangea. Token XPAT là bằng chứng về danh tiếng của Công dân, được phát hành khi Công dân tạo một hợp đồng, hoàn thành hợp đồng hoặc giải quyết tranh chấp gắn liền với hợp đồng. XPAT là một token thuật toán danh tiếng; một loại tiền tệ trọng tài dựa trên hiệu suất, chứ không phải là sức mua, sự nổi tiếng hay sự chú ý. Cơ chế phân phối token XPAT trong Pangea là một tác nhân tự trị, Lucy, ban đầu sẽ khởi chạy trên nền tảng Ethereum với Hợp đồng thông minh. Cơ chế này không rõ ràng và cơ thể thay đổi trên nền tảng khác tối ưu hơn."
 Time remaining until bonus tier drops: "Thời gian còn lại cho đến khi tiền thưởng giảm"
-PAT tokens are issued by BITNATION AMERICAS LTD. Belize City, Newtown Barracks, Marina Towers, Suite 508. Reg. number 170.093.: "Token PAT được phát hành bởi BITNATION AMERICAS LTD. Belize City, Newtown Barracks, Marina Towers, Suite 508. Reg. number 170.093."
-Click here to read the Bitnation PAT Token Sale Agreement.: "Nhấp vào đây để đọc các thõa thuận về việc mua bán Token PAT."
+XPAT tokens are issued by BITNATION AMERICAS LTD. Belize City, Newtown Barracks, Marina Towers, Suite 508. Reg. number 170.093.: "Token XPAT được phát hành bởi BITNATION AMERICAS LTD. Belize City, Newtown Barracks, Marina Towers, Suite 508. Reg. number 170.093."
+Click here to read the Bitnation XPAT Token Sale Agreement.: "Nhấp vào đây để đọc các thõa thuận về việc mua bán Token XPAT."
 Whitepaper: "Sách trắng"
 Overview: "Tổng quan"
 42Bn: "42Bn"
-Total PAT supply: "Tổng nguồn PAT cung ứng"
+Total XPAT supply: "Tổng nguồn XPAT cung ứng"
 $30M: "30M"
 Token sale hard-cap: "Bán token tối đa"
 $10Tn: "10Tn"
 System D economy: "Kinh tế “ hệ thống D"
 10%: "10%"
-Allocation of PAT for public Token Sale: "Phân bổ PAT cho bán cộng đồng"
+Allocation of XPAT for public Token Sale: "Phân bổ XPAT cho bán cộng đồng"
 2.6Bn: "2.6Bn"
 Smartphone users: "Người sử dụng điện thoại thông minh"
 $600Bn: "$600Bn"
@@ -112,8 +112,8 @@ timeline-events:
   icon: fab fa-ethereum
 
 - date: Q1-Q2 năm 2017
-  title: IPFS, PAT và NETEXPLO
-  description: Hệ thống phụ trợ PFS của IPFS, PAT Token Design và UNESCO NETEXPLO Award.
+  title: IPFS, XPAT và NETEXPLO
+  description: Hệ thống phụ trợ PFS của IPFS, XPAT Token Design và UNESCO NETEXPLO Award.
   icon: fal fa-trophy
 
 - date: Q3/Q4 2017

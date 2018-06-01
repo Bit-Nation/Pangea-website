@@ -6,7 +6,7 @@ Privacy Policy: "個人情報保護方針"
 Enter Pangea: "Pangeaへようこそ"
 The Internet of Sovereignty: "主権のインターネット"
 Install Pangea: "Pangeaをインストール"
-Get PAT Tokens: "PATトークンを購入"
+Get XPAT Tokens: "XPATトークンを購入"
 Join Bitnation: "Bitnationに参加"
 Bitnation is Governance 2.0: "Bitnation--ガバナンス2.0:"
 Decentralised | Borderless | Voluntary: "分散型・ボーダーレス・自発的"
@@ -22,21 +22,21 @@ Litepaper (5 pgs.): "概要(5ページ)"
 Translations: "翻訳版"
 Bitnation is here: "ビットネーションが来た"
 Install the Pangea Jurisdiction: "Pangeaをインストール"
-Pangea Arbitration Token (PAT): "Pangea仲裁トークン（PAT）"
-The Pangea Arbitration Token (PAT) is an ERC20 compatible in-app token for the Pangea Jurisdiction. The PAT token rewards good reputation and is issued on Pangea when Citizens accumulate non-tradable reputation tokens through creating a contract, successfully completing a contract or resolving a dispute attached to a contract. PAT is an algorithmic reputation token, an arbitration currency based on performance rather than purchasing power, popularity or attention. The distribution mechanism for PAT tokens on Pangea is an autonomous agent, Lucy, which will initially launch on Ethereum as a smart contract. This mechanism is blockchain agnostic and can be ported to any viable smart contract platform.: "Pangea仲裁トークン（PAT）は、Pangeaソフトウェア専用のERC20トークンです。市民がスマートコントラクトを実行した場合、あるいはスマートコントタクトに関する事業紛争を解決した場合、その成果が認められる程度に相当するPATトークンを与えられます。PATはアルゴリズム的な評判のトークンです。つまり、財力、人気度、注目度に基づいてではなく、PATは市民の信頼性に基づいて分配される仮想通貨です。"
+Pangea Arbitration Token (XPAT): "Pangea仲裁トークン（XPAT）"
+The Pangea Arbitration Token (XPAT) is an ERC20 compatible in-app token for the Pangea Jurisdiction. The XPAT token rewards good reputation and is issued on Pangea when Citizens accumulate non-tradable reputation tokens through creating a contract, successfully completing a contract or resolving a dispute attached to a contract. XPAT is an algorithmic reputation token, an arbitration currency based on performance rather than purchasing power, popularity or attention. The distribution mechanism for XPAT tokens on Pangea is an autonomous agent, Lucy, which will initially launch on Ethereum as a smart contract. This mechanism is blockchain agnostic and can be ported to any viable smart contract platform.: "Pangea仲裁トークン（XPAT）は、Pangeaソフトウェア専用のERC20トークンです。市民がスマートコントラクトを実行した場合、あるいはスマートコントタクトに関する事業紛争を解決した場合、その成果が認められる程度に相当するXPATトークンを与えられます。XPATはアルゴリズム的な評判のトークンです。つまり、財力、人気度、注目度に基づいてではなく、XPATは市民の信頼性に基づいて分配される仮想通貨です。"
 Time remaining until bonus tier drops: "ボーナスティアが終了するまでの時間"
-PAT tokens are issued by BITNATION AMERICAS LTD. Belize City, Newtown Barracks, Marina Towers, Suite 508. Reg. number 170.093.: "PATトークンはBITNATION AMERICAS LTD (Belize City, Newtown Barracks, Marina Towers, Suite 508. Reg. number 170.093.) より発行されています。"
-Click here to read the Bitnation PAT Token Sale Agreement.: "PATトークン購入用のコントラクトアドレスはこちら"
+XPAT tokens are issued by BITNATION AMERICAS LTD. Belize City, Newtown Barracks, Marina Towers, Suite 508. Reg. number 170.093.: "XPATトークンはBITNATION AMERICAS LTD (Belize City, Newtown Barracks, Marina Towers, Suite 508. Reg. number 170.093.) より発行されています。"
+Click here to read the Bitnation XPAT Token Sale Agreement.: "XPATトークン購入用のコントラクトアドレスはこちら"
 Whitepaper: "ホワイトペーパー"
 Overview: "概要"
 42Bn: "4,200万枚"
-Total PAT supply: "総発行枚数"
+Total XPAT supply: "総発行枚数"
 $30M: "3,000万米ドル"
 Token sale hard-cap: "トークンセールのハードキャップ"
 $10Tn: "10兆ドル"
 System D economy: "System D（非公式経済）の規模"
 10%: "10%"
-Allocation of PAT for public Token Sale: "公開セール向けの割り当て"
+Allocation of XPAT for public Token Sale: "公開セール向けの割り当て"
 2.6Bn: "2.6億人"
 Smartphone users: "スマートフォン利用者数"
 $600Bn: "6,000億ドル"
@@ -112,8 +112,8 @@ timeline-events:
   icon: fab fa-ethereum
 
 - date: 2017年第1四半期・第2四半期
-  title: IPFS、PAT、およびNETEXPLOのリリース
-  description: 新IPFSベースのPangeaバックエンド導入、PATトークン設計、ユネスコNETEXPLOグランプリを受賞
+  title: IPFS、XPAT、およびNETEXPLOのリリース
+  description: 新IPFSベースのPangeaバックエンド導入、XPATトークン設計、ユネスコNETEXPLOグランプリを受賞
   icon: fal fa-trophy
 
 - date: 2017年第3四半期・第4四半期

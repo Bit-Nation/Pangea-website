@@ -1287,15 +1287,15 @@ span.warning.light {
   height: 60px;
 }
 
-#pat .logo {
+#xpat .logo {
   width: 100px;
 }
 @media screen and (min-width: 930px) {
-  #pat .logo {
+  #xpat .logo {
     width: 80%;
   }
 }
-#pat .reviews img {
+#xpat .reviews img {
   width: 100%;
   max-width: 280px;
 }
@@ -1587,18 +1587,4 @@ span.warning.light {
 #instructions {
   margin-top: -100px;
   padding-top: 130px;
-}
-
-#pat-price-graph {
-  margin: 15px 0;
-  max-width: 700px;
-}
-
-#calculator label {
-  display: block;
-  margin-bottom: 5px;
-}
-#calculator input {
-  text-align: center;
-  padding: 10px 5px;
 }
