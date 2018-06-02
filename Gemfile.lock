@@ -236,6 +236,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-polyglot
+  jekyll-redirect-from
   jekyll-seo-tag
   jekyll-sitemap
 

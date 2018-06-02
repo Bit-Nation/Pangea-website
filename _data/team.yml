@@ -197,6 +197,7 @@ ambassadors:
   location: Athens, Greece
   social:
     twitter: e_barakos
+    linkedin: ebarakos
 
 - name: Valentin Kahn
   location: Zürich, Switzerland
@@ -275,9 +276,6 @@ ambassadors:
     twitter: ycancino
     linkedin: ycancino
 
-- name: Shin Fuji
-  location: Tokyo, Japan
-
 - name: Abdul Salam Mahamadu
   location: Tamale, Ghana
   social:
@@ -322,7 +320,7 @@ ambassadors:
   social:
     twitter: arun_paria
 
-- name: Jack NoBadDays
+- name: Jack Freeman
   location: Guadalajara, Mexico
   social:
     twitter: SonoraJack
