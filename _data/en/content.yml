@@ -84,6 +84,10 @@ Bitnation won the prestigious UNESCO NetExplo 2017 Grand Prix. Previous winners 
 Please enter your email address here: "Please enter your email address here"
 Keep me updated: "Keep me updated"
 Download: "Download"
+Token symbol: "Token symbol:"
+Token address: "Token address:"
+Token decimals: "Token decimals:"
+Token auction end price: "Token auction end price:"
 
 timeline-events:
 - date: July 14, 2014
