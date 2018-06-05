@@ -266,6 +266,8 @@ ambassadors:
 
 - name: Savage Leigh
   location: Louisiana, USA
+  social:
+    twitter: AmbassadorLeigh
 
 - name: Felipe Alarcon
   location: Rio de Janeiro, Brazil
@@ -282,7 +284,7 @@ ambassadors:
     twitter: Cryptolib1
 
 - name: Admet Akhter
-  location: Kazakhstan
+  location: Almaty, Kazakhstan
   social:
     linkedin: admet-akhter-53a58584
 
@@ -334,3 +336,14 @@ ambassadors:
   location: New South Wales, Australia
   social:
     linkedin: luke-inouchi
+
+- name: Alakanani Itirreleng
+  location: Gaborone, Botswana
+  social:
+    linkedin: mrs-alakanani-itireleng-24659335
+
+- name: Oleksandr Zilber
+  location: Berlin, Germany
+  social:
+    twitter: staatsblase
+    linkedin: oleksandr-zilber-892276163
