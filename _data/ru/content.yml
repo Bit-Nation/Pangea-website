@@ -24,7 +24,7 @@ Bitnation is here: "Bitnation уже здесь:"
 Install the Pangea Jurisdiction: "Установить юрисдикцию Pangea"
 Pangea Arbitration Token (XPAT): "Pangea Arbitration Token (XPAT)"
 The Pangea Arbitration Token (XPAT) is an ERC20 compatible in-app token for the Pangea Jurisdiction. The XPAT token rewards good reputation and is issued on Pangea when Citizens accumulate non-tradable reputation tokens through creating a contract, successfully completing a contract or resolving a dispute attached to a contract. XPAT is an algorithmic reputation token, an arbitration currency based on performance rather than purchasing power, popularity or attention. The distribution mechanism for XPAT tokens on Pangea is an autonomous agent, Lucy, which will initially launch on Ethereum as a smart contract. This mechanism is blockchain agnostic and can be ported to any viable smart contract platform.: "Pangea Arbitration Token (XPAT) - это совместимый с ERC20 in-app токен для правовой системы Pangea. Токен XPAT является доказательством статуса для граждан, необходимым для ситуаций, когда граждане заключают контракт, успешно выполняют его или разрешают спор, связанный с этим контрактом. XPAT - это алгоритмический токен репутации; валюта, основанная на показателях работы пользователя и контракта, а не на платежеспособности, популярности или внимании. Механизм распространения токенов XPAT поддерживается автономным агентом Люси, который изначально будет запущен на Ethereum как умный контракт. Этот механизм не зависит от блокчейна и может быть перенесен на любую подходящую платформу умных контрактов. "
-Time remaining until bonus tier drops: "Время оставшееся до завершения бонусного этапа"
+Token Sale Phase III Starting Soon: "Фаза III распродажи токенов скоро начнется"
 XPAT tokens are issued by BITNATION AMERICAS LTD. Belize City, Newtown Barracks, Marina Towers, Suite 508. Reg. number 170.093.: "Токены XPAT выпускаются  BITNATION AMERICAS LTD. Belize City, Newtown Barracks, Marina Towers, Suite 508. Reg. number 170.093."
 Click here to read the Bitnation XPAT Token Sale Agreement.: "Кликните сюда, чтобы прочесть соглашение о продаже XPAT токенов Bitnation."
 Whitepaper: "Руководство"
@@ -84,6 +84,10 @@ Bitnation won the prestigious UNESCO NetExplo 2017 Grand Prix. Previous winners 
 Please enter your email address here: "Пожалуйста введите свой Email адрес"
 Keep me updated: "Получать обновления"
 Download: "Загрузки"
+Token symbol: "Символ токена:"
+Token address: "Адрес токена:"
+Token decimals: "Кол-во знаков:"
+Token auction end price: "Конечная цена токена в аукционе:"
 
 timeline-events:
 - date: July 14, 2014
