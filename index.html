@@ -578,7 +578,7 @@ image: /img/index.png
         </div>
     </div>
     <div class="grid news">
-        {% assign mentions = site.data.media %}{% for mention in mentions %}{% assign img-id = mention.source | slugify %}{% assign img = mention.source | slugify: 'ascii' | prepend: "/img/logo-media-" | append: ".png" %}<div class="grid-cell mention">
+        {% assign mentions = site.data.media | sort: 'source' %}{% for mention in mentions %}{% assign img-id = mention.source | slugify %}{% assign img = mention.source | slugify: 'ascii' | prepend: "/img/logo-media-" | append: ".png" %}<div class="grid-cell mention">
             <a href="{{ mention.url }}" target="_blank"><img id="{{ img-id }}" src="{{ img | absolute_url }}" alt="{{ mention.source }}"></a>
         </div>
         {% endfor %}
