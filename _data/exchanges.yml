@@ -1,5 +1,5 @@
-- name: 0x
-  url: https://0xproject.com/
+# - name: 0x
+#   url: https://0xproject.com/
   
 - name: Bancor
   url: https://www.bancor.network/
@@ -10,8 +10,8 @@
 # - name: Bittrex
 #   url: https://bittrex.com/
 
-- name: CryptoCompare
-  url: https://www.cryptocompare.com/
+# - name: CryptoCompare
+#   url: https://www.cryptocompare.com/
 
 # - name: Okex
 #   url: https://www.okex.com/
@@ -27,3 +27,9 @@
 
 - name: ChainRift
   url: https://www.chainrift.com/
+
+- name: TokenJar
+  url: https://tokenjar.io/
+
+- name: ForkDelta
+  url: https://tokenjar.io/
