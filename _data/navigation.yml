@@ -7,6 +7,9 @@ main:
 #   url: /faq/
 # - title: Media
 #   url: /media/
+- title: Research
+  url: /research/
+  
 - title: Proposals
   url: https://bitnation.consider.it/
   external: true
