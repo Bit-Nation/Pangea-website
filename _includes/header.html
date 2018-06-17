@@ -10,7 +10,7 @@
         <nav class="grid main-nav">
             {% for item in site.data.navigation.main %}
             <div class="grid-cell">
-                <a class="menu-item" href="{% if site.active_lang == site.default_lang %}{{ item.url | relative_url }}{% else %}/{% if site.baseurl %}{{ site.baseurl }}/{% endif %}{{ site.active_lang }}{{ item.url }}{% endif %}" alt="{{ item.title }}">{{ text[item.title] }}</a>
+                <a class="menu-item" href="{% if item.external == false %}{% if site.active_lang == site.default_lang %}{{ item.url | relative_url }}{% else %}/{% if site.baseurl %}{{ site.baseurl }}/{% endif %}{{ site.active_lang }}{{ item.url }}{% endif %}{% else %}{{ item.url }}{% endif %}" alt="{{ item.title }}"{% if item.blank == true %} target="_blank"{% endif %}>{{ text[item.title] }}</a>
             </div>
             {% endfor %}
             <div class="grid-cell dropdown">

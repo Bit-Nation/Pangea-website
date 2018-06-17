@@ -7,6 +7,10 @@ main:
 #   url: /faq/
 # - title: Media
 #   url: /media/
+- title: Proposals
+  url: https://bitnation.consider.it/
+  external: true
+  blank: true
 
 footer:
 - title: Terms of Use
