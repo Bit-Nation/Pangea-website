@@ -955,6 +955,11 @@ section {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
+.darker-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+}
+
 .more {
   display: none;
 }
@@ -1036,6 +1041,14 @@ section {
 .cta-hl a, .cta-hl button, .cta-hl input[type=submit] {
   background: #FF8B00;
   color: #ffffff;
+}
+
+.img-round {
+  border-radius: 50%;
+}
+
+.mxw-300 {
+  max-width: 300px;
 }
 
 .blocker input[type="submit"] {
