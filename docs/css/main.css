@@ -567,6 +567,14 @@ body:after {
   background-size: cover;
 }
 
+body.research:after {
+  background: #020307 url("../img/bg-moon.jpg") repeat-y top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   text-align: inherit;
@@ -804,6 +812,11 @@ section {
   max-width: 100%;
 }
 
+.grid.flex-start {
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
 .grid.flex-end {
   justify-content: flex-end;
 }
@@ -952,6 +965,10 @@ section {
 
 .flex-center {
   justify-content: center;
+}
+
+.margin-initial {
+  margin: initial;
 }
 
 .no-margin {
@@ -1515,6 +1532,7 @@ span.warning.light {
 .main-footer {
   font-size: 0.8em;
   padding: 15px 0;
+  background-color: #ffffff;
 }
 .main-footer a {
   color: #FF8B00;
@@ -1606,4 +1624,15 @@ span.warning.light {
 #instructions {
   margin-top: -100px;
   padding-top: 130px;
+}
+
+.research .yellow-box {
+  margin-left: -60px;
+  padding-left: 90px;
+  padding-bottom: 60px;
+  z-index: -1;
+}
+
+.research .white-box {
+  margin-top: -60px;
 }
