@@ -76,7 +76,7 @@ image: /img/index.png
         </div>
         <div class="grid-cell">
             <div class="cta">
-                <a href="/getxpat/">{{ text["Get XPAT Tokens"] }}</a>
+                <a href="{{ "/getxpat/" | absolute_url }}">{{ text["Get XPAT Tokens"] }}</a>
             </div>
         </div>
         <div class="grid-cell">
@@ -162,7 +162,7 @@ image: /img/index.png
     </div>
     <div class="grid flex-center padding-top-30">
         <div class="grid-cell">
-            <a href="http://ios.bitnation.co/" target="_blank">
+            <a href="#testflight" target="_blank" rel="modal:open">
                 <img class="store-badge app-store-badge" src="{{ "/img/app-store-badge.svg" | absolute_url }}" alt="App Store">
             </a>
         </div>
@@ -187,8 +187,8 @@ image: /img/index.png
             </div>
         </div>
     </div>
-    <div class="grid yellow-box drop-shadow">
-        <div id="clock" class="grid-cell">
+    <div class="grid yellow-box drop-shadow w-100">
+        <div class="grid-cell mxw-full">
             <h2>{{ text["Token Sale Phase III Starting Soon"] }}</h2>
             <p><strong>{{ text["Token symbol"] }}</strong> XPAT</p>
             <p><strong>{{ text["Token address"] }}</strong> 0xBB1fA4FdEB3459733bF67EbC6f893003fA976a82</p>
@@ -204,7 +204,7 @@ image: /img/index.png
     <div class="grid btn-3">
         <div class="grid-cell">
             <div class="cta-hl">
-                <a href="/getxpat/">{{ text["Get XPAT Tokens"] }}</a>
+                <a href="{{ "/getxpat/" | absolute_url }}">{{ text["Get XPAT Tokens"] }}</a>
             </div>
         </div>
         <div class="grid-cell">
@@ -555,6 +555,13 @@ image: /img/index.png
                 </div>{% endif %}
             </div>
             {% endfor %}
+            <div class="grid">
+                <div class="grid-cell">
+                    <div class="cta-hl">
+                        <a href="{{ "/ambassador-registration/" | absolute_url }}" target="_blank">{{ text["Become an Ambassador"] }}</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -669,6 +676,30 @@ image: /img/index.png
     {% include newsletter-form.html %}
 </section>
 
+<!-- TestFlight instructions popup -->
+<div id="testflight" class="modal grid column" style="display: none;">
+    <div class="grid-cell">
+        <h2>Bitnation Jurisdiction for iOS</h2>
+    </div>
+    <div class="grid-cell">
+        <p>On iOS you currently have to use TestFlight to use the Bitnation Jurisdiction. Once installed, the app work exactly like the Android version of the Bitnation Jurisdiction.</p>
+        <p>Click on the button below to go to ios.bitnation.co.</p>
+        <ol>
+            <li>Enter your email address associated with your App Store account to get an invitation to your email.</li>
+            <li>Download TestFlight from the App Store.</li>
+            <li>Go to your email inbox, open the invitation email and copy the code you in the email.</li>
+            <li>Enter the code on the TestFlight App to install the Bitnation Jurisdiction.</li>
+        </ol>
+    </div>
+    <div class="grid-cell center">
+        <div class="cta-hl">
+            <a href="https://ios.bitnation.co" target="_blank">Request invite</a>
+        </div>
+    </div>
+    </div>
+</div>
+
 <script src="{{ "/js/jquery-3.2.1.min.js" | relative_url }}"></script>
 <script src="{{ "/js/slick.min.js" | relative_url }}"></script>
+<script src="{{ "/js/jquery.modal.min.js" | relative_url }}"></script>
 <script src="{{ "/js/script-home.js" | relative_url }}"></script>

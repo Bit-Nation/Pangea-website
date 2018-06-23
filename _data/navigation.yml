@@ -3,10 +3,8 @@ main:
   url: /
 - title: Documents
   url: /documents/
-# - title: FAQ
-#   url: /faq/
-# - title: Media
-#   url: /media/
+# - title: Ambassadors
+#   url: /ambassador-registration/
 - title: Research
   url: /research/
   
