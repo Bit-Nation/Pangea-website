@@ -1481,6 +1481,9 @@ span.warning.light {
 #stats #chainrift {
   max-height: 45px;
 }
+#stats #komodo {
+  max-height: 50px;
+}
 
 #team .members {
   justify-content: flex-start;
