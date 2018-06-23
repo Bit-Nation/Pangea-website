@@ -241,10 +241,7 @@ main {
 }
 
 main > *:first-child {
-    padding-top: 70px;
-    @media screen and (min-width: 930px) {
-        padding-top: 70px;
-    }
+    padding-top: 90px;
 }
 
 section {
@@ -752,10 +749,6 @@ span.warning.light {
     color: $orange;
 }
 
-.social-icons-top {
-    margin-top: 15px;
-}
-
 .social-icons-top .grid-cell {
     @media screen and (max-width: 929px) {
         padding: 7px;
@@ -1186,7 +1179,6 @@ span.warning.light {
         color: $bg1;
         padding: 30px;
         margin-bottom: 30px;
-        border-radius: 30px;
     }
     .meta {
         line-height: 1.5;

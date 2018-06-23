@@ -862,12 +862,7 @@ main {
 }
 
 main > *:first-child {
-  padding-top: 70px;
-}
-@media screen and (min-width: 930px) {
-  main > *:first-child {
-    padding-top: 70px;
-  }
+  padding-top: 90px;
 }
 
 section {
@@ -1375,10 +1370,6 @@ span.warning.light {
   color: #FF8B00;
 }
 
-.social-icons-top {
-  margin-top: 15px;
-}
-
 @media screen and (max-width: 929px) {
   .social-icons-top .grid-cell {
     padding: 7px;
@@ -1796,7 +1787,6 @@ span.warning.light {
   color: #020307;
   padding: 30px;
   margin-bottom: 30px;
-  border-radius: 30px;
 }
 .white-container .meta {
   line-height: 1.5;
