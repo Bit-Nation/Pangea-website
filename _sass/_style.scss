@@ -210,7 +210,7 @@ img {
     }
 }
 
-.t-white-bg {
+.t-yellow-bg {
     background-color: $yellow;
     padding: 3px;
     margin-left: -3px;
@@ -241,9 +241,9 @@ main {
 }
 
 main > *:first-child {
-    padding-top: 80px;
+    padding-top: 70px;
     @media screen and (min-width: 930px) {
-        padding-top: 90px;
+        padding-top: 70px;
     }
 }
 
@@ -594,6 +594,59 @@ section {
     width: 100px;
 }
 
+.bg-vid {
+    min-width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: -10;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    video {
+        width: auto;
+        height: auto;
+        min-width: 100%;
+        min-height: 100%;
+        position: absolute;
+        z-index: -10;
+        top: 50%; 
+        left: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        align-items: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-align: center;
+        -ms-flex-pack: center;
+    }
+    .filter {
+        position: absolute;
+        top: 0;
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.6));
+        z-index: -9;
+        min-width: 100%;
+        min-height: 100%;    
+    }
+    .yellow-stripe {
+        width: 100%;
+        height: 5px;
+        position: absolute;
+        bottom: 0;
+        background-color: $yellow;
+    }
+}
+
+
 .vid-container {
     position: relative;
     height: 0;
@@ -687,6 +740,10 @@ span.warning.light {
     color: $orange;
 }
 
+.social-icons-top {
+    margin-top: 15px;
+}
+
 .social-icons-top .grid-cell {
     @media screen and (max-width: 929px) {
         padding: 7px;
@@ -711,7 +768,7 @@ span.warning.light {
     position: fixed;
     top: 0;
     left: 0;
-    min-height: 65px;
+    min-height: 70px;
     padding: 0;
     z-index: 100;
     transition: all 0.2s linear;
@@ -804,12 +861,15 @@ span.warning.light {
 #intro {
     position: relative;
     z-index: 10;
+    min-height: 100vh;
     .logo-round {
         width: 100px;
         padding-top: 25px;
+        path {
+            fill: $white;
+        }
     }
     @media screen and (min-width: 930px) {
-        min-height: 650px;
         .logo-pangea {
             margin-top: 75px;
         }
