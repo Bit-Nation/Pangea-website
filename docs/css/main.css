@@ -1172,6 +1172,10 @@ section {
   max-width: 300px;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .mxw-full {
   max-width: 100%;
 }
@@ -1221,7 +1225,6 @@ section {
 
 .icon-xl {
   font-size: 5em;
-  width: 100px;
 }
 
 .bg-vid {
