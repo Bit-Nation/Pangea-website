@@ -1,5 +1,5 @@
 ---
-layout: legal
+layout: white
 title: Purchase Agreement
 updated: June 1, 2018
 disclaimer: Please read these terms of token sale carefully. If you do not agree to these terms of sale, do not purchase tokens.

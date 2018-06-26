@@ -1,5 +1,5 @@
 ---
-layout: legal
+layout: white
 title: Privacy Policy
 updated: March 19, 2018
 ---

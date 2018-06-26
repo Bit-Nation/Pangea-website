@@ -1,5 +1,5 @@
 ---
-layout: legal
+layout: white
 title: Terms of Use of Website ("TERMS")
 updated: March 19, 2018
 disclaimer: Please therefore read these terms carefully each time you use this website.
