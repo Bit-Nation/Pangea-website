@@ -350,7 +350,9 @@ image: /img/index.png
         <div class="grid exchanges-logos">
             {% assign all-exchanges = site.data.exchanges | sort: 'name' %}
             {% for exchange in all-exchanges %}{% assign id = exchange.name | slugify %}{% assign img-url = exchange.name | slugify: 'ascii' | prepend: "/img/logo-exchange-" | append: ".png" %}<div class="grid-cell">
-                <img id="{{ id }}" class="logo-exchange" src="{{ img-url | absolute_url }}" alt="{{ exchange.name }}">
+                <a href="{{ exchange.url }}" target="_blank">
+                    <img id="{{ id }}" class="logo-exchange" src="{{ img-url | absolute_url }}" alt="{{ exchange.name }}">
+                </a>
             </div>
             {% endfor %}
         </div>
