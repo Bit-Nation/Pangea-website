@@ -21,7 +21,6 @@ $grey1:         rgba(88, 89, 91, 0.5);
 $grey2:         rgba(167, 169, 172, 0.5);
 $yellow:        #FFCE00;
 $dark-text:     #414042;
-
 $titles-font:   "Source Code Pro", courier, monospace;
 $main-font:     'Open Sans', sans-serif;;
 
@@ -544,6 +543,10 @@ section {
 
 .w-initial {
     width: initial;
+}
+
+.w-300 {
+    width: 300px;
 }
 
 .mxw-300 {

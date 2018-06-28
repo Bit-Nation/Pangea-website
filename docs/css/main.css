@@ -1168,6 +1168,10 @@ section {
   width: initial;
 }
 
+.w-300 {
+  width: 300px;
+}
+
 .mxw-300 {
   max-width: 300px;
 }
