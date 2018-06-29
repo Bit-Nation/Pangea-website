@@ -3,13 +3,12 @@ layout: default
 image: /img/index.png
 ---
 {% assign text = site.data.content %}
-<section id="intro" class="map-bg map-bg-top drop-shadow">
-    <div class="bg-vid">
+<section id="intro" class="map-bg map-bg-top">
+    <div class="bg-vid drop-shadow">
         <video autoplay="" loop="">
             <source src="https://media.bitnation.co/videos/bitnation-bg-video.mp4">
         </video>
         <div class="filter"></div>
-        <div class="yellow-stripe"></div>
     </div>
     <div class="grid social-icons social-icons-top flex-end">
         <div class="grid-cell">
@@ -350,7 +349,9 @@ image: /img/index.png
         <div class="grid exchanges-logos">
             {% assign all-exchanges = site.data.exchanges | sort: 'name' %}
             {% for exchange in all-exchanges %}{% assign id = exchange.name | slugify %}{% assign img-url = exchange.name | slugify: 'ascii' | prepend: "/img/logo-exchange-" | append: ".png" %}<div class="grid-cell">
-                <img id="{{ id }}" class="logo-exchange" src="{{ img-url | absolute_url }}" alt="{{ exchange.name }}">
+                <a href="{{ exchange.url }}" target="_blank">
+                    <img id="{{ id }}" class="logo-exchange" src="{{ img-url | absolute_url }}" alt="{{ exchange.name }}">
+                </a>
             </div>
             {% endfor %}
         </div>

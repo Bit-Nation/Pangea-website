@@ -21,7 +21,6 @@ $grey1:         rgba(88, 89, 91, 0.5);
 $grey2:         rgba(167, 169, 172, 0.5);
 $yellow:        #FFCE00;
 $dark-text:     #414042;
-
 $titles-font:   "Source Code Pro", courier, monospace;
 $main-font:     'Open Sans', sans-serif;;
 
@@ -546,6 +545,10 @@ section {
     width: initial;
 }
 
+.w-300 {
+    width: 300px;
+}
+
 .mxw-300 {
     max-width: 300px;
 }
@@ -648,13 +651,6 @@ section {
         z-index: -9;
         min-width: 100%;
         min-height: 100%;    
-    }
-    .yellow-stripe {
-        width: 100%;
-        height: 5px;
-        position: absolute;
-        bottom: 0;
-        background-color: $yellow;
     }
 }
 
