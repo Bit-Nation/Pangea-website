@@ -53,9 +53,6 @@ communications:
 - name: Stefan Dyck
   role: Producer
 
-- name: Jacob Cox
-  role: Community Engagement
-
 - name: Stephan Sunday
   role: Africa Lead Ambassador
 
@@ -91,6 +88,9 @@ technology:
   social:
     twitter: KevoWevo
 
+- name: Jacob Cox
+  role: Documentation
+
 - name: William Huang
   role: Solidity Developer
   social:
@@ -118,15 +118,20 @@ technology:
 - name: Thiago Souza
   role: AI Developer
 
-- name: Mark Wong
-  role: Snr React Native Dev
-
 - name: Hoang Hung
   role: React Native Dev
   social:
     linkedin: hung-hoang-b4218528
     twitter: hunght
     github: hunght
+
+- name: Borjan Trajanoski
+  role: GoLang Developer
+  social:
+    github: borjantrajanoski
+
+- name: Spencer Ferri
+  role: Machine Learning, Exocortex
 
 - name: Adrian Pollio
   role: Creative Director
@@ -140,14 +145,6 @@ technology:
     linkedin: camiloluna
     github: camilolunacom
     twitter: camilolunacom
-
-- name: Johan Nygren
-  role: Proof-of-Individuality, Swarm distribution
-  social:
-    linkedin: resilience_me
-
-- name: Spencer Ferri
-  role: Machine Learning, Exocortex
 
 advisors:
 
@@ -195,6 +192,12 @@ advisors:
   social:
     linkedin: julioalexo
     twitter: julioalexo
+
+- name: Johan Nygren
+  role: Proof-of-Individuality, Swarm distribution
+  social:
+    linkedin: resilience_me
+
 
 ambassadors:
 
@@ -292,6 +295,7 @@ ambassadors:
   location: Almaty, Kazakhstan
   social:
     linkedin: admet-akhter-53a58584
+    vk: bitnation
 
 - name: Christopher Jackon Beloso Malasmas
   location: Manila, Philippines
