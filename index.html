@@ -409,8 +409,8 @@ image: /img/index.png
                             <a href="https://www.linkedin.com/in/{{ member.social.linkedin }}/" target="_blank">
                                 <i class="fab fa-linkedin"></i>
                             </a>
-                        </div>{% endif %}
-                        {% if member.social.twitter %}<div class="grid-cell i-social">
+                        </div>{% endif %}{% if member.social.twitter %}
+                        <div class="grid-cell i-social">
                             <a href="https://twitter.com/{{ member.social.twitter }}" target="_blank">
                                 <i class="fab fa-twitter"></i>
                             </a>
@@ -418,6 +418,21 @@ image: /img/index.png
                         <div class="grid-cell i-social">
                             <a href="https://github.com/{{ member.social.github }}" target="_blank">
                                 <i class="fab fa-github"></i>
+                            </a>
+                        </div>{% endif %}{% if member.social.email %}
+                        <div class="grid-cell i-social">
+                            <a href="mailto:{{ member.social.email }}" target="_blank">
+                                <i class="fal fa-envelope"></i>
+                            </a>
+                        </div>{% endif %}{% if member.social.vk %}
+                        <div class="grid-cell i-social">
+                            <a href="https://vk.com/{{ member.social.vk }}" target="_blank">
+                                <i class="fab fa-vk"></i>
+                            </a>
+                        </div>{% endif %}{% if member.social.url %}
+                        <div class="grid-cell i-social">
+                            <a href="{{ member.social.url }}" target="_blank">
+                                <i class="fal fa-globe"></i>
                             </a>
                         </div>{% endif %}
                     </div>{% endif %}
@@ -443,8 +458,8 @@ image: /img/index.png
                             <a href="https://www.linkedin.com/in/{{ member.social.linkedin }}/" target="_blank">
                                 <i class="fab fa-linkedin"></i>
                             </a>
-                        </div>{% endif %}
-                        {% if member.social.twitter %}<div class="grid-cell i-social">
+                        </div>{% endif %}{% if member.social.twitter %}
+                        <div class="grid-cell i-social">
                             <a href="https://twitter.com/{{ member.social.twitter }}" target="_blank">
                                 <i class="fab fa-twitter"></i>
                             </a>
@@ -452,6 +467,21 @@ image: /img/index.png
                         <div class="grid-cell i-social">
                             <a href="https://github.com/{{ member.social.github }}" target="_blank">
                                 <i class="fab fa-github"></i>
+                            </a>
+                        </div>{% endif %}{% if member.social.email %}
+                        <div class="grid-cell i-social">
+                            <a href="mailto:{{ member.social.email }}" target="_blank">
+                                <i class="fal fa-envelope"></i>
+                            </a>
+                        </div>{% endif %}{% if member.social.vk %}
+                        <div class="grid-cell i-social">
+                            <a href="https://vk.com/{{ member.social.vk }}" target="_blank">
+                                <i class="fab fa-vk"></i>
+                            </a>
+                        </div>{% endif %}{% if member.social.url %}
+                        <div class="grid-cell i-social">
+                            <a href="{{ member.social.url }}" target="_blank">
+                                <i class="fal fa-globe"></i>
                             </a>
                         </div>{% endif %}
                     </div>{% endif %}
@@ -477,8 +507,8 @@ image: /img/index.png
                             <a href="https://www.linkedin.com/in/{{ member.social.linkedin }}/" target="_blank">
                                 <i class="fab fa-linkedin"></i>
                             </a>
-                        </div>{% endif %}
-                        {% if member.social.twitter %}<div class="grid-cell i-social">
+                        </div>{% endif %}{% if member.social.twitter %}
+                        <div class="grid-cell i-social">
                             <a href="https://twitter.com/{{ member.social.twitter }}" target="_blank">
                                 <i class="fab fa-twitter"></i>
                             </a>
@@ -486,6 +516,21 @@ image: /img/index.png
                         <div class="grid-cell i-social">
                             <a href="https://github.com/{{ member.social.github }}" target="_blank">
                                 <i class="fab fa-github"></i>
+                            </a>
+                        </div>{% endif %}{% if member.social.email %}
+                        <div class="grid-cell i-social">
+                            <a href="mailto:{{ member.social.email }}" target="_blank">
+                                <i class="fal fa-envelope"></i>
+                            </a>
+                        </div>{% endif %}{% if member.social.vk %}
+                        <div class="grid-cell i-social">
+                            <a href="https://vk.com/{{ member.social.vk }}" target="_blank">
+                                <i class="fab fa-vk"></i>
+                            </a>
+                        </div>{% endif %}{% if member.social.url %}
+                        <div class="grid-cell i-social">
+                            <a href="{{ member.social.url }}" target="_blank">
+                                <i class="fal fa-globe"></i>
                             </a>
                         </div>{% endif %}
                     </div>{% endif %}
@@ -512,8 +557,8 @@ image: /img/index.png
                         <a href="https://www.linkedin.com/in/{{ member.social.linkedin }}/" target="_blank">
                             <i class="fab fa-linkedin"></i>
                         </a>
-                    </div>{% endif %}
-                    {% if member.social.twitter %}<div class="grid-cell i-social">
+                    </div>{% endif %}{% if member.social.twitter %}
+                    <div class="grid-cell i-social">
                         <a href="https://twitter.com/{{ member.social.twitter }}" target="_blank">
                             <i class="fab fa-twitter"></i>
                         </a>
@@ -521,6 +566,21 @@ image: /img/index.png
                     <div class="grid-cell i-social">
                         <a href="https://github.com/{{ member.social.github }}" target="_blank">
                             <i class="fab fa-github"></i>
+                        </a>
+                    </div>{% endif %}{% if member.social.email %}
+                    <div class="grid-cell i-social">
+                        <a href="mailto:{{ member.social.email }}" target="_blank">
+                            <i class="fal fa-envelope"></i>
+                        </a>
+                    </div>{% endif %}{% if member.social.vk %}
+                    <div class="grid-cell i-social">
+                        <a href="https://vk.com/{{ member.social.vk }}" target="_blank">
+                            <i class="fab fa-vk"></i>
+                        </a>
+                    </div>{% endif %}{% if member.social.url %}
+                    <div class="grid-cell i-social">
+                        <a href="{{ member.social.url }}" target="_blank">
+                            <i class="fal fa-globe"></i>
                         </a>
                     </div>{% endif %}
                 </div>{% endif %}
@@ -547,10 +607,30 @@ image: /img/index.png
                         <a href="https://www.linkedin.com/in/{{ member.social.linkedin }}/" target="_blank">
                             <i class="fab fa-linkedin"></i>
                         </a>
-                    </div>{% endif %}
-                    {% if member.social.twitter %}<div class="grid-cell i-social">
+                    </div>{% endif %}{% if member.social.twitter %}
+                    <div class="grid-cell i-social">
                         <a href="https://twitter.com/{{ member.social.twitter }}" target="_blank">
                             <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>{% endif %}{% if member.social.github %}
+                    <div class="grid-cell i-social">
+                        <a href="https://github.com/{{ member.social.github }}" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>{% endif %}{% if member.social.email %}
+                    <div class="grid-cell i-social">
+                        <a href="mailto:{{ member.social.email }}" target="_blank">
+                            <i class="fal fa-envelope"></i>
+                        </a>
+                    </div>{% endif %}{% if member.social.vk %}
+                    <div class="grid-cell i-social">
+                        <a href="https://vk.com/{{ member.social.vk }}" target="_blank">
+                            <i class="fab fa-vk"></i>
+                        </a>
+                    </div>{% endif %}{% if member.social.url %}
+                    <div class="grid-cell i-social">
+                        <a href="{{ member.social.url }}" target="_blank">
+                            <i class="fal fa-globe"></i>
                         </a>
                     </div>{% endif %}
                 </div>{% endif %}
