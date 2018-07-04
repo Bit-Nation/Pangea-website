@@ -971,8 +971,12 @@ span.warning.light {
             justify-content: space-around;
         }
     }
-    .logo-exchange {
+    .exchanges-logos .logo-exchange {
         max-height: 60px;
+        max-width: 100%;
+    }
+    .exchanges-logos.hightlighted-logos .logo-exchange {
+        max-height: 80px;
         max-width: 100%;
     }
     #poloniex {

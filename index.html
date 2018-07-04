@@ -346,9 +346,18 @@ image: /img/index.png
                 <h2 class="t-white">{{ text["Exchanges and Wallets"] }}</h2>
             </div>
         </div>
+        <div class="grid exchanges-logos hightlighted-logos">
+            {% assign highlight-exchanges = site.data.exchanges.highlight %}
+            {% for exchange in highlight-exchanges %}{% assign id = exchange.name | slugify %}{% assign img-url = exchange.name | slugify: 'ascii' | prepend: "/img/logo-exchange-" | append: ".png" %}<div class="grid-cell">
+                <a href="{{ exchange.url }}" target="_blank">
+                    <img id="{{ id }}" class="logo-exchange" src="{{ img-url | absolute_url }}" alt="{{ exchange.name }}">
+                </a>
+            </div>
+            {% endfor %}
+        </div>
         <div class="grid exchanges-logos">
-            {% assign all-exchanges = site.data.exchanges | sort: 'name' %}
-            {% for exchange in all-exchanges %}{% assign id = exchange.name | slugify %}{% assign img-url = exchange.name | slugify: 'ascii' | prepend: "/img/logo-exchange-" | append: ".png" %}<div class="grid-cell">
+            {% assign normal-exchanges = site.data.exchanges.normal | sort: 'name' %}
+            {% for exchange in normal-exchanges %}{% assign id = exchange.name | slugify %}{% assign img-url = exchange.name | slugify: 'ascii' | prepend: "/img/logo-exchange-" | append: ".png" %}<div class="grid-cell">
                 <a href="{{ exchange.url }}" target="_blank">
                     <img id="{{ id }}" class="logo-exchange" src="{{ img-url | absolute_url }}" alt="{{ exchange.name }}">
                 </a>
