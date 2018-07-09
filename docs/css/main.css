@@ -1582,36 +1582,23 @@ span.warning.light {
 #stats .graph {
   width: 100px;
 }
-#stats .exchanges-logos, #stats .more-coming-soon {
-  align-items: center;
+#stats .exchanges-logos {
+  justify-content: center;
 }
 @media screen and (min-width: 930px) {
-  #stats .exchanges-logos, #stats .more-coming-soon {
+  #stats .exchanges-logos {
     justify-content: space-around;
+    flex-wrap: nowrap;
   }
 }
 #stats .exchanges-logos .logo-exchange {
-  max-height: 60px;
+  max-height: 30px;
   max-width: 100%;
 }
 #stats .exchanges-logos.hightlighted-logos .logo-exchange {
-  max-height: 80px;
+  max-height: 100px;
   max-width: 100%;
-}
-#stats #poloniex {
-  max-height: 40px;
-}
-#stats #cryptocompare {
-  max-height: 45px;
-}
-#stats #citowise {
-  max-height: 45px;
-}
-#stats #chainrift {
-  max-height: 45px;
-}
-#stats #komodo {
-  max-height: 50px;
+  padding-bottom: 15px;
 }
 
 #team .members {

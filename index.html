@@ -338,7 +338,7 @@ image: /img/index.png
                 <h2 class="t-white">{{ text["Exchanges and Wallets"] }}</h2>
             </div>
         </div>
-        <div class="grid exchanges-logos hightlighted-logos">
+        <div class="grid exchanges-logos hightlighted-logos padding-bottom-30">
             {% assign highlight-exchanges = site.data.exchanges.highlight %}
             {% for exchange in highlight-exchanges %}{% assign id = exchange.name | slugify %}{% assign img-url = exchange.name | slugify: 'ascii' | prepend: "/img/logo-exchange-" | append: ".png" %}<div class="grid-cell">
                 <a href="{{ exchange.url }}" target="_blank">
@@ -356,7 +356,7 @@ image: /img/index.png
             </div>
             {% endfor %}
         </div>
-        <div class="grid more-coming-soon t-white">
+        <div class="grid flex-center more-coming-soon t-white">
             <div class="grid-cell">
                 <p class="no-margin">{{ text["(More exchanges coming soon.)"] }}</p>
             </div>
