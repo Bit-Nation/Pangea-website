@@ -1094,6 +1094,27 @@ span.warning.light {
     }
 }
 
+#quotes {
+    width: 95%;
+    margin: auto;
+    padding: 15px 30px 60px;
+    max-width: 930px;
+    blockquote {
+        margin: 0;
+    }
+    .quote-container {
+        padding-bottom: 15px;
+    }
+    .slick-dots {
+        li button::before {
+        color: $grey1;
+        }
+        li.slick-active button::before {
+            color: $orange;
+        }
+    }
+}
+
 .email-form {
     .grid-cell {
         width: 100%;
