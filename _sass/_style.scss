@@ -965,34 +965,23 @@ span.warning.light {
     .graph {
         width: 100px;
     }
-    .exchanges-logos, .more-coming-soon {
-        align-items: center;
+    .exchanges-logos {
+        justify-content: center;
         @media screen and (min-width: 930px) {
             justify-content: space-around;
+            flex-wrap: nowrap;
+        }
+        .logo-exchange {
+            max-height: 30px;
+            max-width: 100%;
         }
     }
-    .exchanges-logos .logo-exchange {
-        max-height: 60px;
-        max-width: 100%;
-    }
-    .exchanges-logos.hightlighted-logos .logo-exchange {
-        max-height: 80px;
-        max-width: 100%;
-    }
-    #poloniex {
-        max-height: 40px;
-    }
-    #cryptocompare {
-        max-height: 45px;
-    }
-    #citowise {
-        max-height: 45px;
-    }
-    #chainrift {
-        max-height: 45px;
-    }
-    #komodo {
-        max-height: 50px;
+    .exchanges-logos.hightlighted-logos {
+        .logo-exchange {
+            max-height: 100px;
+            max-width: 100%;
+            padding-bottom: 15px;
+        }
     }
 }
 
