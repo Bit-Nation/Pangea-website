@@ -50,4 +50,18 @@ $( document ).ready(function() {
             }
         }]
     });
+    // Quotes slider
+    $('.quote-container').slick({
+        adaptiveHeight: true,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        mobileFirst: true,
+        centerPadding: '0',
+    });
 });

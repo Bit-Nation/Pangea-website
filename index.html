@@ -699,6 +699,18 @@ image: /img/index.png
     </div>
 </section>
 
+<section id="quotes" class="yellow-box drop-shadow center">
+    <h2>What People Say About Bitnation</h2>
+    <div class="quote-container">
+        {% for quote in site.data.quotes %}<div class="quote">
+            <blockquote>
+                <p>"{{ quote.text }}"</p>
+            </blockquote>
+            <cite>– {{ quote.author }}</cite>
+        </div>{% endfor %}
+    </div>
+</section>
+
 <section id="social" class="map-bg">
     <div class="grid">
         <div class="grid-cell">
