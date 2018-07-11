@@ -1095,12 +1095,15 @@ span.warning.light {
 }
 
 #quotes {
-    width: 95%;
-    margin: auto;
-    padding: 15px 30px 60px;
-    max-width: 930px;
+    .yellow-box {
+        padding: 30px 45px 75px;
+    }
     blockquote {
+        font-style: italic;
         margin: 0;
+    }
+    cite {
+        font-style: normal;
     }
     .quote-container {
         padding-bottom: 15px;
