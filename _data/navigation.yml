@@ -1,10 +1,10 @@
 main:
 - title: Home
   url: /
+
 - title: Documents
   url: /documents/
-# - title: Ambassadors
-#   url: /ambassador-registration/
+
 - title: Research
   url: /research/
   
@@ -12,6 +12,9 @@ main:
   url: https://bitnation.consider.it/
   external: true
   blank: true
+
+- title: FAQ
+  url: /faq/
 
 footer:
 - title: Terms of Use
