@@ -1,8 +1,54 @@
-- q: When is the Token Sale taking place?
-  a: The Public Sale (TSE) begins on February 28th, 2018.
+- q: "What is Bitnation?"
+  a: "Bitnation is the organization that is building world’s first Decentralized Borderless Voluntary Nation (DBVN) - the Pangea Blockchain Jurisdiction. There are Bitnation entities incorporated in Singapore, Switzerland, Estonia, Belize and Netherlands, and Bitnation Embassies and Consulates in over 30 countries. Bitnation’s HQ is based in Amsterdan and our core contributors are spread all around the globe."
 
-- q: Can I get invited to the Slack workspace?
-  a: Sadly we can't invite you. We are locked out of inviting new members.
+- q: "You keep mentioning your Blockchain Jurisdiction - what can you do with it?"
+  a: "Bitnation’s Blockchain Jurisdiction combines smart contract agreements, peer-to-peer mediation and arbitration (backed by an AI-assisted positive reputation based contract enforcement) and the ability to create opt-in nations and communities. At the heart of our technology is a surveillance-resistant mesh network which can write smart contracts to any integrated blockchain from a fully encrypted chat frontend."
 
-- q: Does it need whitelist?
-  a: No, but it's advisable to suscribe to the newsletter to stay ahead of the latest token sale developments.
+- q: "What global problems does Bitnation’s Jurisdiction solve?"
+  a: "Your security and choice of governance services, jurisdiction, values and economic opportunity is arbitrarily dictated by the place where you were born or reside. We can only truly reclaim our sovereignty through an independent legal domain - a jurisdiction.</p>
+  <p>Bitnation has created a blockchain jurisdiction in which communities can be built, contracts made, disputes resolved, and agreements positively enforced through reputation. Within this jurisdiction, governance services such as peer-to-peer security, insurance and education can be accessed via 3rd-party dapps."
+
+- q: "What are Decentralised Borderless Voluntary Nations (DBVN)? Can I start my own Nation?"
+  a: "DBVN’s are autonomous organizations formed as smart contracts on the Ethereum blockchain under any code of law or set of rules. They are the governance service equivalent of Decentralised Autonomous Organisations (DAO).</p>
+  </p>You can absolutely start your own nation! Download the app and have a go yourself!"
+
+- q: "Wow, this all sounds amazing! But how does it work under the hood? What does the tech stack look like?"
+  a: "We use an encrypted chat as the primary user interface because as all agreements begin with a conversation. It’s built on an off-chain mesh network that allows each client in the mesh to write smart contracts to a blockchain.</p>
+
+  <p>Currently, only the Ethereum chain is integrated - but we will add others in the future and offer users a choice of which blockchain they want their nation/community or individual contracts to run on."
+
+- q: "I see XPAT is an ERC20 token, does that mean the Jurisdiction is built on Ethereum?"
+  a: "No, Bitnation is built on a blockchain agnostic mesh network which can write smart contracts to any integrated chain. Currently the Ethereum chain is the only one integrated, but we intend to add Bitcoin through the Rootstock protocol, Lisk, EOS and others. Citizens will be able to choose between blockchains depending on their requirements. Our architecture has been shaped to be configurable to new technologies as they emerge, including quantum resistant cryptography, which has been anticipated at the design-stage of our software."
+
+- q: "Interesting, but how will Bitnation’s Jurisdiction create a free market for governance services?"
+  a: "Our core infrastructure - an off-chain mesh network linked to blockchains -  is flexible and configurable. It allows many other third party blockchain services to be offered to users and communities - creating an ecosystem of competing service providers. The public API will be released during 2018, including a dapp fund to help 3rd party developers get started on their governance applications."
+
+- q: "What is the target audience for Bitnation’s Blockchain Jurisdiction?"
+  a: "Over 1 billion people will be online workers by 2025. These people will be offering their services globally and requiring jurisdictions and governance service providers that transcend national and legal boundaries.</p>
+  <p>A further 2 billion people working in the informal economy or are stateless and have few legal protections.</p>
+  <p>The existing legal services industry doesn't offer enough services in either emerging or developed markets and so that’s a US$600 billion market ripe for disruption."
+
+- q: "Bitnation’s Jurisdiction is an awesome concept, but is it realistic?"
+  a: "Before the release of our Jurisdiction software in January 2018, Bitnation had already registered over 12,000 citizens and 200 voluntary nations on our website. Thousands of users have notarised documents or registered ID’s using our earlier Public Notary software - demonstrating significant demand for opt-in jurisdiction and governance services. Now, based on the feedback we got from our POC and MVP, we have designed a credible and fullstack blockchain jurisdiction."
+
+- q: "How will Bitnation’s Jurisdiction Interact with Nation State Jurisdictions?"
+  a: "We can only succeed if we outcompete existing systems. A useful analogy is email and the postal service - email reduced the importance of the postal service but it was never necessary to explicitly compete against it. The benefits of email over a postal service are clear, and users intuitively choose to send email instead of letters.</p>
+  <p>Similarly, the benefits of using a transparent, fast, cheap and voluntary governance service instead of slow, expensive and opaque centralised services will be clear. Our user-base will thus grow organically as the utility of our technology increases.</p>
+  <p>Some forward thinking governments are realizing this new paradigm and are integrating blockchain technology as well, others are aiming to compete on a global market for opt-in governance services such as Singapore, Estonia, Dubai, Switzerland and others."
+
+- q: "Is the Bitnation Jurisdiction available on Android and iOS?"
+  a: "Yes! It’s available to download at the Google Play store for Android and on TestFlight for iOS. Updated versions with new features integrated will be released every few weeks to the stores.</p>
+  <p>We expect to have a fully functional Pangea software available for iOS, Android as well as Windows, Mac and Linux clients by the end of Q4 2018."
+
+- q: "What is the Pangea Arbitration Token (XPAT) and how do I earn it on the Bitnation Jurisdiction?"
+  a: "XPAT is an ERC20 token which serves as a contract enforcement mechanism and drives the reputation system on Pangea, our Jurisdiction. Pangea awards three non-tradable sub-tokens for 1) making and completing contracts, or arbitrating disputes related to contracts, 2) building nations and communities that offer high-rated services, 3) developing and updating smart contracts that are highly rated by users.</p>
+  <p>Users can only rate smart contracts and nations - not other users - to prevent popularity contests. The AI rates users against set criteria. Once you’ve accumulated enough non-tradable reputation tokens you get awarded with XPAT, similar to Air Miles or Amazon points."
+
+- q: "Which Exchanges are XPAT listed on?"
+  a: "XPAT can be traded,on Bancor, LAToken, ForkDelta, TokenJar, Komodo, Chainrift, Citowise and others. More wallets and exchanges are being added each month."
+
+- q: "When will Phase III of the ICO start?"
+  a: "We held a pre-sale in Q4 2017 and a public auction in Q2 2018 and we will sell 1% per month in a slow release ICO phase from later this year. There is no official whitelist, but if you are interested in the slow release phase or private sales you can register to receive regular emailed updates on our token sale website by pressing the “Buy XPAT” button. Tokens are sold direct by Bitnation at market price with a bonuses schedule based on volumes."
+ 
+- q: "How are ICO proceeds being used?"
+  a: "All capital raised during the ICO is being used to: further develop our technology (51%); expand our operations (22%); build market adoption and educate users (17%); and expand the ecosystem of nations, dapps and governance service providers on Pangea (10%)."

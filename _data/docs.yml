@@ -1,4 +1,6 @@
-- title: Pangea Whitepaper (42 pgs.)
+- titleLine1: Pangea Whitepaper
+  titleLine2: (42 pgs.)
+  button: Download
   url: https://github.com/Bit-Nation/Pangea-Docs/raw/master/BITNATION%20Pangea%20Whitepaper%202018.pdf
   translations:
     ar: https://github.com/Bit-Nation/Pangea-Docs/raw/master/Arabic%20Translations/BITNATION%20Pangea%20Whitepaper%202018%20-%20AR.pdf
@@ -11,7 +13,9 @@
     vi: https://github.com/Bit-Nation/Pangea-Docs/raw/master/Vietnamese%20Translations/BITNATION%20Pangea%20Whitepaper%202018%20-%20VI.pdf
     zh: https://github.com/Bit-Nation/Pangea-Docs/raw/master/Chinese%20Translations/BITNATION%20Pangea%20Whitepaper%202017%20-%20ZH.pdf
 
-- title: Pangea Litepaper (5 pgs.)
+- titleLine1: Pangea Litepaper
+  titleLine2: (5 pgs.)
+  button: Download
   url: https://github.com/Bit-Nation/Pangea-Docs/raw/master/BITNATION%20Pangea%20Litepaper%202018.pdf
   translations:
     de: https://github.com/Bit-Nation/Pangea-Docs/raw/master/German%20Translations/BITNATION%20Pangea%20Litepaper%202017%20-%20DE.pdf
@@ -23,4 +27,11 @@
     pt: https://github.com/Bit-Nation/Pangea-Docs/raw/master/Portuguese%20Translations/BITNATION%20Pangea%20Litepaper%202017%20-%20PT.pdf
     ru: https://github.com/Bit-Nation/Pangea-Docs/raw/master/Russian%20Translations/BITNATION%20Pangea%20Litepaper%202017%20-%20RU.pdf
     zh: https://github.com/Bit-Nation/Pangea-Docs/raw/master/Chinese%20Translations/BITNATION%20Pangea%20Litepaper%202017%20-%20ZH.pdf
-    
+
+- titleLine1: Yearly Summary 2017
+  button: Read
+  url: https://steemit.com/bitnation/@bitnation/yearly-summary-2017-2018-the-most-productive-year-yet
+
+- titleLine1: Documentation
+  button: View all
+  url: https://github.com/Bit-Nation/Pangea-Docs

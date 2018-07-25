@@ -1707,14 +1707,15 @@ span.warning.light {
   margin: auto;
 }
 
-#quotes {
-  width: 95%;
-  margin: auto;
-  padding: 15px 30px 60px;
-  max-width: 930px;
+#quotes .yellow-box {
+  padding: 30px 45px 75px;
 }
 #quotes blockquote {
+  font-style: italic;
   margin: 0;
+}
+#quotes cite {
+  font-style: normal;
 }
 #quotes .quote-container {
   padding-bottom: 15px;

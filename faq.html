@@ -1,0 +1,14 @@
+---
+layout: white
+image: /img/index.png
+title: Frequently Asked Questions
+---
+{% assign text = site.data.content %}
+<div id="faq">
+    <div class="grid column">
+        {% for document in site.data.faq %}<div class="grid-cell">
+            <h4>{{ document.q }}</h4>
+            <p>{{ document.a }}</p>
+        </div>{% endfor %}
+    </div>
+</div>
