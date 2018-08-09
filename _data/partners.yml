@@ -1,20 +1,5 @@
-- name: Amazix
-  url: http://www.amazix.com/
-
-- name: ABDK Consulting
-  url: https://www.abdk.consulting/
-
-- name: Bitcoin Suisse
-  url: https://www.bitcoinsuisse.ch/
-  
 - name: Republic of Estonia e-Residency
   url: https://e-resident.gov.ee/
-
-- name: FusionICO.pro
-  url: http://fusionico.pro/
-
-- name: LDJ Capital
-  url: http://www.ldjcapital.com/
 
 - name: Liberland
   url: https://liberland.org/
