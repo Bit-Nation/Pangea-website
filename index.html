@@ -665,6 +665,21 @@ image: /img/index.png
         </div>
         {%endfor%}
     </div>
+    <div class="grid">
+        <div class="grid-cell">
+            <h2>{{ text["Smart Contract Auditors"] }}</h2>
+        </div>
+    </div>
+    <div class="grid auditor-logos">
+        {% assign all-auditors = site.data.auditors | sort: 'name' %}
+        {% for partner in all-auditors %}{% assign id = partner.name | slugify %}{% assign img-url = partner.name | slugify: 'ascii' | prepend: "/img/logo-partner-" | append: ".png" %}<div class="grid-cell">
+            <a class="logo-partner" href="{{ partner.url }}" target="_blank">
+                <img id="{{ id }}" src="{{ img-url | absolute_url }}" alt="{{ partner.name }}">
+            </a>
+        </div>
+        {%endfor%}
+    </div>
+<
 </section>
 
 <section id="media" class="bg-grey2">

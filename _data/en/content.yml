@@ -92,6 +92,7 @@ Token address: "Token address:"
 Token decimals: "Token decimals:"
 Token auction end price: "Token auction end price:"
 Frequently Asked Questions: "Frequently Asked Questions"
+Smart Contract Auditors: "Smart Contract Auditors"
 
 timeline-events:
 - date: July 14, 2014

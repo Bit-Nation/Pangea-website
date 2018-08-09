@@ -28,7 +28,13 @@
     ru: https://github.com/Bit-Nation/Pangea-Docs/raw/master/Russian%20Translations/BITNATION%20Pangea%20Litepaper%202017%20-%20RU.pdf
     zh: https://github.com/Bit-Nation/Pangea-Docs/raw/master/Chinese%20Translations/BITNATION%20Pangea%20Litepaper%202017%20-%20ZH.pdf
 
-- titleLine1: Yearly Summary 2017
+- titleLine1: Development
+  titleLine2: Roadmap
+  button: Download
+  url: https://github.com/Bit-Nation/Pangea-Docs/raw/master/BitnationRoadmapPresentationDeck.pdf
+
+- titleLine1: Yearly Summary
+  titleLine2: 2017–2018
   button: Read
   url: https://steemit.com/bitnation/@bitnation/yearly-summary-2017-2018-the-most-productive-year-yet
 
