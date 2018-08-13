@@ -965,22 +965,33 @@ span.warning.light {
     .graph {
         width: 100px;
     }
-    .exchanges-logos {
+    .exchanges-logos, .market-analysis-logos {
         justify-content: center;
+        align-items: center;
         @media screen and (min-width: 930px) {
             justify-content: space-around;
             flex-wrap: nowrap;
         }
-        .logo-exchange {
-            max-height: 30px;
-            max-width: 100%;
-        }
+    }
+    .exchanges-logos .logo-exchange {
+        max-height: 30px;
+        max-width: 100%;
     }
     .exchanges-logos.hightlighted-logos {
         .logo-exchange {
             max-height: 100px;
             max-width: 100%;
             padding-bottom: 15px;
+        }
+    }
+    .market-analysis-logos .logo-market-analysis {
+        width: 180px;
+        max-width: 100%;
+        #coingecko {
+            width: 160px;
+        }
+        #live-coin-watch {
+            padding-bottom: 2px;
         }
     }
 }
@@ -1054,7 +1065,7 @@ span.warning.light {
 
 #partners {
     h2 {
-        color: $white;
+        color: $yellow;
     }
     .partner-logos {
         align-items: center;

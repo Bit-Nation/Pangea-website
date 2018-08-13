@@ -1582,11 +1582,12 @@ span.warning.light {
 #stats .graph {
   width: 100px;
 }
-#stats .exchanges-logos {
+#stats .exchanges-logos, #stats .market-analysis-logos {
   justify-content: center;
+  align-items: center;
 }
 @media screen and (min-width: 930px) {
-  #stats .exchanges-logos {
+  #stats .exchanges-logos, #stats .market-analysis-logos {
     justify-content: space-around;
     flex-wrap: nowrap;
   }
@@ -1599,6 +1600,16 @@ span.warning.light {
   max-height: 100px;
   max-width: 100%;
   padding-bottom: 15px;
+}
+#stats .market-analysis-logos .logo-market-analysis {
+  width: 180px;
+  max-width: 100%;
+}
+#stats .market-analysis-logos .logo-market-analysis #coingecko {
+  width: 160px;
+}
+#stats .market-analysis-logos .logo-market-analysis #live-coin-watch {
+  padding-bottom: 2px;
 }
 
 #team .members {
@@ -1668,7 +1679,7 @@ span.warning.light {
 }
 
 #partners h2 {
-  color: #ffffff;
+  color: #FFCE00;
 }
 #partners .partner-logos {
   align-items: center;
@@ -1677,6 +1688,10 @@ span.warning.light {
   #partners .partner-logos {
     justify-content: space-around;
   }
+}
+#partners .auditor-logos {
+  align-items: center;
+  justify-content: space-evenly;
 }
 #partners .logo-partner img {
   max-height: 60px;
