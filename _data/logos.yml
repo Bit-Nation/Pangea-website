@@ -1,0 +1,64 @@
+partners:
+
+- name: Republic of Estonia e-Residency
+  url: https://e-resident.gov.ee/
+
+- name: Liberland
+  url: https://liberland.org/
+
+- name: Network Society Ventures
+  url: http://netsoc.vc/
+
+auditors:
+
+- name: ABDK Consulting
+  url: https://www.abdk.consulting/
+
+- name: Zero Knowledge Labs
+  url: http://zklabs.io/
+
+exchanges-big:
+
+- name: Bancor
+  url: https://www.bancor.network/communities/5b05667a794f5d00014c2f5b/currency
+
+- name: LATOKEN
+  url: https://wallet.latoken.com/market/Crypto/ETH/XPAT-ETH
+
+exchanges:
+
+- name: Binance
+  url: https://www.binance.com/
+
+- name: Citowise
+  url: https://citowise.com/
+
+- name: ChainRift
+  url: https://www.chainrift.com/
+
+- name: TokenJar
+  url: https://tokenjar.io/
+
+- name: ForkDelta
+  url: https://forkdelta.github.io/
+
+- name: Komodo
+  url: https://komodoplatform.com/
+
+market-analysis:
+
+- name: CoinGecko
+  url: https://www.coingecko.com/en/coins/pangea-arbitration-token
+  img: png
+
+- name: CoinMarketCap
+  url: https://coinmarketcap.com/currencies/bitnation/
+  img: svg
+
+- name: CryptoCompare
+  url: https://www.cryptocompare.com/coins/xpat/overview
+  img: svg
+
+- name: Live Coin Watch
+  url: https://www.livecoinwatch.com/price/Bitnation-XPAT
+  img: svg
