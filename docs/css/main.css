@@ -1482,6 +1482,11 @@ span.warning.light {
   }
 }
 
+.full-menu {
+  height: 100%;
+  overflow-x: hidden;
+}
+
 #intro {
   position: relative;
   z-index: 10;
