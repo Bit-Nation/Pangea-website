@@ -45,6 +45,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - docs
+  - static
 
 google_analytics_id: UA-106469149-1
 
