@@ -1584,7 +1584,7 @@ span.warning.light {
 }
 @media screen and (min-width: 930px) {
   #history #container {
-    height: 810px;
+    height: 820px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -1608,7 +1608,7 @@ span.warning.light {
     padding: 30px;
     min-height: initial;
     height: 100%;
-    width: 360px;
+    width: 400px;
     margin: 0 15px;
     display: inline-block;
     transition: width 0.2s;
@@ -1616,7 +1616,7 @@ span.warning.light {
   #history .description {
     position: absolute;
     display: block;
-    width: 300px;
+    width: 340px;
     white-space: normal;
     transition: width 0.2s;
   }
