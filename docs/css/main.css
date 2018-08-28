@@ -648,6 +648,13 @@ template {
   display: none;
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+  /* remove scrollbar space */
+  background: transparent;
+  /* optional: just make scrollbar invisible */
+}
+
 html {
   box-sizing: border-box;
   background: #E1E1E1;
@@ -1580,6 +1587,7 @@ span.warning.light {
     overflow: hidden;
     position: relative;
     overflow-x: scroll;
+    overflow: -moz-scrollbars-none;
     display: inline-block;
   }
   #history #timeline {
@@ -1615,6 +1623,9 @@ span.warning.light {
   }
   #history .description ul li {
     line-height: 1.6;
+  }
+  #history .slider-arrows {
+    display: none;
   }
 }
 

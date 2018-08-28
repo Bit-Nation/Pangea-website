@@ -24,6 +24,11 @@ $dark-text:     #414042;
 $titles-font:   "Source Code Pro", courier, monospace;
 $main-font:     'Open Sans', sans-serif;;
 
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
 html {
     box-sizing: border-box;
     background: $light-grey;
@@ -961,6 +966,7 @@ span.warning.light {
             overflow: hidden;
             position: relative;
             overflow-x: scroll;
+            overflow: -moz-scrollbars-none;
             display: inline-block;
         }
         #timeline {
@@ -996,6 +1002,9 @@ span.warning.light {
                     line-height: 1.6;
                 }
             }
+        }
+        .slider-arrows {
+            display: none;
         }
     }
 }
