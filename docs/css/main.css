@@ -664,7 +664,7 @@ html, body {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Source Code Pro", courier, monospace;
   font-size: 16px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -697,6 +697,10 @@ body.research:after {
   background-size: cover;
 }
 
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   text-align: inherit;
@@ -704,12 +708,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-family: "Source Code Pro", courier, monospace;
   font-weight: 900;
 }
 
 h2 {
-  font-family: "Source Code Pro", courier, monospace;
   font-weight: 700;
 }
 

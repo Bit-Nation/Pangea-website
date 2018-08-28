@@ -21,8 +21,8 @@ $grey1:         rgba(88, 89, 91, 0.5);
 $grey2:         rgba(167, 169, 172, 0.5);
 $yellow:        #FFCE00;
 $dark-text:     #414042;
-$titles-font:   "Source Code Pro", courier, monospace;
-$main-font:     'Open Sans', sans-serif;;
+$main-font:     'Source Code Pro', courier, monospace;
+$text-font:     'Open Sans', sans-serif;;
 
 html {
     box-sizing: border-box;
@@ -72,6 +72,10 @@ body.research:after {
     background-size: cover;
 }
 
+p {
+    font-family: $text-font;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     text-align: inherit;
@@ -79,12 +83,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-family: $titles-font;
     font-weight: 900;
 }
 
 h2 {
-    font-family: $titles-font;
     font-weight: 700;
 }
 
@@ -230,7 +232,7 @@ img {
 
 #amount {
     font-size: 3.5em;
-    font-family: "Source Code Pro", courier, monospace;
+    font-family: $main-font;
 }
 
 // Containers
@@ -690,7 +692,7 @@ span.warning.light {
 }
 
 .countdown {
-    font-family: $titles-font;
+    font-family: $main-font;
     font-size: 2em;
     margin: 15px auto;
 }
@@ -760,7 +762,7 @@ span.warning.light {
 
 .hex-address {
     font-size: 2.1em;
-    font-family: $titles-font;
+    font-family: $main-font;
     word-wrap: break-word;
 }
 
