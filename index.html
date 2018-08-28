@@ -383,10 +383,10 @@ image: /img/index.png
             <h2>{{ text["Bitnation Timeline"] }}</h2>
         </div>
     </div>
-    <div class="timeline-mobile">
-        <div class="timeline">
+    <div id="container">
+        <div id="timeline">
             {% for event in site.data.timeline %}
-                <div class="event drop-shadow">
+            <div class="event drop-shadow">
                 <div class="title">
                     <h3>{{ event.year }}</h3>
                 </div>
@@ -398,21 +398,6 @@ image: /img/index.png
             </div>{% endfor %}
         </div> 
         <div class="slider-arrows"></div>
-    </div>
-    <div class="timeline-dektop">
-        <div id="container">
-            <div id="thumbs">
-                {% for event in site.data.timeline %}
-                <div class="history-block">
-                    <div class="year">{{ event.year }}</div>
-                    <div class="title">
-                        <ul>
-                            {% for line in event.events %}<li>{{ line.event }}</li>{% endfor %}
-                        </ul>
-                    </div>
-                </div>{% endfor %}
-            </div>
-        </div>
     </div>
 </section>    
 

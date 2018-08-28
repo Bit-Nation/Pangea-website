@@ -27,7 +27,7 @@ $( document ).ready(function() {
         }]
     });
     // Timeline slider mobile
-    $('.timeline').slick({
+    $('#timeline').slick({
         dots: false,
         infinite: false,
         speed: 300,
@@ -65,7 +65,7 @@ $( document ).ready(function() {
     var viewportWidth, divWidth, tb;
 	$(function() {
 		viewport = $('#container').innerWidth();
-		tb = $('#thumbs');
+		tb = $('#timeline');
 		divWidth = tb.outerWidth();
 		$('#container').mousemove(function(e)
 		{
