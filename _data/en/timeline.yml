@@ -1,0 +1,61 @@
+- year: "2014 - 2015"
+  events: 
+    - event: "Bitnation officially launched July 14, 2014"
+    - event: "World’s first government blockchain pilots - including marriage, birth certificate and land title"
+    - event: "Launch of the initial Bitnation Whitepaper"
+    - event: "XBNX token issuance and fundraising"
+    - event: "World’s first blockchain World Citizenship pilot with WCN"
+    - event: "Launch of Bitnation Ambassador Network"
+    - event: "DIY space program and peer-to-peer basic income protocol partnerships"
+    - event: "First iteration of the Pangea Jurisdiction built on the HZ blockchain"
+
+- year: "2015 - 2016"
+  events:
+    - event: "Citizen and Embassy registration on website proof-of-concept"
+    - event: "Bitnation Refugee Emergency Response (BRER programme) rolled out with Refugee Emergency IDs and Bitcoin Debit Cards"
+    - event: "Public Notary built in partnership with the Government of Estonia’s e-Residency program"
+    - event: "Bitnation Constitution launched on the Ethereum chain"
+    - event: "Switch of Pangea from blockchain to communications network backend"
+    - event: "Nation creation manual and website registration"
+    - event: "Education partnership with Exosphere"
+
+- year: "2016 - 2017"
+  events:
+    - event: "Winner of UNESCO NetExplo Grand Prix Award"
+    - event: "Tarkowski Tempelhof nominated by WIRED as one of the top 10 entrepreneurs in the world fighting to protect your online privacy"
+    - event: "Pangea Jurisdiction Whitepaper"
+    - event: "Incorporation in Singapore"
+    - event: "Launch of Pangea v. 0.2 on Secure Scuttlebutt"
+    - event: "Initial design of XPAT, Lucy, the Exocortex"
+    - event: "Expansion of Bitnation Ambassador network"
+    - event: "Global community meet-up program initiated"
+
+- year: "2017 - 2018"
+  events:
+    - event: "Incorporation in Switzerland & Belize"
+    - event: "Pre-sale and public auction of XPAT completed, funds raised"
+    - event: "Team expansion and formalization"
+    - event: "XPAT Token creation and public launch"
+    - event: "XPAT on exchanges and wallets"
+    - event: "Pangea API, SDKs and documentation"
+    - event: "Pangea rebuild 0.3 on lib2p2 backend and mobile chat frontend"
+    - event: "Pangea launch on Android and iOS (TestFlight)"
+    - event: "Pangea 0.4. launch with wallet, chat, profile and nation creation"
+    - event: "Pangea 0.5 launch with smart contracts and dapps in encrypted chats"
+
+- year: "2018 - 2019"
+  events:
+    - event: "Pangea 0.5.7 - Pangea 1.5 launch including reputation system, arbitration system, desktop client, integration of more chains (Bitcoina and EOS), DApp store"
+    - event: "Phase III of the XPAT sale kicked off: slow release"
+    - event: "XPAT trading on top 5 exchanges, +1M in daily trading volume, and +500M in market cap, and widely used as a utility token"
+    - event: "Roll out of go to market strategy, acquire +1M Pangea users"
+    - event: "Focus on empowering 3rd Party DApp developers"
+    - event: "Revenue neutral"
+
+- year: "2018 - 2019"
+  events:
+    - event: "Pangea perfected and battle tested, ready for mass market adoption."
+    - event: "Adapted as the go to solution for online workers writing contracts across jurisdictions"
+    - event: "Vibrant 3rd Party governance DApp developer community"
+    - event: "Revenue positive"
+    - event: "MOON!"

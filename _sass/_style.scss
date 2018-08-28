@@ -327,7 +327,6 @@ section {
     margin: 0 auto;
     display: block;
     align-content: initial;
-    vertical-align: initial;
 }
 
 .grid.no-wrap {
@@ -920,40 +919,124 @@ span.warning.light {
 
 #history {
     direction: ltr;
-    .timeline {
-        max-width: 930px;
-        margin: auto;
-    }
-    .event {
-        background: $white;
-        padding: 30px;
-        margin: 15px;
-        min-height: 430px;
-        .title h3 {
-            margin: 5px 0 10px;
-            color: $yellow;
-            font-size: 1.5em;
-            line-height: 1.5;
-            text-transform: none;
+    .timeline-mobile {
+        .timeline {
+            max-width: 930px;
+            margin: auto;
+        }
+        .event {
+            background: $white;
+            padding: 30px;
+            margin: 15px;
+            min-height: 100%;
+            .title h3 {
+                margin: 5px 0 10px;
+                color: $yellow;
+                font-size: 1.5em;
+                line-height: 1.5;
+                text-transform: none;
+            }
+        }
+        .event::first-child {
+            margin-left: none;
+        }
+        .slider-arrows {
+            direction: ltr;
+            text-align: right;
+            padding: 10px 35px;
+            max-width: 930px;
+            margin: auto;
+        }
+        .arrow {
+            fill: $orange;
+            width: 70px;
+            padding: 0 10px;
+        }
+        .slick-disabled {
+            fill: $light-orange;
+        }
+        @media screen and (min-width: 930px) {
+            display: none;            
         }
     }
-    .event::first-child {
-        margin-left: none;
-    }
-    .slider-arrows {
-        direction: ltr;
-        text-align: right;
-        padding: 10px 35px;
-        max-width: 930px;
-        margin: auto;
-    }
-    .arrow {
-        fill: $orange;
-        width: 70px;
-        padding: 0 10px;
-    }
-    .slick-disabled {
-        fill: $light-orange;
+    .timeline-desktop {
+        #container
+        {
+        height: 600px;
+        width: 100%;
+        background-color: #ddd;
+        overflow: hidden;
+        position: relative;
+        overflow-x: scroll;
+        margin-top: 30px;
+        display: inline-block;
+        }
+
+        #thumbs
+        {
+        background-color: #ddd;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: auto;
+        overflow: hidden;
+        white-space: nowrap;
+        padding: 30px 100px;
+        }
+
+        .history-block {
+        height: 100%;
+        width: 300px;
+        background-color: #cdcdcd;
+        margin: 0 -2px;
+        border-right: 1px solid #fff;
+        display: inline-block;
+        font-family: 'roboto condensed', sans-serif;
+        font-size:60px;
+        font-weight: 100;
+        color: #FFF;
+        cursor: pointer;
+        box-shadow: 2px 5px 20px rgba(0,0,0,0.8);
+        transition: width 0.2s;
+        }
+
+        .history-block:last-of-type {
+        border-right: none;
+        }
+
+        .cover {
+        width: 100%;
+        height: 100%;
+        transition: background .5s;
+        background: rgba(0,0,0,0.8);
+        }
+
+        .cover:hover {
+        width: 100%;
+        height: 100%;
+        transition: background .5s;
+        background: rgba(0,0,0,0.8);
+        }
+
+        .year {
+        position: absolute;
+            top: 0px;
+            font-size: 30px;
+        font-weight:500;
+            margin: 40px 30px;
+        }
+
+        .title {
+        position: absolute;
+        display: block;
+        width: 260px;
+            top: 60px;
+            font-size: 15px;
+            margin: 30px;
+        white-space: normal;
+        transition: width 0.2s;
+        }
     }
 }
 
