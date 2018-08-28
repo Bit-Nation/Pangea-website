@@ -648,6 +648,13 @@ template {
   display: none;
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+  /* remove scrollbar space */
+  background: transparent;
+  /* optional: just make scrollbar invisible */
+}
+
 html {
   box-sizing: border-box;
   background: #E1E1E1;
@@ -953,7 +960,6 @@ section {
   margin: 0 auto;
   display: block;
   align-content: initial;
-  vertical-align: initial;
 }
 
 .grid.no-wrap {
@@ -1541,7 +1547,7 @@ span.warning.light {
 #history {
   direction: ltr;
 }
-#history .timeline {
+#history #timeline {
   max-width: 930px;
   margin: auto;
 }
@@ -1549,12 +1555,12 @@ span.warning.light {
   background: #ffffff;
   padding: 30px;
   margin: 15px;
-  min-height: 430px;
+  min-height: 100%;
 }
-#history .event .title h3 {
+#history .title h3 {
   margin: 5px 0 10px;
   color: #FFCE00;
-  font-size: 1.5em;
+  font-size: 2.5em;
   line-height: 1.5;
   text-transform: none;
 }
@@ -1575,6 +1581,54 @@ span.warning.light {
 }
 #history .slick-disabled {
   fill: #FBB040;
+}
+@media screen and (min-width: 930px) {
+  #history #container {
+    height: 810px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    overflow-x: scroll;
+    overflow: -moz-scrollbars-none;
+    display: inline-block;
+  }
+  #history #timeline {
+    max-width: initial;
+    margin: initial;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0 80px 30px;
+  }
+  #history .event {
+    padding: 30px;
+    min-height: initial;
+    height: 100%;
+    width: 360px;
+    margin: 0 15px;
+    display: inline-block;
+    transition: width 0.2s;
+  }
+  #history .description {
+    position: absolute;
+    display: block;
+    width: 300px;
+    white-space: normal;
+    transition: width 0.2s;
+  }
+  #history .description ul {
+    padding-left: 15px;
+  }
+  #history .description ul li {
+    line-height: 1.6;
+  }
+  #history .slider-arrows {
+    display: none;
+  }
 }
 
 #stats svg {

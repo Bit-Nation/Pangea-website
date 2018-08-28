@@ -383,19 +383,22 @@ image: /img/index.png
             <h2>{{ text["Bitnation Timeline"] }}</h2>
         </div>
     </div>
-    <div class="timeline">
-        {% for event in site.data.content.timeline-events %}
-        <div class="event drop-shadow">
-            <div class="icon-l t-yellow"><i class="{{ event.icon }}"></i></div>
-            <div class="title">
-                <h3>{{ event.date }}:<br>{{ event.title }}</h3>
-            </div>
-            <div class="description">
-                <p>{{ event.description }}</p>
-            </div>
-        </div>{% endfor %}
-    </div> 
-    <div class="slider-arrows"></div>
+    <div id="container">
+        <div id="timeline">
+            {% for event in site.data.timeline %}
+            <div class="event drop-shadow">
+                <div class="title">
+                    <h3>{{ event.year }}</h3>
+                </div>
+                <div class="description">
+                    <ul>
+                        {% for line in event.events %}<li>{{ line.event }}</li>{% endfor %}
+                    </ul>
+                </div>
+            </div>{% endfor %}
+        </div> 
+        <div class="slider-arrows"></div>
+    </div>
 </section>    
 
 <section id="team">
