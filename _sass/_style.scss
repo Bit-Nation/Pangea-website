@@ -21,8 +21,13 @@ $grey1:         rgba(88, 89, 91, 0.5);
 $grey2:         rgba(167, 169, 172, 0.5);
 $yellow:        #FFCE00;
 $dark-text:     #414042;
-$titles-font:   "Source Code Pro", courier, monospace;
-$main-font:     'Open Sans', sans-serif;;
+$main-font:     'Source Code Pro', courier, monospace;
+$text-font:     'Open Sans', sans-serif;;
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
 
 html {
     box-sizing: border-box;
@@ -72,6 +77,10 @@ body.research:after {
     background-size: cover;
 }
 
+p {
+    font-family: $text-font;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     text-align: inherit;
@@ -79,12 +88,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-family: $titles-font;
     font-weight: 900;
 }
 
 h2 {
-    font-family: $titles-font;
     font-weight: 700;
 }
 
@@ -230,7 +237,7 @@ img {
 
 #amount {
     font-size: 3.5em;
-    font-family: "Source Code Pro", courier, monospace;
+    font-family: $main-font;
 }
 
 // Containers
@@ -327,7 +334,6 @@ section {
     margin: 0 auto;
     display: block;
     align-content: initial;
-    vertical-align: initial;
 }
 
 .grid.no-wrap {
@@ -690,7 +696,7 @@ span.warning.light {
 }
 
 .countdown {
-    font-family: $titles-font;
+    font-family: $main-font;
     font-size: 2em;
     margin: 15px auto;
 }
@@ -760,7 +766,7 @@ span.warning.light {
 
 .hex-address {
     font-size: 2.1em;
-    font-family: $titles-font;
+    font-family: $main-font;
     word-wrap: break-word;
 }
 
@@ -920,7 +926,7 @@ span.warning.light {
 
 #history {
     direction: ltr;
-    .timeline {
+    #timeline {
         max-width: 930px;
         margin: auto;
     }
@@ -928,14 +934,14 @@ span.warning.light {
         background: $white;
         padding: 30px;
         margin: 15px;
-        min-height: 430px;
-        .title h3 {
-            margin: 5px 0 10px;
-            color: $yellow;
-            font-size: 1.5em;
-            line-height: 1.5;
-            text-transform: none;
-        }
+        min-height: 100%;
+    }
+    .title h3 {
+        margin: 5px 0 10px;
+        color: $yellow;
+        font-size: 2.5em;
+        line-height: 1.5;
+        text-transform: none;
     }
     .event::first-child {
         margin-left: none;
@@ -954,6 +960,54 @@ span.warning.light {
     }
     .slick-disabled {
         fill: $light-orange;
+    }
+    @media screen and (min-width: 930px) {
+        #container {
+            height: 820px;
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            overflow-x: scroll;
+            overflow: -moz-scrollbars-none;
+            display: inline-block;
+        }
+        #timeline {
+            max-width: initial;
+            margin: initial;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: auto;
+            overflow: hidden;
+            white-space: nowrap;
+            padding: 0 80px 30px;
+        }
+        .event {
+            padding: 30px;
+            min-height: initial;
+            height: 100%;
+            width: 400px;
+            margin: 0 15px;
+            display: inline-block;
+            transition: width 0.2s;
+        }
+        .description {
+            position: absolute;
+            display: block;
+            width: 340px;
+            white-space: normal;
+            transition: width 0.2s;
+            ul {
+                padding-left: 15px;
+                li {
+                    line-height: 1.6;
+                }
+            }
+        }
+        .slider-arrows {
+            display: none;
+        }
     }
 }
 
