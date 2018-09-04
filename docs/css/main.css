@@ -720,17 +720,11 @@ h1 {
 
 h2 {
   font-weight: 700;
-}
-
-h3 {
-  text-transform: uppercase;
-}
-
-h2 {
   font-size: 1.7em;
 }
 
 h3 {
+  font-weight: bold;
   font-size: 1.3em;
 }
 
@@ -846,6 +840,10 @@ img {
   margin-left: -3px;
 }
 
+.t-smaller {
+  font-size: 0.8em;
+}
+
 .caps {
   text-transform: uppercase;
 }
@@ -953,6 +951,11 @@ section {
   justify-content: space-between;
 }
 
+.grid.flex-around {
+  justify-content: space-around;
+  margin: 0;
+}
+
 .grid.no-flex {
   max-width: 930px;
   margin: 0 auto;
@@ -966,7 +969,6 @@ section {
 
 .grid.column {
   flex-direction: column;
-  margin: initial;
 }
 
 .grid .grid-cell {
@@ -1023,7 +1025,7 @@ section {
   padding-top: 15px;
   max-width: 930px;
 }
-.yellow-box a {
+.yellow-box > a {
   color: #414042;
   text-decoration: underline;
 }
@@ -1927,4 +1929,25 @@ span.warning.light {
 
 .research .white-box {
   margin-top: -60px;
+}
+
+#apply .steps {
+  flex-direction: column;
+}
+@media screen and (min-width: 930px) {
+  #apply .steps {
+    flex-direction: row;
+  }
+}
+#apply .steps p {
+  line-height: 1.5;
+}
+#apply .cta, #apply .cta-hl, #apply .cta-hl {
+  width: initial;
+}
+#apply .cta a, #apply .cta-hl a, #apply .cta-hl a {
+  font-size: 0.8em;
+  min-height: initial;
+  min-width: initial;
+  padding: 10px 15px;
 }
