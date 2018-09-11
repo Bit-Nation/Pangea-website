@@ -729,6 +729,10 @@ h3 {
 }
 
 h4 {
+<<<<<<< HEAD
+=======
+  font-weight: bold;
+>>>>>>> Add styles for passport page
   font-size: 1.2em;
 }
 
