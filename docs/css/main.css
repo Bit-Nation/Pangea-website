@@ -709,7 +709,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: normal;
+  font-weight: bold;
   text-align: inherit;
   line-height: 1.2;
 }
@@ -736,13 +736,11 @@ h3 {
 
 h4 {
   font-size: 1.2em;
-  font-weight: bold;
 }
 
 h5 {
   font-size: 1em;
   margin: 15px auto;
-  font-weight: bold;
 }
 
 p, li {
@@ -1143,6 +1141,7 @@ section {
 
 .cta, .cta-hl {
   text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
   display: inline-block;
   width: 100%;
@@ -1396,6 +1395,7 @@ span.warning.light {
 
 .main-header {
   background: #ffffff;
+  font-family: "Open Sans", sans-serif;
   width: 100%;
   position: fixed;
   top: 0;
@@ -1692,6 +1692,7 @@ span.warning.light {
   align-self: flex-start;
 }
 #team .members .member .role {
+  font-family: "Open Sans", sans-serif;
   font-size: 0.9em;
   font-weight: 300;
   padding: 0;
