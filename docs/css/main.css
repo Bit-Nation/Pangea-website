@@ -724,15 +724,10 @@ h2 {
 }
 
 h3 {
-  font-weight: bold;
   font-size: 1.3em;
 }
 
 h4 {
-<<<<<<< HEAD
-=======
-  font-weight: bold;
->>>>>>> Add styles for passport page
   font-size: 1.2em;
 }
 
@@ -839,9 +834,25 @@ img {
 }
 
 .t-yellow-bg {
-  background-color: #FFCE00;
   padding: 3px;
   margin-left: -3px;
+}
+.t-yellow-bg span {
+  background-color: #FFCE00;
+  line-height: 1.8;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.t-white-bg {
+  padding: 3px;
+  margin-left: -3px;
+}
+.t-white-bg span {
+  background-color: #ffffff;
+  line-height: 1.8;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 
 .t-smaller {
@@ -957,7 +968,6 @@ section {
 
 .grid.flex-around {
   justify-content: space-around;
-  margin: 0;
 }
 
 .grid.no-flex {
@@ -1946,6 +1956,20 @@ span.warning.light {
 #apply .steps p {
   line-height: 1.5;
 }
+#apply .icon-bg {
+  background-color: #ffffff;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin: 0 auto 15px;
+}
+#apply .icon-bg img {
+  max-width: 60%;
+  max-height: 60%;
+  margin: auto;
+  position: relative;
+  top: 20%;
+}
 #apply .cta, #apply .cta-hl, #apply .cta-hl {
   width: initial;
 }
@@ -1954,4 +1978,26 @@ span.warning.light {
   min-height: initial;
   min-width: initial;
   padding: 10px 15px;
+}
+
+.cloud-bg {
+  background-image: url("../img/bg-clouds.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.passport-box {
+  background-color: #12182a;
+  background-image: url("../img/temp-passport.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 95%;
+  margin: auto;
+  max-width: 930px;
+  padding-bottom: 90px;
+  padding-top: 90px;
+}
+.passport-box h3 {
+  font-size: 1.7em;
 }
