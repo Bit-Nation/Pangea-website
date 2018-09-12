@@ -27,9 +27,6 @@ exchanges-big:
 
 exchanges:
 
-- name: Binance
-  url: https://www.binance.com/
-
 - name: Citowise
   url: https://citowise.com/
 
