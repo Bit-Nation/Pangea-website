@@ -39,16 +39,16 @@ communications:
   role: Media Director
 
 - name: Alma Sommer
-  role: Social Media
+  role: Lead Ambassador, North America
   social:
     linkedin: rayneberry
     twitter: EarthPermit
 
 - name: Stephan Sunday
-  role: Africa Lead Ambassador
+  role: Lead Ambassador, Africa
 
 - name: Martin Restrepo
-  role: Latin America Lead Ambassador
+  role: Lead Ambassador, Latin America
   social:
     linkedin: mrestrepo
     twitter: mrestrepo
@@ -78,9 +78,6 @@ technology:
   role: Project Manager
   social:
     twitter: KevoWevo
-
-- name: Jacob Cox
-  role: Documentation
 
 - name: William Huang
   role: Solidity Developer
@@ -191,6 +188,9 @@ advisors:
 
 
 ambassadors:
+
+- name: Jacob Cox
+  role: Documentation
 
 - name: Evangelos Barakos
   location: Athens, Greece
