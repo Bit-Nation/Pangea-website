@@ -1614,6 +1614,7 @@ span.warning.light {
     transition: width 0.2s;
   }
   #history .description {
+    font-family: "Open Sans", sans-serif;
     position: absolute;
     display: block;
     width: 340px;

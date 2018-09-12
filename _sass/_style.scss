@@ -993,6 +993,7 @@ span.warning.light {
             transition: width 0.2s;
         }
         .description {
+            font-family: $text-font;
             position: absolute;
             display: block;
             width: 340px;
