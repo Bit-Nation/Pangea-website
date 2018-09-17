@@ -720,13 +720,6 @@ h1 {
 
 h2 {
   font-weight: 700;
-}
-
-h3 {
-  text-transform: uppercase;
-}
-
-h2 {
   font-size: 1.7em;
 }
 
@@ -841,9 +834,29 @@ img {
 }
 
 .t-yellow-bg {
-  background-color: #FFCE00;
   padding: 3px;
   margin-left: -3px;
+}
+.t-yellow-bg span {
+  background-color: #FFCE00;
+  line-height: 1.8;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.t-white-bg {
+  padding: 3px;
+  margin-left: -3px;
+}
+.t-white-bg span {
+  background-color: #ffffff;
+  line-height: 1.8;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.t-smaller {
+  font-size: 0.8em;
 }
 
 .caps {
@@ -953,6 +966,10 @@ section {
   justify-content: space-between;
 }
 
+.grid.flex-around {
+  justify-content: space-around;
+}
+
 .grid.no-flex {
   max-width: 930px;
   margin: 0 auto;
@@ -966,7 +983,6 @@ section {
 
 .grid.column {
   flex-direction: column;
-  margin: initial;
 }
 
 .grid .grid-cell {
@@ -1023,7 +1039,7 @@ section {
   padding-top: 15px;
   max-width: 930px;
 }
-.yellow-box a {
+.yellow-box > a {
   color: #414042;
   text-decoration: underline;
 }
@@ -1927,4 +1943,61 @@ span.warning.light {
 
 .research .white-box {
   margin-top: -60px;
+}
+
+#apply .steps {
+  flex-direction: column;
+}
+@media screen and (min-width: 930px) {
+  #apply .steps {
+    flex-direction: row;
+  }
+}
+#apply .steps p {
+  line-height: 1.5;
+}
+#apply .icon-bg {
+  background-color: #ffffff;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin: 0 auto 15px;
+}
+#apply .icon-bg img {
+  max-width: 60%;
+  max-height: 60%;
+  margin: auto;
+  position: relative;
+  top: 20%;
+}
+#apply .cta, #apply .cta-hl, #apply .cta-hl {
+  width: initial;
+}
+#apply .cta a, #apply .cta-hl a, #apply .cta-hl a {
+  font-size: 0.8em;
+  min-height: initial;
+  min-width: initial;
+  padding: 10px 15px;
+}
+
+.cloud-bg {
+  background-image: url("../img/bg-clouds.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.passport-box {
+  background-color: #12182a;
+  background-image: url("../img/temp-passport.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 95%;
+  margin: auto;
+  max-width: 930px;
+  padding-bottom: 90px;
+  padding-top: 90px;
+}
+.passport-box h3 {
+  font-size: 1.7em;
 }

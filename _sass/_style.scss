@@ -93,13 +93,6 @@ h1 {
 
 h2 {
     font-weight: 700;
-}
-
-h3 {
-    text-transform: uppercase;
-}
-
-h2 {
     font-size: 1.7em;
 }
 
@@ -215,9 +208,29 @@ img {
 }
 
 .t-yellow-bg {
-    background-color: $yellow;
     padding: 3px;
     margin-left: -3px;
+    span {
+        background-color: $yellow;
+        line-height: 1.8;
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+    }
+}
+
+.t-white-bg {
+    padding: 3px;
+    margin-left: -3px;
+    span {
+        background-color: $white;
+        line-height: 1.8;
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+    }
+}
+
+.t-smaller {
+    font-size: 0.8em;
 }
 
 .caps {
@@ -327,6 +340,10 @@ section {
     justify-content: space-between;
 }
 
+.grid.flex-around {
+    justify-content: space-around;
+}
+
 .grid.no-flex {
     max-width: 930px;
     margin: 0 auto;
@@ -340,7 +357,6 @@ section {
 
 .grid.column {
     flex-direction: column;
-    margin: initial;
 }
 
 .grid .grid-cell {
@@ -392,7 +408,7 @@ section {
     padding-bottom: 15px;
     padding-top: 15px;
     max-width: 930px;
-    a {
+    > a {
         color: $dark-text;
         text-decoration: underline;
     }
@@ -1325,4 +1341,61 @@ span.warning.light {
 
 .research .white-box {
     margin-top: -60px;
+}
+
+#apply {
+    .steps {
+        flex-direction: column;
+        @media screen and (min-width: 930px) {
+            flex-direction: row;
+        }
+        p {
+            line-height: 1.5;
+        }
+    }
+    .icon-bg {
+        background-color: $white;
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        margin: 0 auto 15px;
+        img {
+            max-width: 60%;
+            max-height: 60%;
+            margin: auto;
+            position: relative;
+            top: 20%;
+        }
+    }
+    .cta, .cta-hl {
+        width: initial;
+        a {
+            font-size: 0.8em;
+            min-height: initial;
+            min-width: initial;
+            padding: 10px 15px;
+        }
+    }
+}
+
+.cloud-bg {
+    background-image: url("../img/bg-clouds.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.passport-box {
+    background-color: #12182a;
+    background-image: url("../img/temp-passport.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 95%;
+    margin: auto;
+    max-width: 930px;
+    padding-bottom: 90px;
+    padding-top: 90px;
+    h3 {
+        font-size: 1.7em;
+    }
 }
