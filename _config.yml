@@ -32,6 +32,8 @@ plugins:
   
 permalink: /:title/
 
+encoding: utf-8
+
 sass:
   style: expanded
   sourcemap: true
