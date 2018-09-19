@@ -190,7 +190,7 @@ advisors:
 ambassadors:
 
 - name: Jacob Cox
-  role: Documentation
+  location: Documentation
 
 - name: Evangelos Barakos
   location: Athens, Greece
