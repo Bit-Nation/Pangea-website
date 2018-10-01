@@ -951,6 +951,30 @@ span.warning.light {
         padding: 30px;
         margin: 15px;
         min-height: 100%;
+        background-size: cover;
+        background-position: center center;
+    }
+    .description {
+        font-family: $text-font;
+        color: $white;
+    }
+    .bg2014-2015 {
+        background-image: url("../img/2014.jpg");
+    }
+    .bg2015-2016 {
+        background-image: url("../img/2015.jpg");
+    }
+    .bg2016-2017 {
+        background-image: url("../img/2016.jpg");
+    }
+    .bg2017-2018 {
+        background-image: url("../img/2017.jpg");
+    }
+    .bg2018-2019 {
+        background-image: url("../img/2018.jpg");
+    }
+    .bg2019-2020 {
+        background-image: url("../img/2019.jpg");
     }
     .title h3 {
         margin: 5px 0 10px;
@@ -1009,7 +1033,6 @@ span.warning.light {
             transition: width 0.2s;
         }
         .description {
-            font-family: $text-font;
             position: absolute;
             display: block;
             width: 340px;

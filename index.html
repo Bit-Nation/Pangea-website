@@ -381,7 +381,7 @@ image: /img/index.png
     <div id="container">
         <div id="timeline">
             {% for event in site.data.timeline %}
-            <div class="event drop-shadow">
+            <div class="event drop-shadow bg{{ event.year | slugify: 'ascii' }}">
                 <div class="title">
                     <h3>{{ event.year }}</h3>
                 </div>

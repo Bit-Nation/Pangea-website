@@ -1572,6 +1572,30 @@ span.warning.light {
   padding: 30px;
   margin: 15px;
   min-height: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+#history .description {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+}
+#history .bg2014-2015 {
+  background-image: url("../img/2014.jpg");
+}
+#history .bg2015-2016 {
+  background-image: url("../img/2015.jpg");
+}
+#history .bg2016-2017 {
+  background-image: url("../img/2016.jpg");
+}
+#history .bg2017-2018 {
+  background-image: url("../img/2017.jpg");
+}
+#history .bg2018-2019 {
+  background-image: url("../img/2018.jpg");
+}
+#history .bg2019-2020 {
+  background-image: url("../img/2019.jpg");
 }
 #history .title h3 {
   margin: 5px 0 10px;
@@ -1630,7 +1654,6 @@ span.warning.light {
     transition: width 0.2s;
   }
   #history .description {
-    font-family: "Open Sans", sans-serif;
     position: absolute;
     display: block;
     width: 340px;
