@@ -398,68 +398,14 @@ image: /img/index.png
 
 <section id="team">
     <div class="white-box drop-shadow">
-        <div class="grid">
-            <div class="grid-cell">
-                <h2>{{ text["Core Contributors"] }}</h2>
-            </div>
-        </div>
-        <div id="operations">
+        <div id="core">
             <div class="grid">
                 <div class="grid-cell">
-                    <h3>{{ text["Operations"] }}</h3>
+                    <h2>{{ text["Core Team"] }}</h2>
                 </div>
             </div>
             <div class="grid members">
-                {% for member in site.data.team.operations %}{% assign img-url = member.name | slugify: 'ascii' | prepend: "/img/team/" | append: ".jpg" %}<div class="grid-cell grid member">
-                    <div class="grid-cell photo">
-                        <img src="{{ img-url | absolute_url }}" alt="{{ member.name }}">
-                    </div>
-                    <div class="grid-cell name">{{ member.name }}</div>
-                    <div class="grid-cell role">{{ member.role }}</div>
-                    {% if member.social %}<div class="grid-cell grid links">
-                        {% if member.social.linkedin %}<div class="grid-cell i-social">
-                            <a href="https://www.linkedin.com/in/{{ member.social.linkedin }}/" target="_blank">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                        </div>{% endif %}{% if member.social.twitter %}
-                        <div class="grid-cell i-social">
-                            <a href="https://twitter.com/{{ member.social.twitter }}" target="_blank">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </div>{% endif %}{% if member.social.github %}
-                        <div class="grid-cell i-social">
-                            <a href="https://github.com/{{ member.social.github }}" target="_blank">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>{% endif %}{% if member.social.email %}
-                        <div class="grid-cell i-social">
-                            <a href="mailto:{{ member.social.email }}" target="_blank">
-                                <i class="fal fa-envelope"></i>
-                            </a>
-                        </div>{% endif %}{% if member.social.vk %}
-                        <div class="grid-cell i-social">
-                            <a href="https://vk.com/{{ member.social.vk }}" target="_blank">
-                                <i class="fab fa-vk"></i>
-                            </a>
-                        </div>{% endif %}{% if member.social.url %}
-                        <div class="grid-cell i-social">
-                            <a href="{{ member.social.url }}" target="_blank">
-                                <i class="fal fa-globe"></i>
-                            </a>
-                        </div>{% endif %}
-                    </div>{% endif %}
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-        <div id="communications">
-            <div class="grid">
-                <div class="grid-cell">
-                    <h3>{{ text["Communications"] }}</h3>
-                </div>
-            </div>
-            <div class="grid members">
-                {% for member in site.data.team.communications %}{% assign img-url = member.name | slugify: 'ascii' | prepend: "/img/team/" | append: ".jpg" %}<div class="grid-cell grid member">
+                {% for member in site.data.team.core %}{% assign img-url = member.name | slugify: 'ascii' | prepend: "/img/team/" | append: ".jpg" %}<div class="grid-cell grid member">
                     <div class="grid-cell photo">
                         <img src="{{ img-url | absolute_url }}" alt="{{ member.name }}">
                     </div>
@@ -504,7 +450,7 @@ image: /img/index.png
         <div id="technology" class="box">
             <div class="grid">
                 <div class="grid-cell">
-                    <h3>{{ text["Technology"] }}</h3>
+                    <h2>{{ text["Technology"] }}</h2>
                 </div>
             </div>
             <div class="grid members">

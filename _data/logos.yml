@@ -42,6 +42,9 @@ exchanges:
 - name: Komodo
   url: https://komodoplatform.com/
 
+- name: weiDex
+  url: https://weidex.market/exchange/
+
 market-analysis:
 
 - name: CoinGecko
