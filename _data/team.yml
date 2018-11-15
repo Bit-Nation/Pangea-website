@@ -11,35 +11,13 @@ core:
   social:
     linkedin: james-fennell
 
-- name: Kenneth Lillieholm
-  role: Diplomatic Engagement
-
 - name: Rachelle Traboulsi
   role: Executive Assistant
-
-- name: Abhimanyu Dayal
-  role: DApp Fund Manager
 
 - name: Erik Vollstädt
   role: Community Director
   social:
     linkedin: erikvollstaedt
-
-- name: Stephan Sunday
-  role: Lead Ambassador, Africa
-
-- name: Martin Restrepo
-  role: Lead Ambassador, Latin America
-  social:
-    linkedin: mrestrepo
-    twitter: mrestrepo
-
-technology:
-
-- name: Florian Lenz
-  role: Chief Software Architect
-  social:
-    github: florianlenz
 
 - name: Carin Ism
   role: Director of Research
@@ -94,12 +72,6 @@ technology:
 - name: Spencer Ferri
   role: Machine Learning, Exocortex
 
-- name: Miguel Alatzar
-  role: Full Stack Developer
-  social:
-    linkedin: miguel-alatzar-b6483722
-    github: migbot
-
 - name: Prameet Chakraborty
   role: React Native Developer
   social:
@@ -151,11 +123,6 @@ advisors:
     linkedin: vit-jedlicka-9115aa2
     twitter: vit_jedlicka
 
-- name: David Drake
-  social:
-    linkedin: ldjcapital
-    twitter: daviddrakevc
-
 - name: Zoltan Istvan
   social:
     linkedin: zoltan-istvan-78aa2964
@@ -175,6 +142,15 @@ ambassadors:
 
 - name: Jacob Cox
   location: Documentation
+
+- name: Stephan Sunday
+  location: Lead Ambassador, Africa
+
+- name: Martin Restrepo
+  location: Lead Ambassador, Latin America
+  social:
+    linkedin: mrestrepo
+    twitter: mrestrepo
 
 - name: Evangelos Barakos
   location: Athens, Greece
