@@ -50,6 +50,7 @@ exclude:
   - static
 
 google_analytics_id: UA-106469149-1
+facebook_pixel_id: 389494765122710
 
 languages: ["en", "ar", "de", "es", "fr", "id", "it", "ja", "pl", "pt", "ru", "tr", "vi"]
 default_lang: "en"
