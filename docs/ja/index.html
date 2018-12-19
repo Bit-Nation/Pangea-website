@@ -28,6 +28,27 @@
 <!-- End Jekyll SEO tag -->
 
 <meta http-equiv="Content-Language" content="ja">
+<script src="/js/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000000",
+      "text": "#ffffff"
+    },
+    "button": {
+      "background": "#ffce00",
+      "text": "#000000"
+    }
+  },
+  "theme": "edgeless",
+  "content": {
+    "link": "Learn more.",
+    "href": "https://tse.bitnation.co/privacy-policy/"
+  }
+})});
+</script>
 <!-- Google Analytics -->
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -542,6 +563,11 @@
                 </a>
             </div>
             
+        </div>
+        <div class="grid flex-center">
+            <div class="grid-cell">
+                <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script><div class="coinmarketcap-currency-widget" data-currencyid="3112" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+            </div>
         </div>
     </div>
 </section>
