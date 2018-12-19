@@ -1712,6 +1712,9 @@ span.warning.light {
 #stats .market-analysis-logos .logo-market-analysis #live-coin-watch {
   padding-bottom: 2px;
 }
+#stats .coinmarketcap-currency-widget > div {
+  background: white;
+}
 
 #team .members {
   justify-content: flex-start;
