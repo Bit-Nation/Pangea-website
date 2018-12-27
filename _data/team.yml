@@ -29,6 +29,9 @@ core:
 
 - name: Mark Nuzz
   role: Lead Engineer
+  social:
+    linkedin: dbkkeuum
+    github: mnuzz
 
 - name: William Huang
   role: Solidity Developer
