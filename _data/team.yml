@@ -29,18 +29,15 @@ core:
 
 - name: Mark Nuzz
   role: Lead Engineer
+  social:
+    linkedin: dbkkeuum
+    github: mnuzz
 
 - name: William Huang
   role: Solidity Developer
   social:
     linkedin: william-h-902213139
     github: william2958
-
-- name: Alberto Estarrona
-  role: Snr iOS / Android Developer
-  social:
-    linkedin: alberto-r-estarrona
-    twitter: estarrona
 
 - name: Andrew Selivanov
   role: iOS / Android Developer
@@ -132,11 +129,6 @@ advisors:
   social:
     linkedin: julioalexo
     twitter: julioalexo
-
-- name: Johan Nygren
-  role: Proof-of-Individuality, Swarm distribution
-  social:
-    linkedin: resilience_me
 
 ambassadors:
 
