@@ -58,6 +58,10 @@ exchanges:
   url: https://weidex.market/exchange/
   format: png
 
+- name: Worldcore
+  url: https://worldcore.trade/
+  format: svg
+
 market-analysis:
 
 - name: CoinGecko

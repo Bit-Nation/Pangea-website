@@ -1083,9 +1083,23 @@ span.warning.light {
             padding-bottom: 15px;
         }
     }
+    .exchanges-logos {
+        #worldcore {
+            height: 30px;
+            width: auto;
+        }
+    }
     .market-analysis-logos .logo-market-analysis {
         width: 180px;
         max-width: 100%;
+        #coingecko {
+            width: 160px;
+        }
+        #live-coin-watch {
+            padding-bottom: 2px;
+        }
+    }
+    .market-analysis-logos {
         #coingecko {
             width: 160px;
         }
