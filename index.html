@@ -347,18 +347,18 @@ image: /img/index.png
         </div>
         <div class="grid exchanges-logos hightlighted-logos padding-bottom-30">
             {% assign highlight-exchanges = site.data.logos.exchanges-big %}
-            {% for exchange in highlight-exchanges %}{% assign id = exchange.name | slugify %}{% assign img-url = exchange.name | slugify: 'ascii' | prepend: "/img/logos/logo-exchange-" | append: ".png" %}<div class="grid-cell">
+            {% for exchange in highlight-exchanges %}{% assign id = exchange.name | slugify %}{% assign img-url = exchange.name | slugify: 'ascii' | prepend: "/img/logos/logo-exchange-" %}<div class="grid-cell">
                 <a href="{{ exchange.url }}" target="_blank">
-                    <img id="{{ id }}" class="logo-exchange" src="{{ img-url | absolute_url }}" alt="{{ exchange.name }}">
+                    <img id="{{ id }}" class="logo-exchange" src="{{ img-url | absolute_url }}.{{ exchange.format }}" alt="{{ exchange.name }}">
                 </a>
             </div>
             {% endfor %}
         </div>
         <div class="grid exchanges-logos">
             {% assign normal-exchanges = site.data.logos.exchanges | sort: 'name' %}
-            {% for exchange in normal-exchanges %}{% assign id = exchange.name | slugify %}{% assign img-url = exchange.name | slugify: 'ascii' | prepend: "/img/logos/logo-exchange-" | append: ".png" %}<div class="grid-cell">
+            {% for exchange in normal-exchanges %}{% assign id = exchange.name | slugify %}{% assign img-url = exchange.name | slugify: 'ascii' | prepend: "/img/logos/logo-exchange-" %}<div class="grid-cell">
                 <a href="{{ exchange.url }}" target="_blank">
-                    <img id="{{ id }}" class="logo-exchange" src="{{ img-url | absolute_url }}" alt="{{ exchange.name }}">
+                    <img id="{{ id }}" class="logo-exchange" src="{{ img-url | absolute_url }}.{{ exchange.format }}" alt="{{ exchange.name }}">
                 </a>
             </div>
             {% endfor %}
@@ -372,7 +372,7 @@ image: /img/index.png
             {% assign market-analysis-all = site.data.logos.market-analysis | sort: 'name' %}
             {% for market-analysis in market-analysis-all %}{% assign id = market-analysis.name | slugify %}{% assign img-url = market-analysis.name | slugify: 'ascii' | prepend: "/img/logos/logo-market-analysis-" %}<div class="grid-cell">
                 <a href="{{ market-analysis.url }}" target="_blank">
-                    <img id="{{ id }}" class="logo-market-analysis" src="{{ img-url | absolute_url }}.{{ market-analysis.img }}" alt="{{ exchange.name }}">
+                    <img id="{{ id }}" class="logo-market-analysis" src="{{ img-url | absolute_url }}.{{ market-analysis.format }}" alt="{{ exchange.name }}">
                 </a>
             </div>
             {% endfor %}
@@ -574,9 +574,9 @@ image: /img/index.png
     </div>
     <div class="grid partner-logos">
         {% assign all-partners = site.data.logos.partners | sort: 'name' %}
-        {% for partner in all-partners %}{% assign id = partner.name | slugify %}{% assign img-url = partner.name | slugify: 'ascii' | prepend: "/img/logos/logo-partner-" | append: ".png" %}<div class="grid-cell">
+        {% for partner in all-partners %}{% assign id = partner.name | slugify %}{% assign img-url = partner.name | slugify: 'ascii' | prepend: "/img/logos/logo-partner-" %}<div class="grid-cell">
             <a class="logo-partner" href="{{ partner.url }}" target="_blank">
-                <img id="{{ id }}" src="{{ img-url | absolute_url }}" alt="{{ partner.name }}">
+                <img id="{{ id }}" src="{{ img-url | absolute_url }}.{{ partner.format }}" alt="{{ partner.name }}">
             </a>
         </div>
         {%endfor%}
@@ -588,9 +588,9 @@ image: /img/index.png
     </div>
     <div class="grid auditor-logos">
         {% assign all-auditors = site.data.logos.auditors | sort: 'name' %}
-        {% for partner in all-auditors %}{% assign id = partner.name | slugify %}{% assign img-url = partner.name | slugify: 'ascii' | prepend: "/img/logos/logo-partner-" | append: ".png" %}<div class="grid-cell">
+        {% for partner in all-auditors %}{% assign id = partner.name | slugify %}{% assign img-url = partner.name | slugify: 'ascii' | prepend: "/img/logos/logo-partner-" %}<div class="grid-cell">
             <a class="logo-partner" href="{{ partner.url }}" target="_blank">
-                <img id="{{ id }}" src="{{ img-url | absolute_url }}" alt="{{ partner.name }}">
+                <img id="{{ id }}" src="{{ img-url | absolute_url }}.{{ partner.format }}" alt="{{ partner.name }}">
             </a>
         </div>
         {%endfor%}
