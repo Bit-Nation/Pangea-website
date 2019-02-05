@@ -83,7 +83,7 @@ image: /img/index.png
         </div>
         <div class="grid-cell">
             <div class="cta">
-                <a href="{{ "/getxpat/" | absolute_url }}">{{ text["Get XPAT Tokens"] }}</a>
+                <a href="{{ "/getxpat/" | relative_url }}">{{ text["Get XPAT Tokens"] }}</a>
             </div>
         </div>
         <div class="grid-cell">
@@ -141,7 +141,7 @@ image: /img/index.png
         </div>
         <div class="grid-cell">
             <div class="cta">
-                <a href="{{ "/documents/" | absolute_url }}">{{ text["Translations"] }}</a>
+                <a href="{{ "/documents/" | relative_url }}">{{ text["Translations"] }}</a>
             </div>
         </div>
     </div>
@@ -155,27 +155,27 @@ image: /img/index.png
     </div>
     <div class="pangea-screens">
         <div class="pangea-screen">
-            <img src="{{ "/img/pangea-screens-01.png"| absolute_url }}" alt="Pangea Mockup Screenshots">
+            <img src="{{ "/img/pangea-screens-01.png"| relative_url }}" alt="Pangea Mockup Screenshots">
         </div>
         <div class="pangea-screen">
-            <img src="{{ "/img/pangea-screens-02.png"| absolute_url }}" alt="Pangea Mockup Screenshots">
+            <img src="{{ "/img/pangea-screens-02.png"| relative_url }}" alt="Pangea Mockup Screenshots">
         </div>
         <div class="pangea-screen">
-            <img src="{{ "/img/pangea-screens-03.png"| absolute_url }}" alt="Pangea Mockup Screenshots">
+            <img src="{{ "/img/pangea-screens-03.png"| relative_url }}" alt="Pangea Mockup Screenshots">
         </div>
         <div class="pangea-screen">
-            <img src="{{ "/img/pangea-screens-04.png"| absolute_url }}" alt="Pangea Mockup Screenshots">
+            <img src="{{ "/img/pangea-screens-04.png"| relative_url }}" alt="Pangea Mockup Screenshots">
         </div>
     </div>
     <div class="grid flex-center padding-top-30">
         <div class="grid-cell">
             <a href="#testflight" target="_blank" rel="modal:open">
-                <img class="store-badge app-store-badge" src="{{ "/img/app-store-badge.svg" | absolute_url }}" alt="App Store">
+                <img class="store-badge app-store-badge" src="{{ "/img/app-store-badge.svg" | relative_url }}" alt="App Store">
             </a>
         </div>
         <div class="grid-cell">
             <a href="https://play.google.com/store/apps/details?id=co.bitnation" target="_blank">
-                <img class="store-badge google-play-badge" src="{{ "/img/google-play-badge.svg" | absolute_url }}" alt="Google Play">
+                <img class="store-badge google-play-badge" src="{{ "/img/google-play-badge.svg" | relative_url }}" alt="Google Play">
             </a>
         </div>
     </div>
@@ -204,13 +204,13 @@ image: /img/index.png
     </div>
     <div class="grid">
         <div class="grid-cell">
-            <p class="light">{{ text["XPAT tokens are issued by BITNATION AMERICAS LTD. Belize City, Newtown Barracks, Marina Towers, Suite 508. Reg. number 170.093."] }}<br><a href="{{ "/purchase-agreement/" | absolute_url }}">{{ text["Click here to read the Bitnation XPAT Token Sale Agreement."] }}</a></p>
+            <p class="light">{{ text["XPAT tokens are issued by BITNATION AMERICAS LTD. Belize City, Newtown Barracks, Marina Towers, Suite 508. Reg. number 170.093."] }}<br><a href="{{ "/purchase-agreement/" | relative_url }}">{{ text["Click here to read the Bitnation XPAT Token Sale Agreement."] }}</a></p>
         </div>
     </div>
     <div class="grid btn-3">
         <div class="grid-cell">
             <div class="cta-hl">
-                <a href="{{ "/getxpat/" | absolute_url }}">{{ text["Get XPAT Tokens"] }}</a>
+                <a href="{{ "/getxpat/" | relative_url }}">{{ text["Get XPAT Tokens"] }}</a>
             </div>
         </div>
         <div class="grid-cell">
@@ -271,7 +271,7 @@ image: /img/index.png
                         </div>
                     </div>
                     <div class="grid-cell">
-                        <img class="graph" src="{{ "img/graph-token-dist.svg" | absolute_url }}" alt="Token distribution">
+                        <img class="graph" src="{{ "img/graph-token-dist.svg" | relative_url }}" alt="Token distribution">
                     </div>
                 </div>
             </div>
@@ -299,7 +299,7 @@ image: /img/index.png
                         </div>
                     </div>
                     <div class="grid-cell">
-                        <img class="graph" src="{{ "img/graph-use-of-funds.svg" | absolute_url }}" alt="Use of funds graph">
+                        <img class="graph" src="{{ "img/graph-use-of-funds.svg" | relative_url }}" alt="Use of funds graph">
                     </div>
                 </div>
             </div>
@@ -349,7 +349,7 @@ image: /img/index.png
             {% assign highlight-exchanges = site.data.logos.exchanges-big %}
             {% for exchange in highlight-exchanges %}{% assign id = exchange.name | slugify %}{% assign img-url = exchange.name | slugify: 'ascii' | prepend: "/img/logos/logo-exchange-" %}<div class="grid-cell">
                 <a href="{{ exchange.url }}" target="_blank">
-                    <img id="{{ id }}" class="logo-exchange" src="{{ img-url | absolute_url }}.{{ exchange.format }}" alt="{{ exchange.name }}">
+                    <img id="{{ id }}" class="logo-exchange" src="{{ img-url | relative_url }}.{{ exchange.format }}" alt="{{ exchange.name }}">
                 </a>
             </div>
             {% endfor %}
@@ -358,7 +358,7 @@ image: /img/index.png
             {% assign normal-exchanges = site.data.logos.exchanges | sort: 'name' %}
             {% for exchange in normal-exchanges %}{% assign id = exchange.name | slugify %}{% assign img-url = exchange.name | slugify: 'ascii' | prepend: "/img/logos/logo-exchange-" %}<div class="grid-cell">
                 <a href="{{ exchange.url }}" target="_blank">
-                    <img id="{{ id }}" class="logo-exchange" src="{{ img-url | absolute_url }}.{{ exchange.format }}" alt="{{ exchange.name }}">
+                    <img id="{{ id }}" class="logo-exchange" src="{{ img-url | relative_url }}.{{ exchange.format }}" alt="{{ exchange.name }}">
                 </a>
             </div>
             {% endfor %}
@@ -372,7 +372,7 @@ image: /img/index.png
             {% assign market-analysis-all = site.data.logos.market-analysis | sort: 'name' %}
             {% for market-analysis in market-analysis-all %}{% assign id = market-analysis.name | slugify %}{% assign img-url = market-analysis.name | slugify: 'ascii' | prepend: "/img/logos/logo-market-analysis-" %}<div class="grid-cell">
                 <a href="{{ market-analysis.url }}" target="_blank">
-                    <img id="{{ id }}" class="logo-market-analysis" src="{{ img-url | absolute_url }}.{{ market-analysis.format }}" alt="{{ exchange.name }}">
+                    <img id="{{ id }}" class="logo-market-analysis" src="{{ img-url | relative_url }}.{{ market-analysis.format }}" alt="{{ exchange.name }}">
                 </a>
             </div>
             {% endfor %}
@@ -415,7 +415,7 @@ image: /img/index.png
             <div class="grid members">
                 {% for member in site.data.team.core %}{% assign img-url = member.name | slugify: 'ascii' | prepend: "/img/team/" | append: ".jpg" %}<div class="grid-cell grid member">
                     <div class="grid-cell photo">
-                        <img src="{{ img-url | absolute_url }}" alt="{{ member.name }}">
+                        <img src="{{ img-url | relative_url }}" alt="{{ member.name }}">
                     </div>
                     <div class="grid-cell name">{{ member.name }}</div>
                     <div class="grid-cell role">{{ member.role }}</div>
@@ -466,7 +466,7 @@ image: /img/index.png
         <div id="advisors" class="grid members">
             {% for member in site.data.team.advisors %}{% assign img-url = member.name | slugify: 'ascii' | prepend: "/img/team/" | append: ".jpg" %}<div class="grid-cell grid member">
                 <div class="grid-cell photo">
-                    <img src="{{ img-url | absolute_url }}" alt="{{ member.name }}">
+                    <img src="{{ img-url | relative_url }}" alt="{{ member.name }}">
                 </div>
                 <div class="grid-cell name">{{ member.name }}</div>
                 {% if member.social %}<div class="grid-cell grid links">
@@ -515,7 +515,7 @@ image: /img/index.png
         <div id="ambassadors" class="grid members">
             {% for member in site.data.team.ambassadors %}{% assign img-url = member.name | slugify: 'ascii' | prepend: "/img/ambassadors/" | append: ".jpg" %}<div class="grid-cell grid member">
                 <div class="grid-cell photo">
-                    <img src="{{ img-url | absolute_url }}" alt="{{ member.name }}">
+                    <img src="{{ img-url | relative_url }}" alt="{{ member.name }}">
                 </div>
                 <div class="grid-cell name">{{ member.name }}</div>
                 <div class="grid-cell role">{{ member.location }}</div>
@@ -557,7 +557,7 @@ image: /img/index.png
         <div class="grid flex-center">
             <div class="grid-cell">
                 <div class="cta-hl">
-                    <a href="{{ "/ambassador-registration/" | absolute_url }}">{{ text["Become an Ambassador"] }}</a>
+                    <a href="{{ "/ambassador-registration/" | relative_url }}">{{ text["Become an Ambassador"] }}</a>
                 </div>
             </div>
         </div>
@@ -576,7 +576,7 @@ image: /img/index.png
         {% assign all-partners = site.data.logos.partners | sort: 'name' %}
         {% for partner in all-partners %}{% assign id = partner.name | slugify %}{% assign img-url = partner.name | slugify: 'ascii' | prepend: "/img/logos/logo-partner-" %}<div class="grid-cell">
             <a class="logo-partner" href="{{ partner.url }}" target="_blank">
-                <img id="{{ id }}" src="{{ img-url | absolute_url }}.{{ partner.format }}" alt="{{ partner.name }}">
+                <img id="{{ id }}" src="{{ img-url | relative_url }}.{{ partner.format }}" alt="{{ partner.name }}">
             </a>
         </div>
         {%endfor%}
@@ -590,7 +590,7 @@ image: /img/index.png
         {% assign all-auditors = site.data.logos.auditors | sort: 'name' %}
         {% for partner in all-auditors %}{% assign id = partner.name | slugify %}{% assign img-url = partner.name | slugify: 'ascii' | prepend: "/img/logos/logo-partner-" %}<div class="grid-cell">
             <a class="logo-partner" href="{{ partner.url }}" target="_blank">
-                <img id="{{ id }}" src="{{ img-url | absolute_url }}.{{ partner.format }}" alt="{{ partner.name }}">
+                <img id="{{ id }}" src="{{ img-url | relative_url }}.{{ partner.format }}" alt="{{ partner.name }}">
             </a>
         </div>
         {%endfor%}
@@ -606,7 +606,7 @@ image: /img/index.png
     </div>
     <div class="grid news">
         {% assign mentions = site.data.media | sort: 'source' %}{% for mention in mentions %}{% assign img-id = mention.source | slugify %}{% assign img = mention.source | slugify: 'ascii' | prepend: "/img/logos/logo-media-" | append: ".png" %}<div class="grid-cell mention">
-            <a href="{{ mention.url }}" target="_blank"><img id="{{ img-id }}" src="{{ img | absolute_url }}" alt="{{ mention.source }}"></a>
+            <a href="{{ mention.url }}" target="_blank"><img id="{{ img-id }}" src="{{ img | relative_url }}" alt="{{ mention.source }}"></a>
         </div>
         {% endfor %}
     </div>
@@ -622,7 +622,7 @@ image: /img/index.png
         <div class="grid-cell half">
             <p>{{ text["Bitnation won the prestigious UNESCO NetExplo 2017 Grand Prix. Previous winners include Twitter and Spotify."] }}</p>
             <br>
-            <img class="drop-shadow" src="{{ "/img/award-netexplo.png" | absolute_url }}" alt="Netexplo Forum 2017, Netexplo Observatory">
+            <img class="drop-shadow" src="{{ "/img/award-netexplo.png" | relative_url }}" alt="Netexplo Forum 2017, Netexplo Observatory">
         </div>
         <div class="grid-cell half">
             <iframe frameborder="0" width="480" height="270" src="//www.dailymotion.com/embed/video/x5pmk69" allowfullscreen allow="autoplay"></iframe>
