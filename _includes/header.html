@@ -1,7 +1,7 @@
 {% assign text = site.data.content %}
 <div class="grid">
     <div class="grid-cell top-logo">
-        <a href="{% if site.active_lang == site.default_lang %} {{ site.url | absolute_url }}{% if site.baseurl %}/{{ site.baseurl }}{% endif %}/ {% else %}{{ site.url }}{% if site.baseurl %}/{{ site.baseurl }}{% endif %}/{{ site.active_lang }}/{% endif %}"><img src="{{ "/img/logo-bitnation-h.svg" | relative_url }}"></a>
+        <a href="{% if site.active_lang == site.default_lang %} {{ site.url | relative_url }}{% if site.baseurl %}/{{ site.baseurl }}{% endif %}/ {% else %}{{ site.url }}{% if site.baseurl %}/{{ site.baseurl }}{% endif %}/{{ site.active_lang }}/{% endif %}"><img src="{{ "/img/logo-bitnation-h.svg" | relative_url }}"></a>
     </div>
     <div class="grid-cell top-nav-icon">
         <button><i id="openmenu" class="fal fa-bars"></i><i id="closemenu" class="hidden fal fa-times"></i></button>
