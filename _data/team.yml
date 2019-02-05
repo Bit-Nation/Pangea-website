@@ -39,11 +39,6 @@ core:
     linkedin: william-h-902213139
     github: william2958
 
-- name: Andrew Selivanov
-  role: iOS / Android Developer
-  social:
-    github: seland
-
 - name: David Gross
   role: UX/UI Developer
   social:
@@ -60,11 +55,6 @@ core:
     linkedin: hung-hoang-b4218528
     twitter: hunght
     github: hunght
-
-- name: Borjan Trajanoski
-  role: GoLang Developer
-  social:
-    github: borjantrajanoski
 
 - name: Spencer Ferri
   role: Machine Learning, Exocortex

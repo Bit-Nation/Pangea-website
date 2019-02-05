@@ -2025,6 +2025,10 @@ span.warning.light {
   max-width: 100%;
   padding-bottom: 15px;
 }
+#stats .exchanges-logos #worldcore {
+  height: 30px;
+  width: auto;
+}
 #stats .market-analysis-logos .logo-market-analysis {
   width: 180px;
   max-width: 100%;
@@ -2033,6 +2037,12 @@ span.warning.light {
   width: 160px;
 }
 #stats .market-analysis-logos .logo-market-analysis #live-coin-watch {
+  padding-bottom: 2px;
+}
+#stats .market-analysis-logos #coingecko {
+  width: 160px;
+}
+#stats .market-analysis-logos #live-coin-watch {
   padding-bottom: 2px;
 }
 

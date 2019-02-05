@@ -2,63 +2,80 @@ partners:
 
 - name: Republic of Estonia e-Residency
   url: https://e-resident.gov.ee/
+  format: png
 
 - name: Liberland
   url: https://liberland.org/
+  format: png
 
 - name: Network Society Ventures
   url: http://netsoc.vc/
+  format: png
 
 auditors:
 
 - name: ABDK Consulting
   url: https://www.abdk.consulting/
+  format: png
 
 - name: Zero Knowledge Labs
   url: http://zklabs.io/
+  format: png
 
 exchanges-big:
 
 - name: Bancor
   url: https://www.bancor.network/communities/5b05667a794f5d00014c2f5b/currency
+  format: png
 
 - name: LATOKEN
   url: https://wallet.latoken.com/market/Crypto/ETH/XPAT-ETH
+  format: png
 
 exchanges:
 
 - name: Citowise
   url: https://citowise.com/
+  format: png
 
 - name: ChainRift
   url: https://www.chainrift.com/
+  format: png
 
 - name: TokenJar
   url: https://tokenjar.io/
+  format: png
 
 - name: ForkDelta
   url: https://forkdelta.github.io/
+  format: png
 
 - name: Komodo
   url: https://komodoplatform.com/
+  format: png
 
 - name: weiDex
   url: https://weidex.market/exchange/
+  format: png
+
+- name: Worldcore
+  url: https://worldcore.trade/
+  format: svg
 
 market-analysis:
 
 - name: CoinGecko
   url: https://www.coingecko.com/en/coins/pangea-arbitration-token
-  img: png
+  format: png
 
 - name: CoinMarketCap
   url: https://coinmarketcap.com/currencies/bitnation/
-  img: svg
+  format: svg
 
 - name: CryptoCompare
   url: https://www.cryptocompare.com/coins/xpat/overview
-  img: svg
+  format: svg
 
 - name: Live Coin Watch
   url: https://www.livecoinwatch.com/price/Bitnation-XPAT
-  img: svg
+  format: svg
