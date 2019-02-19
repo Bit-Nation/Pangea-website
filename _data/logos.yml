@@ -62,6 +62,10 @@ exchanges:
   url: https://worldcore.trade/
   format: svg
 
+- name: Bitcratic
+  url: https://www.bitcratic.com/#!/trade/XPAT-ETH
+  format: png
+
 market-analysis:
 
 - name: CoinGecko
