@@ -208,9 +208,9 @@ img {
 }
 
 .t-yellow-bg {
-    padding: 3px;
-    margin-left: -3px;
+    margin-left: -8px;
     span {
+        padding: 3px 8px;
         background-color: $yellow;
         line-height: 1.8;
         -webkit-box-decoration-break: clone;
@@ -219,9 +219,9 @@ img {
 }
 
 .t-white-bg {
-    padding: 3px;
-    margin-left: -3px;
+    margin-left: -8px;
     span {
+        padding: 3px 8px;
         background-color: $white;
         line-height: 1.8;
         -webkit-box-decoration-break: clone;
@@ -1434,5 +1434,18 @@ span.warning.light {
     padding-top: 90px;
     h3 {
         font-size: 1.7em;
+    }
+}
+
+#xbnx-swap {
+    .address {
+        color: $orange;
+    }
+    ul {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    img {
+        border-radius: 7px;
     }
 }

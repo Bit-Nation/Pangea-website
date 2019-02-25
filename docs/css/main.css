@@ -1157,10 +1157,10 @@ img {
 }
 
 .t-yellow-bg {
-  padding: 3px;
-  margin-left: -3px;
+  margin-left: -8px;
 }
 .t-yellow-bg span {
+  padding: 3px 8px;
   background-color: #FFCE00;
   line-height: 1.8;
   -webkit-box-decoration-break: clone;
@@ -1168,10 +1168,10 @@ img {
 }
 
 .t-white-bg {
-  padding: 3px;
-  margin-left: -3px;
+  margin-left: -8px;
 }
 .t-white-bg span {
+  padding: 3px 8px;
   background-color: #ffffff;
   line-height: 1.8;
   -webkit-box-decoration-break: clone;
@@ -2356,4 +2356,15 @@ span.warning.light {
 }
 .passport-box h3 {
   font-size: 1.7em;
+}
+
+#xbnx-swap .address {
+  color: #FF8B00;
+}
+#xbnx-swap ul {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+#xbnx-swap img {
+  border-radius: 7px;
 }
